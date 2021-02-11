@@ -68,11 +68,7 @@ country_info()
 &ensp; List of either country names, ISO 3166-1 alpha-2 codes or ISO 3166-1 alpha-3  
 &ensp; codes of the 27 EU member countries.
 
-<<<<<<< HEAD
 ### countre.oecd(code='country')
-=======
-### countre.oecd(code='country')
->>>>>>> 73c019f70718b2459954587dff7dc470e446a27a
 
 #### Parameters:   
 &ensp; **code** : *str, default 'country'*  
