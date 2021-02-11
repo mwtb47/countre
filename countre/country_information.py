@@ -1,6 +1,6 @@
 import re
 
-from regex_dict import regex_dict
+from countre.regex_dict import regex_dict
 
 # Import dictionary of country information named regex_dict which is 
 # stored in the file regex_dict.py.
