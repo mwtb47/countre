@@ -1,3 +1,7 @@
+# ----------------------------------------------------------------------
+# Dictionary which contains a key, value pair for each country. Each key
+# is the regex pattern for the country and the values are the metrics. 
+# ----------------------------------------------------------------------
 regex_dict = {
     '(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|DRC|DROC|^CD$|^COD$': ['Democratic '
                                                                                     'Republic '
