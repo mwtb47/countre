@@ -2,7 +2,7 @@ import re
 
 from countre.regex_dict import regex_dict
 
-# Import dictionary of country information named regex_dict which is 
+# Import dictionary of country information named regex_dict which is
 # stored in the file regex_dict.py.
 regex_dict = regex_dict
 
@@ -41,28 +41,28 @@ def country_info(country_list, variables, no_match='no match'):
     Returns variables for each country in either a list or dictionary.
 
     Parameters:
-        country_list (list) : list of country names, iso2 or iso3 
+        country_list (list) : list of country names, iso2 or iso3
                               codes to get variables for.
-                              
-        variables (str, list) : choose one or more from the following 
+
+        variables (str, list) : choose one or more from the following
             {'country', 'population_2019', 'iso2', 'iso3', 'iso_num',
              'calling_code', 'latitude', 'longitude', 'ccTLD', 'flag',
              'capital', 'continent', 'sub_region', 'sovereign',
              'OECD', 'EU', 'EU_EEA', 'flag',
              'capital_latitude_sexa', 'capital_longitude_sexa',
              'capital_longitude', 'capital_latitude', 'gdp_2019',
-             'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019', 
+             'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',
             'total_area', 'land_area', 'water_area'}
-            
-        no_match (str) : value returned for a country if there is no 
+
+        no_match (str) : value returned for a country if there is no
                          match. Default: 'no match'.
 
     Returns:
         list of values if only one variable given.
-        dictionary of values if more than one varibale is given. 
+        dictionary of values if more than one varibale is given.
     '''
-    
-    if type (variables) == str:
+
+    if type(variables) == str:
         index = regex_dict_index[variables]
         variable_list = []
         for country in country_list:
@@ -73,7 +73,7 @@ def country_info(country_list, variables, no_match='no match'):
                     break
             variable_list.append(match)
         return variable_list
-    
+
     else:
         indices = [regex_dict_index[v] for v in variables]
         variables_dict = {}
@@ -87,13 +87,13 @@ def country_info(country_list, variables, no_match='no match'):
                         break
                 variables_dict[v].append(match)
         return variables_dict
-    
+
 
 eu_members = {}
 for c in regex_dict:
     if regex_dict[c][regex_dict_index['EU']] == True:
-        eu_members[c] = [regex_dict[c][regex_dict_index['country']], 
-                         regex_dict[c][regex_dict_index['iso2']], 
+        eu_members[c] = [regex_dict[c][regex_dict_index['country']],
+                         regex_dict[c][regex_dict_index['iso2']],
                          regex_dict[c][regex_dict_index['iso3']]]
 
 eu_member_index = {
@@ -106,10 +106,10 @@ def eu_27(code='country'):
     """
     Return a list containing the country names, iso2 or iso3 codes for
     the 27 EU members.
-    
+
     Parameters:
         code (str) : {'country', 'iso2', 'iso3'}
-    
+
     Returns:
         list of 27 names, iso2 or iso3 codes.
     """
@@ -124,8 +124,8 @@ oecd_members = {}
 oecd_members = {}
 for c in regex_dict:
     if regex_dict[c][regex_dict_index['OECD']] == True:
-        oecd_members[c] = [regex_dict[c][regex_dict_index['country']], 
-                           regex_dict[c][regex_dict_index['iso2']], 
+        oecd_members[c] = [regex_dict[c][regex_dict_index['country']],
+                           regex_dict[c][regex_dict_index['iso2']],
                            regex_dict[c][regex_dict_index['iso3']]]
 
 oecd_member_index = {
@@ -138,10 +138,10 @@ def oecd(code='country'):
     """
     Return a list containing the country names, iso2 or iso3 codes for
     the 37 OECD members.
-    
+
     Parameters:
         code (str) : {'country', 'iso2', 'iso3'}
-    
+
     Returns:
         list of 37 names, iso2 or iso3 codes.
     """
