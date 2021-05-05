@@ -49,7 +49,7 @@ def country_info(country_list, variables, no_match='no match'):
             {'country', 'country_short', 'iso2', 'iso3', 'iso_num',
              'calling_code', 'latitude', 'longitude', 'ccTLD', 'flag',
              'capital', 'continent', 'sub_region', 'sovereign',
-             'OECD', 'EU', 'EU_EEA', 'flag', 'population_2019', 
+             'OECD', 'EU', 'EU_EEA', 'flag', 'population_2019',
              'capital_latitude_sexa', 'capital_longitude_sexa',
              'capital_longitude', 'capital_latitude', 'gdp_2019',
              'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',
@@ -67,6 +67,7 @@ def country_info(country_list, variables, no_match='no match'):
         index = regex_dict_index[variables]
         variable_list = []
         for country in country_list:
+            country = country.strip()
             match = no_match
             for regex_pattern in regex_dict:
                 if bool(re.match(regex_pattern, country, re.IGNORECASE)):
@@ -81,6 +82,7 @@ def country_info(country_list, variables, no_match='no match'):
         for i, v in zip(indices, variables):
             variables_dict[v] = []
             for country in country_list:
+                country = country.strip()
                 match=no_match
                 for regex_pattern in regex_dict:
                     if bool(re.match(regex_pattern, country, re.IGNORECASE)):
