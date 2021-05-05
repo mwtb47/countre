@@ -39,9 +39,10 @@ country_info()
 
 &ensp; **variables** : *str, list, default 'iso3'*  
 &ensp; Select one or more from:  
-&ensp;&ensp;&ensp; {'country', 'population_2019', 'iso2', 'iso3', 'iso_num',  
-&ensp;&ensp;&ensp;  'calling_code', 'latitude', 'longitude', 'ccTLD', 'flag',  
-&ensp;&ensp;&ensp;  'capital', 'continent', 'sub_region', 'sovereign',  
+&ensp;&ensp;&ensp; {'country', 'country_short', 'population_2019',  
+&ensp;&ensp;&ensp;  'iso2', 'iso3', 'iso_num', 'calling_code', 'ccTLD',  
+&ensp;&ensp;&ensp;  'latitude', 'longitude', 'flag', 'capital',  
+&ensp;&ensp;&ensp;  'continent', 'sub_region', 'sovereign',  
 &ensp;&ensp;&ensp;  'OECD', 'EU', 'EU_EEA', 'flag',  
 &ensp;&ensp;&ensp;  'capital_latitude_sexa', 'capital_longitude_sexa',  
 &ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2019',  
