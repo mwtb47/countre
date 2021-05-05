@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="countre",
-    version="0.0.1",
+    version="0.0.2",
     author="Matthew Barnes",
     author_email="mwt.barnes@outlook.com",
-    description="Package to get ISO codes from country names.",
+    description="Package to get country data from country names.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mwtb47/countre",
