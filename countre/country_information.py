@@ -46,10 +46,10 @@ def country_info(country_list, variables, no_match='no match'):
                               codes to get variables for.
 
         variables (str, list) : choose one or more from the following
-            {'country', 'population_2019', 'iso2', 'iso3', 'iso_num',
+            {'country', 'country_short', 'iso2', 'iso3', 'iso_num',
              'calling_code', 'latitude', 'longitude', 'ccTLD', 'flag',
              'capital', 'continent', 'sub_region', 'sovereign',
-             'OECD', 'EU', 'EU_EEA', 'flag',
+             'OECD', 'EU', 'EU_EEA', 'flag', 'population_2019', 
              'capital_latitude_sexa', 'capital_longitude_sexa',
              'capital_longitude', 'capital_latitude', 'gdp_2019',
              'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',
