@@ -34,7 +34,10 @@ regex_dict_index = {
     'gdp_per_capita_ppp_2019': 24,
     'OECD': 25,
     'EU': 26,
-    'EU_EEA': 27
+    'EU_EEA': 27,
+    'currency_name': 28,
+    'currency_symbol': 29,
+    'currency_iso': 30,
 }
 
 def country_info(country_list, variables, no_match='no match'):
@@ -53,7 +56,8 @@ def country_info(country_list, variables, no_match='no match'):
              'capital_latitude_sexa', 'capital_longitude_sexa',
              'capital_longitude', 'capital_latitude', 'gdp_2019',
              'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',
-            'total_area', 'land_area', 'water_area'}
+             'total_area', 'land_area', 'water_area', 'currency_name',
+             'currency_symbol', 'currency_iso'}
 
         no_match (str) : value returned for a country if there is no
                          match. Default: 'no match'.
