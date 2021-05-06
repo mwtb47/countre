@@ -4,3 +4,4 @@ __pycache__
 /build
 /dist
 /countre.egg-info
+pyproject.toml
