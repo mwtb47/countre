@@ -17,27 +17,32 @@ regex_dict_index = {
     'calling_code': 7,
     'latitude': 8,
     'longitude': 9,
-    'continent': 10,
-    'sub_region': 11,
-    'flag': 12,
-    'total_area': 13,
-    'land_area': 14,
-    'water_area': 15,
-    'capital': 16,
-    'capital_latitude_sexa': 17,
-    'capital_longitude_sexa': 18,
-    'capital_longitude': 19,
-    'capital_latitude': 20,
-    'population_2019': 21,
-    'gdp_2019': 22,
-    'gdp_per_capita_2019': 23,
-    'gdp_per_capita_ppp_2019': 24,
-    'OECD': 25,
-    'EU': 26,
-    'EU_EEA': 27,
-    'currency_name': 28,
-    'currency_symbol': 29,
-    'currency_iso': 30,
+    'latitude_sexa': 10,
+    'longitude_sexa': 11,
+    'continent': 12,
+    'sub_region': 13,
+    'flag': 14,
+    'total_area': 15,
+    'land_area': 16,
+    'water_area': 17,
+    'capital': 18,
+    'capital_latitude': 19,
+    'capital_longitude': 20,
+    'capital_latitude_sexa': 21,
+    'capital_longitude_sexa': 22,
+    'population': 23,
+    'gdp_2019': 24,
+    'gdp_per_capita_2019': 25,
+    'gdp_per_capita_ppp_2019': 26,
+    'OECD': 27,
+    'EU': 28,
+    'EU_EEA': 29,
+    'currency_name': 30,
+    'currency_symbol': 31,
+    'currency_iso': 32,
+    'gini': 33,
+    'hci': 34,
+    'hdi': 35,
 }
 
 def country_info(country_list, variables, no_match='no match'):
@@ -48,16 +53,17 @@ def country_info(country_list, variables, no_match='no match'):
         country_list (list) : list of country names, iso2 or iso3
                               codes to get variables for.
 
-        variables (str, list) : choose one or more from the following
-            {'country', 'country_short', 'iso2', 'iso3', 'iso_num',
-             'calling_code', 'latitude', 'longitude', 'ccTLD', 'flag',
-             'capital', 'continent', 'sub_region', 'sovereign',
-             'OECD', 'EU', 'EU_EEA', 'flag', 'population_2019',
-             'capital_latitude_sexa', 'capital_longitude_sexa',
-             'capital_longitude', 'capital_latitude', 'gdp_2019',
-             'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',
-             'total_area', 'land_area', 'water_area', 'currency_name',
-             'currency_symbol', 'currency_iso'}
+        variables (str, list) : choose one or more from the following:
+            {'calling_code', 'capital', 'capital_latitude',
+             'capital_latitude_sexa', 'capital_longitude',
+             'capital_longitude_sexa', 'ccTLD', 'continent', 'country',
+             'country_short', 'currency_iso', 'currency_name',
+             'currency_symbol', 'EU', 'EU_EEA', 'flag', 'gdp_2019',
+             'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019', 'gini',
+             'hci', 'hdi', 'latitude', 'iso2', 'iso3', 'iso_num',
+             'land_area', 'latitude_sexa', 'longitude',
+             'longitude_sexa', 'OECD', 'population', 'sovereign',
+             'sub_region', 'total_area', 'water_area' }
 
         no_match (str) : value returned for a country if there is no
                          match. Default: 'no match'.
@@ -87,7 +93,7 @@ def country_info(country_list, variables, no_match='no match'):
             variables_dict[v] = []
             for country in country_list:
                 country = country.strip()
-                match=no_match
+                match = no_match
                 for regex_pattern in regex_dict:
                     if bool(re.match(regex_pattern, country, re.IGNORECASE)):
                         match = regex_dict[regex_pattern][i]
