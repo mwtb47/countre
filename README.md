@@ -47,7 +47,7 @@ country_info()
 &ensp;&ensp;&ensp;  'capital_latitude_sexa', 'capital_longitude_sexa',  
 &ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2019',  
 &ensp;&ensp;&ensp;  'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',  
-&ensp;&ensp;&ensp;  'total_area', 'land_area', 'water_area'}, default 'iso3'}.
+&ensp;&ensp;&ensp;  'total_area', 'land_area', 'water_area'}.
 
 &ensp; **no_match** : *str, default 'no match'*  
 &ensp; String returned for each country if no match is found.
