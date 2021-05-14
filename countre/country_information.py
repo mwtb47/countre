@@ -2,10 +2,6 @@ import re
 
 from countre.regex_dict import regex_dict
 
-# Import dictionary of country information named regex_dict which is
-# stored in the file regex_dict.py.
-regex_dict = regex_dict
-
 regex_dict_index = {
     'country': 0,
     'country_short': 1,
