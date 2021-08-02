@@ -39,14 +39,14 @@ country_info()
 
 &ensp; **variables** : *str, list, default 'iso3'*  
 &ensp; Select one or more from:  
-&ensp;&ensp;&ensp; {'country', 'country_short', 'population_2019',  
+&ensp;&ensp;&ensp; {'country', 'country_short', 'population_2020',  
 &ensp;&ensp;&ensp;  'iso2', 'iso3', 'iso_num', 'calling_code', 'ccTLD',  
 &ensp;&ensp;&ensp;  'latitude', 'longitude', 'flag', 'capital',  
 &ensp;&ensp;&ensp;  'continent', 'sub_region', 'sovereign',  
 &ensp;&ensp;&ensp;  'OECD', 'EU', 'EU_EEA', 'flag',  
 &ensp;&ensp;&ensp;  'capital_latitude_sexa', 'capital_longitude_sexa',  
-&ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2019',  
-&ensp;&ensp;&ensp;  'gdp_per_capita_2019', 'gdp_per_capita_ppp_2019',  
+&ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2020',  
+&ensp;&ensp;&ensp;  'gdp_per_capita_2020', 'gdp_per_capita_ppp_2020',  
 &ensp;&ensp;&ensp;  'total_area', 'land_area', 'water_area'}.
 
 &ensp; **no_match** : *str, default 'no match'*  
