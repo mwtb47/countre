@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="countre",
-    version="0.0.3",
+    version="0.0.4",
     author="Matthew Barnes",
     author_email="mwt.barnes@outlook.com",
     description="Package to get country data from country names.",
