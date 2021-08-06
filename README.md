@@ -43,7 +43,7 @@ country_info()
 &ensp;&ensp;&ensp;  'iso2', 'iso3', 'iso_num', 'calling_code', 'ccTLD',  
 &ensp;&ensp;&ensp;  'latitude', 'longitude', 'flag', 'capital',  
 &ensp;&ensp;&ensp;  'continent', 'sub_region', 'sovereign',  
-&ensp;&ensp;&ensp;  'OECD', 'EU', 'EU_EEA', 'flag',  
+&ensp;&ensp;&ensp;  'OECD', 'EU', 'EU_EEA', 'flag', 'country_sv',  
 &ensp;&ensp;&ensp;  'capital_latitude_sexa', 'capital_longitude_sexa',  
 &ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2020',  
 &ensp;&ensp;&ensp;  'gdp_per_capita_2020', 'gdp_per_capita_ppp_2020',  

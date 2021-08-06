@@ -39,6 +39,7 @@ regex_dict_index = {
     'gini': 33,
     'hci': 34,
     'hdi': 35,
+    'country_sv': 36,
 }
 
 def country_info(country_list, variables, no_match='no match'):
@@ -53,13 +54,14 @@ def country_info(country_list, variables, no_match='no match'):
             {'calling_code', 'capital', 'capital_latitude',
              'capital_latitude_sexa', 'capital_longitude',
              'capital_longitude_sexa', 'ccTLD', 'continent', 'country',
-             'country_short', 'currency_iso', 'currency_name',
-             'currency_symbol', 'EU', 'EU_EEA', 'flag', 'gdp_2020',
-             'gdp_per_capita_2020', 'gdp_per_capita_ppp_2020', 'gini',
-             'hci', 'hdi', 'latitude', 'iso2', 'iso3', 'iso_num',
-             'land_area', 'latitude_sexa', 'longitude',
-             'longitude_sexa', 'OECD', 'population', 'sovereign',
-             'sub_region', 'total_area', 'water_area' }
+             'country_short', 'country_sv', 'currency_iso', 
+             'currency_name', 'currency_symbol', 'EU', 'EU_EEA', 'flag',
+             'gdp_2020', 'gdp_per_capita_2020', 
+             'gdp_per_capita_ppp_2020', 'gini', 'hci', 'hdi', 
+             'latitude', 'iso2', 'iso3', 'iso_num', 'land_area', 
+             'latitude_sexa', 'longitude', 'longitude_sexa', 'OECD', 
+             'population', 'sovereign', 'sub_region', 'total_area', 
+             'water_area' }
 
         no_match (str) : value returned for a country if there is no
                          match. Default: 'no match'.

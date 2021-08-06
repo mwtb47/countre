@@ -11,6 +11,7 @@ regex_dict = {
          34.5253, 69.1783, "34°31′31″N", "69°10′42″E", 38928341.0,
          19807067268.1084, 508.8084, 2087.6364, False, False,
          False, "Afghan afghani", "؋", "AFN", "", 0.4, 0.511,
+         "Afghanistan",
     ],
     "albania|^AL$|^ALB$": [
          "Albania", "Albania", "UN member state", "AL", "ALB", 8, ".al",
@@ -19,7 +20,7 @@ regex_dict = {
          "Tirana", 41.3289, 19.8178, "41°19′44″N", "19°49′04″E",
          2837743.0, 14799615097.1008, 5215.2768, 13817.759, False,
          False, False, "Albanian lek", "L", "ALL", 33.2, 0.634,
-         0.795,
+         0.795, "Albanien",
     ],
     "algeria|^DZ$|^DZA$": [
          "Algeria", "Algeria", "UN member state", "DZ", "DZA", 12, ".dz",
@@ -28,7 +29,7 @@ regex_dict = {
          "Algiers", 36.7539, 3.0589, "36°45′14″N", "3°3′32″E",
          43851043.0, 145163902228.168, 3310.3865, 11268.2645, False,
          False, False, "Algerian dinar", "د.ج", "DZD", 27.6, 0.535,
-         0.748,
+         0.748, "Algeriet",
     ],
     "^(?=.*america).*samoa.*|^AS$|^ASM$": [
          "American Samoa", "American Samoa", "United States of America", "AS",
@@ -36,7 +37,7 @@ regex_dict = {
          "14°16′15.5″S", "170°7′56.0″W", "Oceania", "Polynesia", "🇦🇸", 224.0,
          224.0, 0.0, "Pago Pago", -14.2794, -170.7006, "14°16′46″S",
          "170°42′02″W", 55197.0, "", "", "", False, False, False,
-         "United States dollar", "$", "USD", "", "", "",
+         "United States dollar", "$", "USD", "", "", "", "Amerikanska Samoa",
     ],
     "andorra|^AD$|^AND$": [
          "Andorra", "Andorra", "UN member state", "AD", "AND", 20, ".ad",
@@ -44,7 +45,7 @@ regex_dict = {
          "Europe", "Southern Europe", "🇦🇩", 468.0, 468.0, 0.0,
          "Andorra la Vella", 42.5, 1.5, "42°30′N", "01°30′E", 77265.0,
          "", "", "", False, False, False, "Euro", "€", "EUR", "", "",
-         0.868,
+         0.868, "Andorra",
     ],
     "angola|^AO$|^AGO$": [
          "Angola", "Angola", "UN member state", "AO", "AGO", 24, ".ao",
@@ -53,7 +54,7 @@ regex_dict = {
          "Luanda", -8.8383, 13.2344, "8°50′18″S", "13°14′04″E",
          32866268.0, 62306913444.2917, 1895.7709, 6538.4521, False,
          False, False, "Angolan kwanza", "Kz", "AOA", 51.3, 0.362,
-         0.581,
+         0.581, "Angola",
     ],
     "anguilla|^AI$|^AIA$": [
          "Anguilla", "Anguilla", "United Kingdom", "AI", "AIA", 660, ".ai",
@@ -61,13 +62,13 @@ regex_dict = {
          "North America", "Caribbean", "🇦🇮", 91.0, 91.0, 0.0,
          "The Valley", 18.2208, -63.0517, "18°13′15″N", "63°03′06″W", "",
          "", "", "", False, False, False, "Eastern Caribbean dollar",
-         "$", "XCD", "", "", "",
+         "$", "XCD", "", "", "", "Anguilla",
     ],
     "antarctic|^AQ$|^ATA$": [
          "Antarctica", "Antarctica", "Antartic Treaty", "AQ", "ATA", 10,
          ".aq", "+672", -75.250973, -0.071389, "75°15′3.5″S", "0°4′17.0″W",
          "", "", "🇦🇶", 14200000.0, "", "", "", "", "", "", "", "", "", "",
-         "", False, False, False, "", "", "", "", "", "",
+         "", False, False, False, "", "", "", "", "", "", "Antarktis",
     ],
     "antigua|barbuda|^AG$|^ATG$": [
          "Antigua and Barbuda", "Antigua and Barbuda", "UN member state", "AG",
@@ -76,7 +77,7 @@ regex_dict = {
          442.6, 442.6, 0.0, "St. John's", 17.1167, -61.85, "17°07′N",
          "61°51′W", 97928.0, 1415059259.25926, 14449.9965, 18942.3881,
          False, False, False, "Eastern Caribbean dollar", "$", "XCD", "",
-         0.596, 0.778,
+         0.596, 0.778, "Antigua och Barbuda",
     ],
     "argentina|^AR$|^ARG$": [
          "Argentina", "Argentina", "UN member state", "AR", "ARG", 32, ".ar",
@@ -85,7 +86,7 @@ regex_dict = {
          43710.0, "Buenos Aires", -34.6033, -58.3817, "34°36′12″S",
          "58°22′54″W", 45376763.0, 383066977653.56, 8441.9194,
          20767.6105, False, False, False, "Argentine peso", "$", "ARS",
-         42.9, 0.602, 0.845,
+         42.9, 0.602, 0.845, "Argentina",
     ],
     "armenia|^AM$|^ARM$": [
          "Armenia", "Armenia", "UN member state", "AM", "ARM", 51, ".am",
@@ -94,7 +95,7 @@ regex_dict = {
          "Yerevan", 40.1814, 44.5144, "40°10′53″N", "44°30′52″E",
          2963234.0, 12645459213.5235, 4267.4521, 13284.1608, False,
          False, False, "Armenian dram", "֏", "AMD", 29.9, 0.579,
-         0.776,
+         0.776, "Armenien",
     ],
     "aruba|^AW$|^ABW$": [
          "Aruba", "Aruba", "Netherlands", "AW", "ABW", 533, ".aw", "+297",
@@ -102,7 +103,7 @@ regex_dict = {
          "North America", "Caribbean", "🇦🇼", 180.0, 180.0, 0.0,
          "Oranjestad", 12.5186, -70.0358, "12°31′07″N", "70°02′09″W",
          106766.0, "", "", "", False, False, False, "Aruban florin",
-         "ƒ", "AWG", "", "", "",
+         "ƒ", "AWG", "", "", "", "Aruba",
     ],
     "australia|^AU$|^AUS$": [
          "Australia", "Australia", "UN member state", "AU", "AUS", 36, ".au",
@@ -112,6 +113,7 @@ regex_dict = {
          "35°17′35″S", "149°07′37″E", 25687041.0, 1330900925056.98,
          51812.154, 52518.3245, True, False, False,
          "Australian dollar", "$", "AUD", 34.4, 0.77, 0.944,
+         "Australien",
     ],
     "austria|^AT$|^AUT$": [
          "Austria", "Austria", "UN member state", "AT", "AUT", 40, ".at",
@@ -119,7 +121,7 @@ regex_dict = {
          "Europe", "Western Europe", "🇦🇹", 83871.0, 82445.0, 1426.0,
          "Vienna", 48.2, 16.3667, "48°12′N", "16°22′E", 8917205.0,
          428965397959.456, 48105.3646, 55097.4612, True, True,
-         True, "Euro", "€", "EUR", 30.8, 0.747, 0.922,
+         True, "Euro", "€", "EUR", 30.8, 0.747, 0.922, "Österrike",
     ],
     "azerbaijan|^AZ$|^AZE$": [
          "Azerbaijan", "Azerbaijan", "UN member state", "AZ", "AZE", 31,
@@ -128,7 +130,7 @@ regex_dict = {
          3971.0, "Baku", 40.3953, 49.8822, "40°23′43″N", "49°52′56″E",
          10110116.0, 42607176470.5882, 4214.3113, 14451.9837, False,
          False, False, "Azerbaijani manat", "₼", "AZN", 26.6, 0.578,
-         0.756,
+         0.756, "Azerbajdzjan",
     ],
     ".*bahamas|^BS$|^BHS$": [
          "Bahamas (the)", "Bahamas", "UN member state", "BS", "BHS", 44,
@@ -137,7 +139,7 @@ regex_dict = {
          10010.0, 3870.0, "Nassau", 25.0667, -77.3333, "25°4′N",
          "77°20′W", 393248.0, 11250000000.0, 28607.9014, 32453.5296,
          False, False, False, "Bahamian dollar", "$", "BSD", "", "",
-         0.814,
+         0.814, "Bahamas",
     ],
     "bahrain|^BH$|^BHR$": [
          "Bahrain", "Bahrain", "UN member state", "BH", "BHR", 48, ".bh",
@@ -145,7 +147,7 @@ regex_dict = {
          "Asia", "Western Asia", "🇧🇭", 760.0, 760.0, 0.0, "Manama",
          26.225, 50.5775, "26°13′30″N", "50°34′39″E", 1701583.0, "", "",
          43181.2106, False, False, False, "Bahraini dinar", ".د.ب",
-         "BHD", "", 0.652, 0.852,
+         "BHD", "", 0.652, 0.852, "Bahrain",
     ],
     "bangladesh|^BD$|^BGD$": [
          "Bangladesh", "Bangladesh", "UN member state", "BD", "BGD", 50,
@@ -154,7 +156,7 @@ regex_dict = {
          18290.0, "Dhaka", 23.7639, 90.3889, "23°45′50″N", "90°23′20″E",
          164689383.0, 324239176765.053, 1968.7922, 5082.6808, False,
          False, False, "Bangladeshi taka", "৳", "BDT", 32.4, 0.464,
-         0.632,
+         0.632, "Bangladesh",
     ],
     "barbados|^BB$|^BRB$": [
          "Barbados", "Barbados", "UN member state", "BB", "BRB", 52, ".bb",
@@ -163,6 +165,7 @@ regex_dict = {
          "Bridgetown", 13.0975, -59.6167, "13°05′51″N", "59°37′00″W",
          287371.0, 4365500000.0, 15191.164, 13576.8018, False,
          False, False, "Barbadian dollar", "$", "BBD", "", "", 0.814,
+         "Barbados",
     ],
     "belarus|^BY$|^BLR$": [
          "Belarus", "Belarus", "UN member state", "BY", "BLR", 112, ".by",
@@ -171,6 +174,7 @@ regex_dict = {
          "Minsk", 53.9, 27.5667, "53°54′N", "27°34′E", 9398861.0,
          60258239055.5829, 6411.2278, 20199.6985, False, False,
          False, "Belarusian ruble", "Br", "BYN", 25.3, 0.7, 0.823,
+         "Belarus",
     ],
     "belgium|^BE$|^BEL$": [
          "Belgium", "Belgium", "UN member state", "BE", "BEL", 56, ".be",
@@ -179,6 +183,7 @@ regex_dict = {
          "Brussels", 50.8467, 4.3525, "50°50′48″N", "04°21′09″E",
          11555997.0, 515332499627.861, 44594.3781, 51968.192, True,
          True, True, "Euro", "€", "EUR", 27.2, 0.76, 0.931,
+         "Belgien",
     ],
     "belize|^BZ$|^BLZ$": [
          "Belize", "Belize", "UN member state", "BZ", "BLZ", 84, ".bz",
@@ -187,6 +192,7 @@ regex_dict = {
          160.0, "Belmopan", 17.2514, -88.7669, "17°15′5″N", "88°46′1″W",
          397621.0, 1763696118.9519, 4435.6212, 6455.9618, False,
          False, False, "Belize dollar", "$", "BZD", "", "", 0.716,
+         "Belize",
     ],
     "benin|^BJ$|^BEN$": [
          "Benin", "Benin", "UN member state", "BJ", "BEN", 204, ".bj",
@@ -195,7 +201,7 @@ regex_dict = {
          "Porto-Novo", 6.4972, 2.605, "6°29′50″N", "2°36′18″E",
          12123198.0, 15651545208.8783, 1291.041, 3505.6352, False,
          False, False, "West African CFA franc", "Fr", "XOF", 47.8,
-         0.4, 0.545,
+         0.4, 0.545, "Benin",
     ],
     "bermuda|^BM$|^BMU$": [
          "Bermuda", "Bermuda", "United Kingdom", "BM", "BMU", 60, ".bm",
@@ -203,7 +209,7 @@ regex_dict = {
          "North America", "Northern America", "🇧🇲", 54.0, 54.0, 0.0,
          "Hamilton", 32.2931, -64.7819, "32°17′35″N", "64°46′55″W",
          63903.0, "", "", "", False, False, False, "Bermudian dollar",
-         "$", "BMD", "", "", "",
+         "$", "BMD", "", "", "", "Bermuda",
     ],
     "bhutan|^BT$|^BTN$": [
          "Bhutan", "Bhutan", "UN member state", "BT", "BTN", 64, ".bt",
@@ -212,6 +218,7 @@ regex_dict = {
          27.4722, 89.6361, "27°28′20″N", "89°38′10″E", 771612.0,
          2409262838.21987, 3122.3761, 11508.1742, False, False,
          False, "Bhutanese ngultrum", "Nu.", "BTN", 37.4, 0.475, 0.654,
+         "Bhutan",
     ],
     ".*bolivia|^BO$|^BOL$": [
          "Bolivia (Plurinational State of)", "Bolivia", "UN member state",
@@ -220,7 +227,7 @@ regex_dict = {
          "🇧🇴", 1098581.0, 1083301.0, 15280.0, "Sucre", -19.05,
          -65.25, "19°3′0″S", "65°15′0″W", 11673029.0, 36688861202.6049,
          3143.0455, 8367.3272, False, False, False,
-         "Bolivian boliviano", "Bs.", "BOB", 41.6, "", 0.718,
+         "Bolivian boliviano", "Bs.", "BOB", 41.6, "", 0.718, "Bolivia",
     ],
     ".*bonaire|^BQ$|^BES$": [
          "Bonaire, Sint Eustatius and Saba",
@@ -229,6 +236,7 @@ regex_dict = {
          "68°15′30.0″W", "North America", "Caribbean", "🇧🇶", "", "", "", "",
          "", "", "", "", "", "", "", "", False, False, False,
          "United States dollar", "$", "USD", "", "", "",
+         "Bonaire, Sint Eustatius and Saba",
     ],
     "bosnia|herzegovina|^BA$|^BIH$": [
          "Bosnia and Herzegovina", "Bosnia and Herzegovina", "UN member state",
@@ -238,7 +246,7 @@ regex_dict = {
          "43°52′N", "18°25′E", 3280815.0, 19788422248.1072, 6031.5569,
          15611.7913, False, False, False,
          "Bosnia and Herzegovina convertible mark", "KM", "BAM", 33.0,
-         0.58, 0.78,
+         0.58, 0.78, "Bosnien och Hercegovina",
     ],
     "botswana|^BW$|^BWA$": [
          "Botswana", "Botswana", "UN member state", "BW", "BWA", 72, ".bw",
@@ -247,13 +255,13 @@ regex_dict = {
          "Gaborone", -24.6581, 25.9122, "24°39′29″S", "25°54′44″E",
          2351625.0, 15781732825.8934, 6710.9904, 16920.8467, False,
          False, False, "Botswana pula", "P", "BWP", 53.3, 0.414,
-         0.735,
+         0.735, "Botswana",
     ],
     "bouvet|^BV$|^BVT$": [
          "Bouvet Island", "Bouvet Island", "Norway", "BV", "BVT", 74, "", "",
          -54.421291, 3.367051, "54°25′16.6″S", "3°22′1.4″E", "", "", "🇧🇻",
          49.0, 49.0, 0.0, "", "", "", "", "", "", "", "", "", False,
-         False, False, "", "", "", "", "", "",
+         False, False, "", "", "", "", "", "", "Bouvetön",
     ],
     "brazil|^BR$|^BRA$": [
          "Brazil", "Brazil", "UN member state", "BR", "BRA", 76, ".br",
@@ -262,7 +270,7 @@ regex_dict = {
          157630.0, "Brasília", -15.7939, -47.8828, "15°47′38″S",
          "47°52′58″W", 212559409.0, 1444733258971.65, 6796.8445,
          14836.3071, False, False, False, "Brazilian real", "R$",
-         "BRL", 53.4, 0.551, 0.765,
+         "BRL", 53.4, 0.551, 0.765, "Brasilien",
     ],
     ".*british indian|^IO$|^IOT$": [
          "British Indian Ocean Territory (the)",
@@ -271,6 +279,7 @@ regex_dict = {
          "72°26′40.6″E", "", "", "🇮🇴", 60.0, 60.0, 54340.0, "", "", "",
          "", "", "", "", "", "", False, False, False,
          "United States dollar", "$", "USD", "", "", "",
+         "Brittiska territoriet i Indiska Oceanen",
     ],
     ".*brunei|^BN$|^BRN$": [
          "Brunei Darussalam", "Brunei", "UN member state", "BN", "BRN", 96,
@@ -279,7 +288,7 @@ regex_dict = {
          5265.0, 500.0, "Bandar Seri Begawan", 4.8903, 114.9422,
          "4°53′25″N", "114°56′32″E", 437483.0, 12016056665.3473,
          27466.3396, 65661.6939, False, False, False,
-         "Brunei dollar", "$", "BND", "", 0.626, 0.838,
+         "Brunei dollar", "$", "BND", "", 0.626, 0.838, "Brunei",
     ],
     "bulgaria|^BG$|^BGR$": [
          "Bulgaria", "Bulgaria", "UN member state", "BG", "BGR", 100, ".bg",
@@ -287,7 +296,7 @@ regex_dict = {
          "Europe", "Eastern Europe", "🇧🇬", 110879.0, 108489.0, 2390.0,
          "Sofia", 42.7, 23.3333, "42°42′N", "23°20′E", 6927288.0,
          69105101089.5531, 9975.78, 24367.3239, False, True, True,
-         "Bulgarian lev", "лв.", "BGN", 41.3, 0.614, 0.816,
+         "Bulgarian lev", "лв.", "BGN", 41.3, 0.614, 0.816, "Bulgarien",
     ],
     "burkina|^BF$|^BFA$": [
          "Burkina Faso", "Burkina Faso", "UN member state", "BF", "BFA", 854,
@@ -296,7 +305,7 @@ regex_dict = {
          273800.0, 400.0, "Ouagadougou", 12.3667, -1.5333, "12°22′N",
          "1°32′W", 20903278.0, 17369059295.2226, 830.9251, 2279.1562,
          False, False, False, "West African CFA franc", "Fr", "XOF",
-         35.3, 0.384, 0.452,
+         35.3, 0.384, 0.452, "Burkina Faso",
     ],
     "burundi|^BI$|^BDI$": [
          "Burundi", "Burundi", "UN member state", "BI", "BDI", 108, ".bi",
@@ -304,7 +313,7 @@ regex_dict = {
          "Africa", "Eastern Africa", "🇧🇮", 27830.0, 25680.0, 2150.0,
          "Gitega", -3.4333, 29.9, "3°26′S", "29°54′E", 11890781.0,
          3258187232.63159, 274.0095, 771.2096, False, False, False,
-         "Burundian franc", "Fr", "BIF", 38.6, 0.386, 0.433,
+         "Burundian franc", "Fr", "BIF", 38.6, 0.386, 0.433, "Burundi",
     ],
     "cape verde|cabo verde|^CV$|^CPV$": [
          "Cabo Verde", "Cabo Verde", "UN member state", "CV", "CPV", 132,
@@ -313,6 +322,7 @@ regex_dict = {
          14.9181, -23.5089, "14°55′05″N", "23°30′32″W", 555988.0,
          1703698676.69742, 3064.2724, 6377.0258, False, False,
          False, "Cape Verdean escudo", "$", "CVE", 42.4, "", 0.665,
+         "Kap Verde",
     ],
     "cambodia|^KH$|^KHM$": [
          "Cambodia", "Cambodia", "UN member state", "KH", "KHM", 116, ".kh",
@@ -321,6 +331,7 @@ regex_dict = {
          "Phnom Penh", 11.5694, 104.9211, "11°34′10″N", "104°55′16″E",
          16718971.0, 25291251427.3979, 1512.7278, 4422.0457, False,
          False, False, "Cambodian riel", "៛", "KHR", "", 0.492, 0.594,
+         "Kambodja",
     ],
     "cameroon|cameroun|^CM$|^CMR$": [
          "Cameroon", "Cameroon", "UN member state", "CM", "CMR", 120, ".cm",
@@ -329,7 +340,7 @@ regex_dict = {
          "Yaoundé", 3.8667, 11.5167, "3°52′N", "11°31′E", 26545864.0,
          39802147568.2174, 1499.3728, 3772.745, False, False,
          False, "Central African CFA franc", "Fr", "XAF", 46.6, 0.397,
-         0.563,
+         0.563, "Kamerun",
     ],
     "canada|^CA$|^CAN$": [
          "Canada", "Canada", "UN member state", "CA", "CAN", 124, ".ca",
@@ -338,7 +349,7 @@ regex_dict = {
          891163.0, "Ottawa", 45.4247, -75.695, "45°25′29″N",
          "75°41′42″W", 38005238.0, 1643407977068.93, 43241.6178,
          48072.5838, True, False, False, "Canadian dollar", "$", "CAD",
-         33.3, 0.798, 0.929,
+         33.3, 0.798, 0.929, "Kanada",
     ],
     ".*cayman islands|^KY$|^CYM$": [
          "Cayman Islands (the)", "Cayman Islands", "United Kingdom", "KY",
@@ -347,6 +358,7 @@ regex_dict = {
          264.0, 264.0, 0.0, "George Town", 19.3033, -81.3864,
          "19°18′12″N", "81°23′11″W", 65720.0, "", "", "", False, False,
          False, "Cayman Islands dollar", "$", "KYD", "", "", "",
+         "Caymanöarna",
     ],
     ".*central african rep|car$|^CF$|^CAF$": [
          "Central African Republic (the)", "Central African Republic",
@@ -356,6 +368,7 @@ regex_dict = {
          "04°22′24″N", "18°33′46″E", 4829764.0, 2303078337.57431,
          476.8511, 979.5831, False, False, False,
          "Central African CFA franc", "Fr", "XAF", 56.2, 0.292, 0.397,
+         "Centralafrikanska republiken",
     ],
     "chad|^TD$|^TCD$": [
          "Chad", "Chad", "UN member state", "TD", "TCD", 148, ".td", "+235",
@@ -364,7 +377,7 @@ regex_dict = {
          "N'Djamena", 12.11, 15.05, "12°06′36″N", "15°03′00″E",
          16425859.0, 10093118570.2918, 614.4652, 1603.3785, False,
          False, False, "Central African CFA franc", "Fr", "XAF", 43.3,
-         0.3, 0.398,
+         0.3, 0.398, "Tchad",
     ],
     "chile|^CL$|^CHL$": [
          "Chile", "Chile", "UN member state", "CL", "CHL", 152, ".cl", "+56",
@@ -373,7 +386,7 @@ regex_dict = {
          12290.0, "Santiago", -33.45, -70.6667, "33°27′S", "70°40′W",
          19116209.0, 252940023046.011, 13231.7042, 25067.6916, True,
          False, False, "Chilean peso", "$", "CLP", 44.4, 0.652,
-         0.851,
+         0.851, "Chile",
     ],
     "(?!.*hong kong|.*taiwan|.*macau|.*macao).*china|^CN$|^CHN$": [
          "China", "China", "UN member state", "CN", "CHN", 156, ".cn", "+86",
@@ -382,6 +395,7 @@ regex_dict = {
          39.9067, 116.3975, "39°54′24″N", "116°23′51″E", 1402112000.0,
          14722730697890.1, 10500.3956, 17311.9979, False, False,
          False, "Renminbi", "¥ or 元", "CNY", 38.5, 0.653, 0.761,
+         "Kina",
     ],
     "christmas|^CX$|^CXR$": [
          "Christmas Island", "Christmas Island", "Australia", "CX", "CXR",
@@ -389,7 +403,7 @@ regex_dict = {
          "105°41′25.6″E", "", "", "🇨🇽", 135.0, 135.0, 0.0,
          "Flying Fish Cove", "", "", "not found", "not found", "", "", "", "",
          False, False, False, "Australian dollar", "$", "AUD", "", "",
-         "",
+         "", "Julön",
     ],
     ".*cocos|^CC$|^CCK$": [
          "Cocos (Keeling) Islands (the)", "Cocos (Keeling) Islands",
@@ -397,7 +411,7 @@ regex_dict = {
          96.870956, "12°9′51.0″S", "96°52′15.4″E", "", "", "🇨🇨", 14.0,
          14.0, 0.0, "West Island", -12.1869, 96.8283, "12°11′13″S",
          "96°49′42″E", "", "", "", "", False, False, False,
-         "Australian dollar", "$", "AUD", "", "", "",
+         "Australian dollar", "$", "AUD", "", "", "", "Kokosöarna",
     ],
     "colombia|^CO$|^COL$": [
          "Colombia", "Colombia", "UN member state", "CO", "COL", 170, ".co",
@@ -406,7 +420,7 @@ regex_dict = {
          100210.0, "Bogotá", 4.7111, -74.0722, "4°42′40″N", "74°4′20″W",
          50882884.0, 271346896626.418, 5332.7735, 14565.3681, True,
          False, False, "Colombian peso", "$", "COP", 51.3, 0.604,
-         0.767,
+         0.767, "Colombia",
     ],
     ".*comoros|^KM$|^COM$": [
          "Comoros (the)", "Comoros", "UN member state", "KM", "COM", 174,
@@ -415,7 +429,7 @@ regex_dict = {
          0.0, "Moroni", -11.6989, 43.2561, "11°41′56″S", "43°15′22″E",
          869595.0, 1219690024.50287, 1402.5955, 3313.1705, False,
          False, False, "Comorian franc", "Fr", "KMF", 45.3, 0.405,
-         0.554,
+         0.554, "Komorerna",
     ],
     "(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|DRC|DROC|^CD$|^COD$": [
          "Congo (the Democratic Republic of the)",
@@ -425,7 +439,7 @@ regex_dict = {
          2267048.0, 77810.0, "Kinshasa", -4.325, 15.3222, "4°19′30″S",
          "15°19′20″E", 89561404.0, 49868970641.1062, 556.8132,
          1131.0906, False, False, False, "Congolese franc", "Fr",
-         "CDF", 42.1, 0.366, 0.48,
+         "CDF", 42.1, 0.366, 0.48, "Kongo-Kinshasa",
     ],
     "(?!.*kinshasa|DR|.*dem).*(congo|brazzaville)|^CG$|^COG$": [
          "Congo (the)", "Congo", "UN member state", "CG", "COG", 178, ".cg",
@@ -434,7 +448,7 @@ regex_dict = {
          "Brazzaville", -4.2678, 15.2919, "4°16′4″S", "15°17′31″E",
          5518092.0, 10884686142.6442, 1972.5452, 3638.5558, False,
          False, False, "Central African CFA franc", "Fr", "XAF", 48.9,
-         0.419, 0.574,
+         0.419, 0.574, "Kongo-Brazzaville",
     ],
     ".*cook|^CK$|^COK$": [
          "Cook Islands (the)", "Cook Islands",
@@ -443,7 +457,7 @@ regex_dict = {
          "Oceania", "Polynesia", "🇨🇰", 236.0, 236.0, 0.0, "Avarua",
          -21.2069, -159.7708, "21°12′25″S", "159°46′15″W", "", "", "", "",
          False, False, False, "Cook Islands dollar", "$", "CKD", "", "",
-         "",
+         "", "Cooköarna",
     ],
     "costa rica|^CR$|^CRI$": [
          "Costa Rica", "Costa Rica", "UN member state", "CR", "CRI", 188,
@@ -452,7 +466,7 @@ regex_dict = {
          51060.0, 40.0, "San José", 9.9333, -84.0833, "9°56′N",
          "84°5′W", 5094114.0, 61520669890.4037, 12076.8145, 21031.8175,
          False, False, False, "Costa Rican colón", "₡", "CRC", 48.2,
-         0.629, 0.81,
+         0.629, 0.81, "Costa Rica",
     ],
     "croatia|^HR$|^HRV$": [
          "Croatia", "Croatia", "UN member state", "HR", "HRV", 191, ".hr",
@@ -461,6 +475,7 @@ regex_dict = {
          45.8167, 15.9833, "45°49′N", "15°59′E", 4047200.0,
          55966581780.1688, 13828.4695, 28503.8806, False, True,
          True, "Croatian kuna", "kn", "HRK", 29.7, 0.71, 0.851,
+         "Kroatien",
     ],
     "cuba|^CU$|^CUB$": [
          "Cuba", "Cuba", "UN member state", "CU", "CUB", 192, ".cu", "+53",
@@ -468,7 +483,7 @@ regex_dict = {
          "North America", "Caribbean", "🇨🇺", 110860.0, 109820.0, 1040.0,
          "Havana", 23.1367, -82.3589, "23°08′12″N", "82°21′32″W",
          11326616.0, "", "", "", False, False, False, "Cuban peso",
-         "$", "CUP", "", "", 0.783,
+         "$", "CUP", "", "", 0.783, "Kuba",
     ],
     "curaçao|curacao|^CW$|^CUW$": [
          "Curaçao", "Curaçao", "Netherlands", "CW", "CUW", 531, ".cw",
@@ -476,7 +491,7 @@ regex_dict = {
          "North America", "Caribbean", "🇨🇼", 444.0, 444.0, 0.0,
          "Willemstad", 12.1167, -68.9333, "12°7′N", "68°56′W", 155014.0,
          "", "", "", False, False, False,
-         "Netherlands Antillean guilder", "ƒ", "ANG", "", "", "",
+         "Netherlands Antillean guilder", "ƒ", "ANG", "", "", "", "Curaçao",
     ],
     "cyprus|^CY$|^CYP$": [
          "Cyprus", "Cyprus", "UN member state", "CY", "CYP", 196, ".cy",
@@ -484,7 +499,7 @@ regex_dict = {
          "Asia", "Western Asia", "🇨🇾", 9251.0, 9241.0, 10.0, "Nicosia",
          35.1725, 33.365, "35°10′21″N", "33°21′54″E", 1207361.0,
          23804340376.9275, 26623.8009, 38458.1913, False, True,
-         True, "Euro", "€", "EUR", 32.7, 0.756, 0.887,
+         True, "Euro", "€", "EUR", 32.7, 0.756, 0.887, "Cypern",
     ],
     "czech|^CZ$|^CZE$": [
          "Czechia", "Czechia", "UN member state", "CZ", "CZE", 203, ".cz",
@@ -492,7 +507,7 @@ regex_dict = {
          "Europe", "Eastern Europe", "🇨🇿", 78867.0, 77247.0, 1620.0,
          "Prague", 50.0833, 14.4167, "50°5′N", "14°25′E", 10698896.0,
          243530379896.813, 22762.1971, 41737.418, True, True, True,
-         "Czech koruna", "Kč", "CZK", 25.0, 0.752, 0.9,
+         "Czech koruna", "Kč", "CZK", 25.0, 0.752, 0.9, "Tjeckien",
     ],
     "côte d.*ivoire|cote d.*ivoire|ivory coast|^CI$|^CIV$": [
          "Côte d'Ivoire", "Côte d'Ivoire", "UN member state", "CI", "CIV",
@@ -502,6 +517,7 @@ regex_dict = {
          "06°48′58″N", "05°16′27″W", 26378275.0, 61348579465.1017,
          2325.7237, 5458.2367, False, False, False,
          "West African CFA franc", "Fr", "XOF", 41.5, 0.38, 0.538,
+         "Elfenbenskusten",
     ],
     "denmark|^DK$|^DNK$": [
          "Denmark", "Denmark", "UN member state", "DK", "DNK", 208, ".dk",
@@ -510,6 +526,7 @@ regex_dict = {
          "Copenhagen", 55.6761, 12.5683, "55°40′34″N", "12°34′06″E",
          5831404.0, 355184024841.254, 60908.8351, 60398.4533, True,
          True, True, "Danish krone", "kr", "DKK", 28.2, 0.755, 0.94,
+         "Danmark",
     ],
     "djibouti|^DJ$|^DJI$": [
          "Djibouti", "Djibouti", "UN member state", "DJ", "DJI", 262, ".dj",
@@ -518,7 +535,7 @@ regex_dict = {
          "Djibouti", 11.5883, 43.145, "11°35′18″N", "43°08′42″E",
          988002.0, 3384404260.07202, 3425.5035, 5782.1106, False,
          False, False, "Djiboutian franc", "Fr", "DJF", 41.6, "",
-         0.524,
+         0.524, "Djibouti",
     ],
     "(?!.*rep).*dominica|.*dominique|^DM$|^DMA$": [
          "Dominica", "Dominica", "UN member state", "DM", "DMA", 212, ".dm",
@@ -527,6 +544,7 @@ regex_dict = {
          15.3014, -61.3883, "15°18′05″N", "61°23′18″W", 71991.0,
          469870370.37037, 6526.7932, 10434.4729, False, False,
          False, "Eastern Caribbean dollar", "$", "XCD", "", 0.545, 0.742,
+         "Dominica",
     ],
     ".*dominican republic|^DO$|^DOM$": [
          "Dominican Republic (the)", "Dominican Republic", "UN member state",
@@ -536,6 +554,7 @@ regex_dict = {
          18.4667, -69.95, "18°28′N", "69°57′W", 10847904.0,
          78844702329.0785, 7268.1969, 17936.7347, False, False,
          False, "Dominican peso", "RD$", "DOP", 41.9, 0.503, 0.756,
+         "Dominikanska republiken",
     ],
     "ecuador|^EC$|^ECU$": [
          "Ecuador", "Ecuador", "UN member state", "EC", "ECU", 218, ".ec",
@@ -544,7 +563,7 @@ regex_dict = {
          6720.0, "Quito", -0.2333, -78.5167, "00°14′S", "78°31′W",
          17643060.0, 98808010000.0, 5600.3896, 10896.4274, False,
          False, False, "United States dollar", "$", "USD", 45.7, 0.594,
-         0.759,
+         0.759, "Ecuador",
     ],
     "egypt|^EG$|^EGY$": [
          "Egypt", "Egypt", "UN member state", "EG", "EGY", 818, ".eg", "+20",
@@ -553,7 +572,7 @@ regex_dict = {
          30.0333, 31.2333, "30°2′N", "31°14′E", 102334403.0,
          363069245165.315, 3547.8708, 12607.7621, False, False,
          False, "Egyptian pound", "E£ or ج.م", "EGP", 31.5, 0.494,
-         0.707,
+         0.707, "Egypten",
     ],
     ".*salvador|^SV$|^SLV$": [
          "El Salvador", "El Salvador", "UN member state", "SV", "SLV", 222,
@@ -562,7 +581,7 @@ regex_dict = {
          20721.0, 320.0, "San Salvador", 13.6989, -89.1914,
          "13°41′56″N", "89°11′29″W", 6486201.0, 24638720000.0, 3798.6365,
          8498.9687, False, False, False, "United States dollar", "$",
-         "USD", 38.8, 0.546, 0.673,
+         "USD", 38.8, 0.546, 0.673, "El Salvador",
     ],
     ".*equatorial guinea|^GQ$|^GNQ$": [
          "Equatorial Guinea", "Equatorial Guinea", "UN member state", "GQ",
@@ -571,7 +590,7 @@ regex_dict = {
          0.0, "Malabo", 3.7521, 8.7737, "3°45′7.43″N", "8°46′25.32″E",
          1402985.0, 10021856754.4944, 7143.2387, 17941.5997, False,
          False, False, "Central African CFA franc", "Fr", "XAF", "", "",
-         0.592,
+         0.592, "Ekvatorialguinea",
     ],
     "eritrea|^ER$|^ERI$": [
          "Eritrea", "Eritrea", "UN member state", "ER", "ERI", 232, ".er",
@@ -579,7 +598,7 @@ regex_dict = {
          "Africa", "Eastern Africa", "🇪🇷", 117600.0, 101000.0, 16600.0,
          "Asmara", 15.3228, 38.925, "15°19′22″N", "38°55′30″E", "", "", "",
          "", False, False, False, "Eritrean nakfa", "Nfk", "ERN", "", "",
-         0.459,
+         0.459, "Eritrea",
     ],
     "estonia|^EE$|^EST$": [
          "Estonia", "Estonia", "UN member state", "EE", "EST", 233, ".ee",
@@ -588,6 +607,7 @@ regex_dict = {
          "Tallinn", 59.4372, 24.7453, "59°26′14″N", "24°44′43″E",
          1331057.0, 31029968591.2779, 23312.2763, 38394.9175, True,
          True, True, "Euro", "€", "EUR", 30.3, 0.777, 0.892,
+         "Estland",
     ],
     "eswatini|swaziland|^SZ$|^SWZ$": [
          "Eswatini", "Eswatini", "UN member state", "SZ", "SWZ", 748, ".sz",
@@ -596,7 +616,7 @@ regex_dict = {
          "Lobamba, Mbabane", -26.4167, 31.1667, "26°25′0″S", "31°10′0″E",
          1160164.0, 3962493092.99308, 3415.4594, 8853.6042, False,
          False, False, "Swazi lilangeni", "L", "SZL", 54.6, 0.373,
-         0.611,
+         0.611, "Swaziland",
     ],
     "ethiopia|^ET$|^ETH$": [
          "Ethiopia", "Ethiopia", "UN member state", "ET", "ETH", 231, ".et",
@@ -605,7 +625,7 @@ regex_dict = {
          "Addis Ababa", 9.03, 38.74, "9°1′48″N", "38°44′24″E",
          114963583.0, 107645054311.876, 936.3405, 2422.9578, False,
          False, False, "Ethiopian birr", "Br", "ETB", 35.0, 0.383,
-         0.485,
+         0.485, "Etiopien",
     ],
     ".*falkland|^FK$|^FLK$": [
          "Falkland Islands (the) [Malvinas]", "Falkland Islands",
@@ -614,7 +634,7 @@ regex_dict = {
          "South America", "🇫🇰", 12173.0, 12173.0, 0.0, "Stanley",
          -51.6944, -57.8528, "51°41′40″S", "57°51′10″W", "", "", "", "",
          False, False, False, "Falkland Islands pound", "£", "FKP", "",
-         "", "",
+         "", "", "Falklandsöarna",
     ],
     ".*faroe|^FO$|^FRO$": [
          "Faroe Islands (the)", "Faroe Islands ", "Denmark", "FO", "FRO",
@@ -622,7 +642,7 @@ regex_dict = {
          "6°53′38.0″W", "Europe", "Northern Europe", "🇫🇴", 1393.0, 1393.0,
          0.0, "Tórshavn", 62.0117, -6.7675, "62°0′42″N", "6°46′3″W",
          48865.0, "", "", "", False, False, False, "Faroese króna",
-         "kr", "FOK", "", "", "",
+         "kr", "FOK", "", "", "", "Färöarna",
     ],
     "fiji|^FJ$|^FJI$": [
          "Fiji", "Fiji", "UN member state", "FJ", "FJI", 242, ".fj", "+679",
@@ -631,6 +651,7 @@ regex_dict = {
          -18.1417, 178.4419, "18°08′30″S", "178°26′31″E", 896444.0,
          4376014755.57615, 4881.5261, 11601.4005, False, False,
          False, "Fijian dollar", "$", "FJD", 36.7, 0.509, 0.743,
+         "Fiji",
     ],
     "finland|^FI$|^FIN$": [
          "Finland", "Finland", "UN member state", "FI", "FIN", 246, ".fi",
@@ -639,6 +660,7 @@ regex_dict = {
          "Helsinki", 60.1708, 24.9375, "60°10′15″N", "24°56′15″E",
          5530719.0, 271233883403.892, 49041.3423, 51089.7853, True,
          True, True, "Euro", "€", "EUR", 27.3, 0.796, 0.938,
+         "Finland",
     ],
     "france|^FR$|^FRA$": [
          "France", "France", "UN member state", "FR", "FRA", 250, ".fr",
@@ -646,14 +668,14 @@ regex_dict = {
          "Europe", "Western Europe", "🇫🇷", 643801.0, 640427.0, 3374.0,
          "Paris", 48.8567, 2.3522, "48°51′24″N", "2°21′08″E", 67391582.0,
          2603004395901.95, 38625.0674, 46226.9505, True, True,
-         True, "Euro", "€", "EUR", 32.4, 0.763, 0.901,
+         True, "Euro", "€", "EUR", 32.4, 0.763, 0.901, "Frankrike",
     ],
     "french guiana|^GF$|^GUF$": [
          "French Guiana", "French Guiana", "France", "GF", "GUF", 254, ".gf",
          "+594", 3.933889, -53.125782, "3°56′2.0″N", "53°7′32.8″W",
          "South America", "South America", "🇬🇫", "", "", "", "", "", "", "",
          "", "", "", "", "", False, False, False, "Euro", "€", "EUR", "",
-         "", "",
+         "", "", "Franska Guyana",
     ],
     "french polynesia|^PF$|^PYF$": [
          "French Polynesia", "French Polynesia", "France", "PF", "PYF", 258,
@@ -661,14 +683,14 @@ regex_dict = {
          "149°24′24.6″W", "Oceania", "Polynesia", "🇵🇫", 4167.0, 3827.0,
          340.0, "Papeete", -17.535, -149.5697, "17°32′06″S",
          "149°34′11″W", 280904.0, "", "", "", False, False, False,
-         "CFP franc", "₣", "XPF", "", "", "",
+         "CFP franc", "₣", "XPF", "", "", "", "Franska Polynesien",
     ],
     ".*french southern|^TF$|^ATF$": [
          "French Southern Territories (the)", "French Southern Territories",
          "France", "TF", "ATF", 260, ".tf", "", -49.280366, 69.348557,
          "49°16′49.3″S", "69°20′54.8″E", "", "", "🇹🇫", "", "", "", "", "", "",
          "", "", "", "", "", "", False, False, False, "Euro", "€", "EUR",
-         "", "", "",
+         "", "", "", "Franska södra territorierna",
     ],
     ".*gabon|^GA$|^GAB$": [
          "Gabon", "Gabon", "UN member state", "GA", "GAB", 266, ".ga",
@@ -677,7 +699,7 @@ regex_dict = {
          "Libreville", 0.3903, 9.4542, "0°23′25″N", "9°27′15″E",
          2225728.0, 15593181270.9135, 7005.8791, 15190.6386, False,
          False, False, "Central African CFA franc", "Fr", "XAF", 38.0,
-         0.458, 0.703,
+         0.458, 0.703, "Gabon",
     ],
     ".*gambia|^GM$|^GMB$": [
          "Gambia (the)", "Gambia", "UN member state", "GM", "GMB", 270,
@@ -686,7 +708,7 @@ regex_dict = {
          10120.0, 1180.0, "Banjul", 13.4531, -16.5775, "13°27′11″N",
          "16°34′39″W", 2416664.0, 1901930157.64528, 787.0065,
          2278.0278, False, False, False, "Gambian dalasi", "D", "GMD",
-         35.9, 0.422, 0.496,
+         35.9, 0.422, 0.496, "Gambia",
     ],
     "georgia|^GE$|^GEO$": [
          "Georgia", "Georgia", "UN member state", "GE", "GEO", 268, ".ge",
@@ -695,6 +717,7 @@ regex_dict = {
          41.7225, 44.7925, "41°43′21″N", "44°47′33″E", 3714000.0,
          15891688903.1843, 4278.8608, 14863.0174, False, False,
          False, "Georgian lari", "₾", "GEL", 35.9, 0.569, 0.812,
+         "Georgien",
     ],
     "germany|^DE$|^DEU$": [
          "Germany", "Germany", "UN member state", "DE", "DEU", 276, ".de",
@@ -702,7 +725,7 @@ regex_dict = {
          "Europe", "Western Europe", "🇩🇪", 357022.0, 348672.0, 8350.0,
          "Berlin", 52.52, 13.405, "52°31′12″N", "13°24′18″E", 83240525.0,
          3806060140124.52, 45723.6441, 53694.3547, True, True,
-         True, "Euro", "€", "EUR", 31.9, 0.751, 0.947,
+         True, "Euro", "€", "EUR", 31.9, 0.751, 0.947, "Tyskland",
     ],
     ".*ghana|^GH$|^GHA$": [
          "Ghana", "Ghana", "UN member state", "GH", "GHA", 288, ".gh",
@@ -711,6 +734,7 @@ regex_dict = {
          "Accra", 5.55, -0.2, "5°33′N", "0°12′W", 31072945.0,
          72354428864.9032, 2328.5346, 5596.3071, False, False,
          False, "Ghanaian cedi", "₵", "GHS", 43.5, 0.45, 0.611,
+         "Ghana",
     ],
     "gibraltar|^GI$|^GIB$": [
          "Gibraltar", "Gibraltar", "United Kingdom", "GI", "GIB", 292, ".gi",
@@ -718,6 +742,7 @@ regex_dict = {
          "Europe", "Southern Europe", "🇬🇮", 6.5, 6.5, 0.0, "Gibraltar",
          36.1333, -5.35, "36°8′N", "5°21′W", 33691.0, "", "", "",
          False, False, False, "Gibraltar pound", "£", "GIP", "", "", "",
+         "Gibraltar",
     ],
     "greece|^GR$|^GRC$": [
          "Greece", "Greece", "UN member state", "GR", "GRC", 300, ".gr",
@@ -726,6 +751,7 @@ regex_dict = {
          "Athens", 37.9842, 23.7281, "37°59′03″N", "23°43′41″E",
          10715549.0, 189410106620.016, 17676.1925, 28463.7887, True,
          True, True, "Euro", "€", "EUR", 32.9, 0.69, 0.888,
+         "Grekland",
     ],
     "greenland|^GL$|^GRL$": [
          "Greenland", "Greenland", "Denmark", "GL", "GRL", 304, ".gl",
@@ -733,7 +759,7 @@ regex_dict = {
          "North America", "Northern America", "🇬🇱", 2166086.0, 2166086.0,
          "", "Nuuk", 64.1814, -51.6942, "64°10′53″N", "51°41′39″W",
          56367.0, "", "", "", False, False, False, "Danish krone",
-         "kr", "DKK", "", "", "",
+         "kr", "DKK", "", "", "", "Grönland",
     ],
     "grenada|^GD$|^GRD$": [
          "Grenada", "Grenada", "UN member state", "GD", "GRD", 308, ".gd",
@@ -742,13 +768,14 @@ regex_dict = {
          "St. George's", 12.05, -61.75, "12°3′N", "61°45′W", 112519.0,
          1089203703.7037, 9680.1758, 15893.2154, False, False,
          False, "Eastern Caribbean dollar", "$", "XCD", "", 0.565, 0.779,
+         "Grenada",
     ],
     "guadeloupe|^GP$|^GLP$": [
          "Guadeloupe", "Guadeloupe", "France", "GP", "GLP", 312, ".gp",
          "+590", 16.254246, -61.568592, "16°15′15.3″N", "61°34′6.9″W",
          "North America", "Caribbean", "🇬🇵", "", "", "", "", "", "", "", "",
          "", "", "", "", False, False, False, "Euro", "€", "EUR", "", "",
-         "",
+         "", "Guadeloupe",
     ],
     "guam|^GU$|^GUM$": [
          "Guam", "Guam", "United States of America", "GU", "GUM", 316, ".gu",
@@ -756,7 +783,7 @@ regex_dict = {
          "Oceania", "Micronesia", "🇬🇺", 544.0, 544.0, 0.0, "Hagåtña",
          13.4792, 144.75, "13°28′45″N", "144°45′00″E", 168783.0, "", "",
          "", False, False, False, "United States dollar", "$", "USD", "",
-         "", "",
+         "", "", "Guam",
     ],
     "guatemala|^GT$|^GTM$": [
          "Guatemala", "Guatemala", "UN member state", "GT", "GTM", 320,
@@ -766,6 +793,7 @@ regex_dict = {
          "14°36′48″N", "90°32′7″W", 16858333.0, 77604632170.5853,
          4603.3396, 8854.2025, False, False, False,
          "Guatemalan quetzal", "Q", "GTQ", 48.3, 0.461, 0.663,
+         "Guatemala",
     ],
     "guernsey|^GG$|^GGY$": [
          "Guernsey", "Guernsey", "United Kingdom", "GG", "GGY", 831, ".gg",
@@ -773,7 +801,7 @@ regex_dict = {
          "Europe", "Northern Europe", "🇬🇬", 78.0, 78.0, 0.0,
          "St. Peter Port", 49.4556, -2.5367, "49°27′20″N", "2°32′12″W", "",
          "", "", "", False, False, False, "Guernsey pound", "£", "GGP",
-         "", "", "",
+         "", "", "", "Guernsey",
     ],
     "(?!.*bissau|.*new|.*equatorial).*guinea|^GN$|^GIN$": [
          "Guinea", "Guinea", "UN member state", "GN", "GIN", 324, ".gn",
@@ -782,6 +810,7 @@ regex_dict = {
          "Conakry", 9.5167, -13.7, "9°31′N", "13°42′W", 13132792.0,
          15681050917.1588, 1194.0379, 2817.4918, False, False,
          False, "Guinean franc", "Fr", "GNF", 33.7, 0.371, 0.477,
+         "Guinea",
     ],
     "guinea.*bissau|^GW$|^GNB$": [
          "Guinea-Bissau", "Guinea-Bissau", "UN member state", "GW", "GNB",
@@ -790,7 +819,7 @@ regex_dict = {
          28120.0, 8005.0, "Bissau", 11.85, -15.5667, "11°51′N",
          "15°34′W", 1967998.0, 1431758242.90375, 727.5202, 1948.9195,
          False, False, False, "West African CFA franc", "Fr", "XOF",
-         50.7, "", 0.48,
+         50.7, "", 0.48, "Guinea-Bissau",
     ],
     "guyana|^GY$|^GUY$": [
          "Guyana", "Guyana", "UN member state", "GY", "GUY", 328, ".gy",
@@ -799,7 +828,7 @@ regex_dict = {
          18120.0, "Georgetown", 6.8011, -58.1553, "6°48′4″N",
          "58°9′19″W", 786559.0, 5471256594.72422, 6955.9392,
          19705.7927, False, False, False, "Guyanese dollar", "$",
-         "GYD", "", 0.495, 0.682,
+         "GYD", "", 0.495, 0.682, "Guyana",
     ],
     "haiti|^HT$|^HTI$": [
          "Haiti", "Haiti", "UN member state", "HT", "HTI", 332, ".ht",
@@ -808,7 +837,7 @@ regex_dict = {
          "Port-au-Prince", 18.5333, -72.3333, "18°32′N", "72°20′W",
          11402533.0, 13417997065.1099, 1176.7558, 2925.3653, False,
          False, False, "Haitian gourde", "G", "HTG", 41.1, 0.447,
-         0.51,
+         0.51, "Haiti",
     ],
     ".*heard|^HM$|^HMD$": [
          "Heard Island and McDonald Islands",
@@ -816,6 +845,7 @@ regex_dict = {
          ".hm", "+672", -53.08181, 73.504158, "53°4′54.5″S",
          "73°30′15.0″E", "", "", "🇭🇲", 412.0, 412.0, 0.0, "", "", "", "",
          "", "", "", "", "", False, False, False, "", "", "", "", "", "",
+         "Heard- och McDonaldöarna",
     ],
     ".*holy see|.*vatican|^VA$|^VAT$": [
          "Holy See (the)", "Holy See", "UN observer state", "VA", "VAT", 336,
@@ -823,7 +853,7 @@ regex_dict = {
          "12°27′12.2″E", "Europe", "Southern Europe", "🇻🇦", 0.44, 0.44,
          0.0, "Vatican City", 41.9025, 12.4525, "41°54′09″N",
          "12°27′09″E", "", "", "", "", False, False, False, "Euro", "€",
-         "EUR", "", "", "",
+         "EUR", "", "", "", "Vatikanstaten",
     ],
     "honduras|^HN$|^HND$": [
          "Honduras", "Honduras", "UN member state", "HN", "HND", 340, ".hn",
@@ -832,7 +862,7 @@ regex_dict = {
          200.0, "Tegucigalpa", 14.1, -87.2167, "14°6′N", "87°13′W",
          9904608.0, 23827840809.7014, 2405.7328, 5420.5602, False,
          False, False, "Honduran lempira", "L", "HNL", 48.2, 0.481,
-         0.634,
+         0.634, "Honduras",
     ],
     "hong kong|^HK$|^HKG$": [
          "Hong Kong", "Hong Kong", "China", "HK", "HKG", 344, ".hk", "+852",
@@ -840,7 +870,7 @@ regex_dict = {
          "Eastern Asia", "🇭🇰", 1108.0, 1073.0, 35.0, "", "", "", "", "",
          7481800.0, 346585881503.635, 46323.8634, 59237.6708, False,
          False, False, "Hong Kong dollar", "$", "HKD", "", 0.813,
-         0.949,
+         0.949, "Hongkong",
     ],
     "hungary|^HU$|^HUN$": [
          "Hungary", "Hungary", "UN member state", "HU", "HUN", 348, ".hu",
@@ -849,7 +879,7 @@ regex_dict = {
          "Budapest", 47.4925, 19.0514, "47°29′33″N", "19°03′05″E",
          9749763.0, 155012927629.087, 15899.1483, 33084.0962, True,
          True, True, "Hungarian forint", "Ft", "HUF", 29.6, 0.683,
-         0.854,
+         0.854, "Ungern",
     ],
     "iceland|^IS$|^ISL$": [
          "Iceland", "Iceland", "UN member state", "IS", "ISL", 352, ".is",
@@ -858,7 +888,7 @@ regex_dict = {
          "Reykjavík", 64.1475, -21.935, "64°08′51″N", "21°56′06″W",
          366425.0, 21714670569.6033, 59260.8871, 55216.0262, True,
          False, True, "Icelandic króna", "kr", "ISK", 26.1, 0.745,
-         0.949,
+         0.949, "Island",
     ],
     "india$|^IN$|^IND$": [
          "India", "India", "UN member state", "IN", "IND", 356, ".in", "+91",
@@ -867,7 +897,7 @@ regex_dict = {
          "New Delhi", 28.6139, 77.2089, "28°36′50″N", "77°12′32″E",
          1380004385.0, 2622983732006.45, 1900.7068, 6454.3474, False,
          False, False, "Indian rupee", "₹", "INR", 35.7, 0.494,
-         0.645,
+         0.645, "Indien",
     ],
     "indonesia|^ID$|^IDN$": [
          "Indonesia", "Indonesia", "UN member state", "ID", "IDN", 360,
@@ -876,7 +906,7 @@ regex_dict = {
          1811569.0, 93000.0, "Jakarta", -6.2, 106.8167, "6°12′S",
          "106°49′E", 273523621.0, 1058423838345.14, 3869.5884,
          12073.4615, False, False, False, "Indonesian rupiah", "Rp",
-         "IDR", 38.2, 0.54, 0.718,
+         "IDR", 38.2, 0.54, 0.718, "Indonesien",
     ],
     ".*iran|^IR$|^IRN$": [
          "Iran (Islamic Republic of)", "Iran", "UN member state", "IR", "IRN",
@@ -885,7 +915,7 @@ regex_dict = {
          1531595.0, 116600.0, "Tehran", 35.6892, 51.3889, "35°41′21″N",
          "51°23′20″E", 83992953.0, 191718271483.759, 2282.5519,
          13116.0724, False, False, False, "Iranian rial", "﷼", "IRR",
-         42.0, 0.593, 0.783,
+         42.0, 0.593, 0.783, "Iran",
     ],
     ".*iraq|^IQ$|^IRQ$": [
          "Iraq", "Iraq", "UN member state", "IQ", "IRQ", 368, ".iq", "+964",
@@ -893,7 +923,7 @@ regex_dict = {
          "Western Asia", "🇮🇶", 438317.0, 437367.0, 950.0, "Baghdad",
          33.3333, 44.3833, "33°20′N", "44°23′E", 40222503.0,
          167224432560.319, 4157.4845, 9763.51, False, False, False,
-         "Iraqi dinar", "ع.د", "IQD", 29.5, 0.408, 0.674,
+         "Iraqi dinar", "ع.د", "IQD", 29.5, 0.408, 0.674, "Irak",
     ],
     "(?!.*north).*ireland|^IE$|^IRL$": [
          "Ireland", "Ireland", "UN member state", "IE", "IRL", 372, ".ie",
@@ -902,6 +932,7 @@ regex_dict = {
          "Dublin", 53.3497, -6.2603, "53°20′59″N", "06°15′37″W",
          4994724.0, 418621818482.305, 83812.803, 93612.1659, True,
          True, True, "Euro", "€", "EUR", 31.4, 0.793, 0.955,
+         "Irland",
     ],
     ".*isle of man|^IM$|^IMN$": [
          "Isle of Man", "Isle of Man", "United Kingdom", "IM", "IMN", 833,
@@ -909,7 +940,7 @@ regex_dict = {
          "4°31′23.1″W", "Europe", "Northern Europe", "🇮🇲", 572.0, 572.0,
          0.0, "Douglas", 54.145, -4.4819, "54°08′42″N", "4°28′55″W",
          85032.0, "", "", "", False, False, False, "Manx pound", "£",
-         "IMP", "", "", "",
+         "IMP", "", "", "", "Isle of Man",
     ],
     "israel|^IL$|^ISR$": [
          "Israel", "Israel", "UN member state", "IL", "ISR", 376, ".il",
@@ -918,6 +949,7 @@ regex_dict = {
          "Jerusalem", 31.7833, 35.2167, "31°47′N", "35°13′E", 9216900.0,
          401953804837.087, 43610.5203, 41854.9342, True, False,
          False, "Israeli new shekel", "₪", "ILS", 39.0, 0.734, 0.919,
+         "Israel",
     ],
     "italy|^IT$|^ITA$": [
          "Italy", "Italy", "UN member state", "IT", "ITA", 380, ".it", "+39",
@@ -925,7 +957,7 @@ regex_dict = {
          "Southern Europe", "🇮🇹", 301340.0, 294140.0, 7200.0, "Rome",
          41.8833, 12.5, "41°53′N", "12°30′E", 59554023.0,
          1886445268340.71, 31676.2021, 41839.991, True, True, True,
-         "Euro", "€", "EUR", 35.9, 0.728, 0.892,
+         "Euro", "€", "EUR", 35.9, 0.728, 0.892, "Italien",
     ],
     "jamaica|^JM$|^JAM$": [
          "Jamaica", "Jamaica", "UN member state", "JM", "JAM", 388, ".jm",
@@ -934,7 +966,7 @@ regex_dict = {
          "Kingston", 17.9714, -76.7931, "17°58′17″N", "76°47′35″W",
          2961161.0, 13812421803.4084, 4664.5292, 9221.5933, False,
          False, False, "Jamaican dollar", "$", "JMD", 45.5, 0.535,
-         0.734,
+         0.734, "Jamaica",
     ],
     "japan|^JP$|^JPN$": [
          "Japan", "Japan", "UN member state", "JP", "JPN", 392, ".jp", "+81",
@@ -942,7 +974,7 @@ regex_dict = {
          "Eastern Asia", "🇯🇵", 377915.0, 364485.0, 13430.0, "Tokyo",
          35.6897, 139.6922, "35°41′23″N", "139°41′32″E", 125836021.0, "",
          "", "", True, False, False, "Japanese yen", "¥ or 円", "JPY",
-         32.9, 0.805, 0.919,
+         32.9, 0.805, 0.919, "Japan",
     ],
     "jersey|^JE$|^JEY$": [
          "Jersey", "Jersey", "United Kingdom", "JE", "JEY", 832, ".je",
@@ -950,7 +982,7 @@ regex_dict = {
          "Europe", "Northern Europe", "🇯🇪", 116.0, 116.0, 0.0,
          "St. Helier", 49.1869, -2.1069, "49°11′13″N", "2°06′25″W", "", "",
          "", "", False, False, False, "Jersey pound", "£", "JEP", "", "",
-         "",
+         "", "Jersey",
     ],
     "jordan|^JO$|^JOR$": [
          "Jordan", "Jordan", "UN member state", "JO", "JOR", 400, ".jo",
@@ -959,6 +991,7 @@ regex_dict = {
          31.9497, 35.9328, "31°56′59″N", "35°55′58″E", 10203140.0,
          43697659275.3137, 4282.7658, 10355.6313, False, False,
          False, "Jordanian dinar", "د.ا", "JOD", 33.7, 0.553, 0.729,
+         "Jordanien",
     ],
     "kazakhstan|^KZ$|^KAZ$": [
          "Kazakhstan", "Kazakhstan", "UN member state", "KZ", "KAZ", 398,
@@ -967,7 +1000,7 @@ regex_dict = {
          "Nur-Sultan", 51.1667, 71.4333, "51°10′N", "71°26′E",
          18754440.0, 169835426427.153, 9055.745, 26728.5439, False,
          False, False, "Kazakhstani tenge", "₸", "KZT", 27.8, 0.629,
-         0.825,
+         0.825, "Kazakstan",
     ],
     "kenya|^KE$|^KEN$": [
          "Kenya", "Kenya", "UN member state", "KE", "KEN", 404, ".ke",
@@ -976,7 +1009,7 @@ regex_dict = {
          "Nairobi", -1.2864, 36.8172, "01°17′11″S", "36°49′02″E",
          53771300.0, 98842939649.1149, 1838.21, 4452.206, False,
          False, False, "Kenyan shilling", "Sh", "KES", 40.8, 0.547,
-         0.601,
+         0.601, "Kenya",
     ],
     ".*kiribati|^KI$|^KIR$": [
          "Kiribati", "Kiribati", "UN member state", "KI", "KIR", 296, ".ki",
@@ -985,6 +1018,7 @@ regex_dict = {
          "South Tarawa", 1.4333, 173.0, "1°26′N", "173°00′E", 119446.0,
          199573325.992705, 1670.8247, 2417.7675, False, False,
          False, "Kiribati dollar", "$", "KID", 37.0, 0.493, 0.63,
+         "Kiribati",
     ],
     "(?=.*korea).*(north|dem|n[\. ]*)|^KP$|^PRK$": [
          "Korea (the Democratic People's Republic of)", "North Korea",
@@ -993,6 +1027,7 @@ regex_dict = {
          "🇰🇵", 120538.0, 120408.0, 130.0, "Pyongyang", 39.0194,
          125.7381, "39°1′10″N", "125°44′17″E", 25778815.0, "", "", "",
          False, False, False, "North Korean won", "₩", "KPW", "", "", "",
+         "Nordkorea",
     ],
     "(?!.*dem|.*people|.*north|.*n[\., ]|DPR).*korea|^KR$|^KOR$": [
          "Korea (the Republic of)", "South Korea", "UN member state", "KR",
@@ -1001,7 +1036,7 @@ regex_dict = {
          2800.0, "Seoul", 37.56, 126.99, "37°33′36″N", "126°59′24″E",
          51780579.0, 1630525005469.11, 31489.1227, 43124.2947, True,
          False, False, "South Korean won", "₩", "KRW", 31.4, 0.799,
-         0.916,
+         0.916, "Sydkorea",
     ],
     "kuwait|^KW$|^KWT$": [
          "Kuwait", "Kuwait", "UN member state", "KW", "KWT", 414, ".kw",
@@ -1009,7 +1044,7 @@ regex_dict = {
          "Asia", "Western Asia", "🇰🇼", 17818.0, 17818.0, 0.0,
          "Kuwait City", 29.3697, 47.9783, "29°22′11″N", "47°58′42″E",
          4270563.0, "", "", "", False, False, False, "Kuwaiti dinar",
-         "د.ك", "KWD", "", 0.563, 0.806,
+         "د.ك", "KWD", "", 0.563, 0.806, "Kuwait",
     ],
     ".*kyrgyz|^KG$|^KGZ$": [
          "Kyrgyzstan", "Kyrgyzstan", "UN member state", "KG", "KGZ", 417,
@@ -1018,7 +1053,7 @@ regex_dict = {
          8150.0, "Bishkek", 42.8747, 74.6122, "42°52′29″N", "74°36′44″E",
          6591600.0, 7735976612.64163, 1173.6114, 4965.0319, False,
          False, False, "Kyrgyzstani som", "с", "KGS", 29.7, 0.597,
-         0.697,
+         0.697, "Kirgizistan",
     ],
     ".*lao|^LA$|^LAO$": [
          "Lao People's Democratic Republic (the)", "Laos", "UN member state",
@@ -1027,7 +1062,7 @@ regex_dict = {
          236800.0, 230800.0, 6000.0, "Vientiane", 17.9667, 102.6,
          "17°58′N", "102°36′E", 7275556.0, 19136194848.6534, 2630.2038,
          8234.4545, False, False, False, "Lao kip", "₭", "LAK", 38.8,
-         0.457, 0.613,
+         0.457, 0.613, "Laos",
     ],
     "latvia|^LV$|^LVA$": [
          "Latvia", "Latvia", "UN member state", "LV", "LVA", 428, ".lv",
@@ -1035,7 +1070,7 @@ regex_dict = {
          "Europe", "Northern Europe", "🇱🇻", 64589.0, 62249.0, 2340.0,
          "Riga", 56.9489, 24.1064, "56°56′56″N", "24°6′23″E", 1901548.0,
          33505185228.7067, 17619.9524, 32019.2223, True, True,
-         True, "Euro", "€", "EUR", 35.1, 0.707, 0.866,
+         True, "Euro", "€", "EUR", 35.1, 0.707, 0.866, "Lettland",
     ],
     "lebanon|^LB$|^LBN$": [
          "Lebanon", "Lebanon", "UN member state", "LB", "LBN", 422, ".lb",
@@ -1044,6 +1079,7 @@ regex_dict = {
          33.8869, 35.5131, "33°53′13″N", "35°30′47″E", 6825442.0,
          33383246857.58, 4891.0015, 12288.7585, False, False,
          False, "Lebanese pound", "ل.ل", "LBP", 31.8, 0.515, 0.744,
+         "Libanon",
     ],
     "lesotho|^LS$|^LSO$": [
          "Lesotho", "Lesotho", "UN member state", "LS", "LSO", 426, ".ls",
@@ -1052,6 +1088,7 @@ regex_dict = {
          "Maseru", -29.3167, 27.4833, "29°19′S", "27°29′E", 2142252.0,
          1844510137.67817, 861.0145, 2405.0965, False, False,
          False, "Lesotho loti", "L", "LSL", 44.9, 0.4, 0.527,
+         "Lesotho",
     ],
     "liberia|^LR$|^LBR$": [
          "Liberia", "Liberia", "UN member state", "LR", "LBR", 430, ".lr",
@@ -1060,7 +1097,7 @@ regex_dict = {
          "Monrovia", 6.3133, -10.8014, "6°18′48″N", "10°48′5″W",
          5057677.0, 2950000000.0, 583.2717, 1428.1893, False,
          False, False, "Liberian dollar", "$", "LRD", 35.3, 0.319,
-         0.48,
+         0.48, "Liberia",
     ],
     "libya|^LY$|^LBY$": [
          "Libya", "Libya", "UN member state", "LY", "LBY", 434, ".ly",
@@ -1069,6 +1106,7 @@ regex_dict = {
          "Tripoli", 32.8872, 13.1914, "32°53′14″N", "13°11′29″E",
          6871287.0, 25418461532.2008, 3699.2286, 10846.9438, False,
          False, False, "Libyan dinar", "ل.د", "LYD", "", "", 0.724,
+         "Libyen",
     ],
     "liechtenstein|^LI$|^LIE$": [
          "Liechtenstein", "Liechtenstein", "UN member state", "LI", "LIE",
@@ -1076,7 +1114,7 @@ regex_dict = {
          "9°33′47.0″E", "Europe", "Western Europe", "🇱🇮", 160.0, 160.0,
          0.0, "Vaduz", 47.1411, 9.5211, "47°08′28″N", "9°31′16″E",
          38137.0, "", "", "", False, False, True, "Swiss franc", "Fr.",
-         "CHF", "", "", 0.919,
+         "CHF", "", "", 0.919, "Liechtenstein",
     ],
     "lithuania|^LT$|^LTU$": [
          "Lithuania", "Lithuania", "UN member state", "LT", "LTU", 440,
@@ -1085,7 +1123,7 @@ regex_dict = {
          62680.0, 2620.0, "Vilnius", 54.6833, 25.2833, "54°41′N",
          "25°17′E", 2794700.0, 55887271833.0025, 19997.5925,
          38734.7293, True, True, True, "Euro", "€", "EUR", 35.7,
-         0.706, 0.882,
+         0.706, 0.882, "Litauen",
     ],
     "luxembourg|^LU$|^LUX$": [
          "Luxembourg", "Luxembourg", "UN member state", "LU", "LUX", 442,
@@ -1094,13 +1132,14 @@ regex_dict = {
          "Luxembourg", 49.6117, 6.1319, "49°36′42″N", "6°7′55″E",
          632275.0, 73263982103.0119, 115873.6026, 118359.5262, True,
          True, True, "Euro", "€", "EUR", 35.4, 0.686, 0.916,
+         "Luxemburg",
     ],
     ".*macao|.*macau|^MO$|^MAC$": [
          "Macao", "Macao", "China", "MO", "MAC", 446, ".mo", "+853",
          22.198745, 113.543873, "22°11′55.5″N", "113°32′37.9″E", "Asia",
          "Eastern Asia", "🇲🇴", 28.2, 28.2, 0.0, "", "", "", "", "",
          649342.0, "", "", 57807.162, False, False, False,
-         "Macanese pataca", "MOP$", "MOP", "", 0.796, "",
+         "Macanese pataca", "MOP$", "MOP", "", 0.796, "", "Macao",
     ],
     "madagascar|^MG$|^MDG$": [
          "Madagascar", "Madagascar", "UN member state", "MG", "MDG", 450,
@@ -1109,7 +1148,7 @@ regex_dict = {
          581540.0, 5501.0, "Antananarivo", -18.9333, 47.5167,
          "18°56′S", "47°31′E", 27691019.0, 13720634105.403, 495.4904,
          1593.0713, False, False, False, "Malagasy ariary", "Ar",
-         "MGA", 42.6, 0.392, 0.528,
+         "MGA", 42.6, 0.392, 0.528, "Madagaskar",
     ],
     "malawi|^MW$|^MWI$": [
          "Malawi", "Malawi", "UN member state", "MW", "MWI", 454, ".mw",
@@ -1118,6 +1157,7 @@ regex_dict = {
          "Lilongwe", -13.9833, 33.7833, "13°59′S", "33°47′E", 19129955.0,
          11961848552.5977, 625.2941, 1568.4248, False, False,
          False, "Malawian kwacha", "MK", "MWK", 44.7, 0.413, 0.483,
+         "Malawi",
     ],
     "malaysia|^MY$|^MYS$": [
          "Malaysia", "Malaysia", "UN member state", "MY", "MYS", 458, ".my",
@@ -1126,7 +1166,7 @@ regex_dict = {
          "Kuala Lumpur", 3.1478, 101.6953, "03°08′52″N", "101°41′43″E",
          32365998.0, 336664444247.042, 10401.794, 27886.8609, False,
          False, False, "Malaysian ringgit", "RM", "MYR", 41.1, 0.611,
-         0.81,
+         0.81, "Malaysia",
     ],
     "maldives|^MV$|^MDV$": [
          "Maldives", "Maldives", "UN member state", "MV", "MDV", 462, ".mv",
@@ -1134,7 +1174,7 @@ regex_dict = {
          "Southern Asia", "🇲🇻", 298.0, 298.0, 0.0, "Malé", 4.1753,
          73.5089, "4°10′31″N", "73°30′32″E", 540542.0, 4030203166.77482,
          7455.8557, 13765.636, False, False, False,
-         "Maldivian rufiyaa", ".ރ", "MVR", 31.3, "", 0.74,
+         "Maldivian rufiyaa", ".ރ", "MVR", 31.3, "", 0.74, "Maldiverna",
     ],
     "mali$|^ML$|^MLI$": [
          "Mali", "Mali", "UN member state", "ML", "MLI", 466, ".ml", "+223",
@@ -1143,7 +1183,7 @@ regex_dict = {
          12.6392, -8.0028, "12°38′21″N", "8°0′10″W", 20250834.0,
          17393761397.0805, 858.9158, 2338.5075, False, False,
          False, "West African CFA franc", "Fr", "XOF", 33.0, 0.318,
-         0.434,
+         0.434, "Mali",
     ],
     "malta|^MT$|^MLT$": [
          "Malta", "Malta", "UN member state", "MT", "MLT", 470, ".mt",
@@ -1151,7 +1191,7 @@ regex_dict = {
          "Europe", "Southern Europe", "🇲🇹", 316.0, 316.0, 0.0,
          "Valletta", 35.8983, 14.5125, "35°53′54″N", "14°30′45″E",
          525285.0, 14647384607.604, 27884.6428, 42640.1161, False,
-         True, True, "Euro", "€", "EUR", 28.7, 0.709, 0.895,
+         True, True, "Euro", "€", "EUR", 28.7, 0.709, 0.895, "Malta",
     ],
     ".*marshall|^MH$|^MHL$": [
          "Marshall Islands (the)", "Marshall Islands", "UN member state", "MH",
@@ -1160,13 +1200,14 @@ regex_dict = {
          0.0, "Majuro", 7.0833, 171.3833, "7°05′N", "171°23′E",
          59194.0, "", "", "", False, False, False,
          "United States dollar", "$", "USD", "", 0.423, 0.704,
+         "Marshallöarna",
     ],
     "martinique|^MQ$|^MTQ$": [
          "Martinique", "Martinique", "France", "MQ", "MTQ", 474, ".mq",
          "+596", 14.641528, -61.024174, "14°38′29.5″N", "61°1′27.0″W",
          "North America", "Caribbean", "🇲🇶", "", "", "", "", "", "", "", "",
          "", "", "", "", False, False, False, "Euro", "€", "EUR", "", "",
-         "",
+         "", "Martinique",
     ],
     "mauritania|^MR$|^MRT$": [
          "Mauritania", "Mauritania", "UN member state", "MR", "MRT", 478,
@@ -1175,7 +1216,7 @@ regex_dict = {
          1030700.0, 0.0, "Nouakchott", 18.0858, -15.9786, "18°05′09″N",
          "15°58′43″W", 4649660.0, 7778525642.92883, 1672.9235,
          5256.8745, False, False, False, "Mauritanian ouguiya", "UM",
-         "MRU", 32.6, 0.382, 0.546,
+         "MRU", 32.6, 0.382, 0.546, "Mauretanien",
     ],
     "mauritius|^MU$|^MUS$": [
          "Mauritius", "Mauritius", "UN member state", "MU", "MUS", 480,
@@ -1184,13 +1225,14 @@ regex_dict = {
          10.0, "Port Louis", -20.1644, 57.5042, "20°9′52″S",
          "57°30′15″E", 1265740.0, 10914065306.2423, 8622.6755,
          20538.6949, False, False, False, "Mauritian rupee", "₨",
-         "MUR", 36.8, 0.622, 0.804,
+         "MUR", 36.8, 0.622, 0.804, "Mauritius",
     ],
     ".*mayotte|^YT$|^MYT$": [
          "Mayotte", "Mayotte", "France", "YT", "MYT", 175, ".yt", "+262",
          -12.8275, 45.166244, "12°49′39.0″S", "45°9′58.5″E", "Africa",
          "Eastern Africa", "🇾🇹", "", "", "", "", "", "", "", "", "", "", "",
          "", False, False, False, "Euro", "€", "EUR", "", "", "",
+         "Mayotte",
     ],
     "mexico|^MX$|^MEX$": [
          "Mexico", "Mexico", "UN member state", "MX", "MEX", 484, ".mx",
@@ -1199,7 +1241,7 @@ regex_dict = {
          20430.0, "Mexico City", 19.4333, -99.1333, "19°26′N", "99°8′W",
          128932753.0, 1076163316174.94, 8346.7024, 18833.0824, True,
          False, False, "Mexican peso", "$", "MXN", 45.4, 0.613,
-         0.779,
+         0.779, "Mexiko",
     ],
     ".*micronesia|^FM$|^FSM$": [
          "Micronesia (Federated States of)", "Micronesia", "UN member state",
@@ -1208,6 +1250,7 @@ regex_dict = {
          702.0, 0.0, "Palikir", 6.9172, 158.1589, "6°55′2″N",
          "158°9′32″E", 115021.0, "", "", "", False, False, False,
          "United States dollar", "$", "USD", 40.1, 0.506, 0.62,
+         "Mikronesiska federationen",
     ],
     ".*moldova|^MD$|^MDA$": [
          "Moldova (the Republic of)", "Moldova", "UN member state", "MD",
@@ -1216,7 +1259,7 @@ regex_dict = {
          32891.0, 960.0, "Chișinău", 47.0228, 28.8353, "47°01′22″N",
          "28°50′07″E", 2617820.0, 11914040905.2626, 4551.1307,
          13001.55, False, False, False, "Moldovan leu", "L", "MDL",
-         25.7, 0.584, 0.75,
+         25.7, 0.584, 0.75, "Moldavien",
     ],
     "monaco|^MC$|^MCO$": [
          "Monaco", "Monaco", "UN member state", "MC", "MCO", 492, ".mc",
@@ -1224,6 +1267,7 @@ regex_dict = {
          "Europe", "Western Europe", "🇲🇨", 2.0, 2.0, 0.0, "Monaco",
          43.7312, 7.4197, "43°43′52.48″N", "7°25′11.08″E", 39244.0, "",
          "", "", False, False, False, "Euro", "€", "EUR", "", "", "",
+         "Monaco",
     ],
     "mongolia|^MN$|^MNG$": [
          "Mongolia", "Mongolia", "UN member state", "MN", "MNG", 496, ".mn",
@@ -1232,7 +1276,7 @@ regex_dict = {
          "Ulaanbaatar", 47.9203, 106.9172, "47°55′13″N", "106°55′02″E",
          3278292.0, 13137128659.479, 4007.3089, 12100.5867, False,
          False, False, "Mongolian tögrög", "₮", "MNT", 32.7, 0.614,
-         0.737,
+         0.737, "Mongoliet",
     ],
     "(?!.*serbia).*montenegro|^ME$|^MNE$": [
          "Montenegro", "Montenegro", "UN member state", "ME", "MNE", 499,
@@ -1241,7 +1285,7 @@ regex_dict = {
          13452.0, 360.0, "Podgorica", 42.4413, 19.2629,
          "42°26′28.63″N", "19°15′46.41″E", 621718.0, 4778582336.18234,
          7686.0929, 20566.6384, False, False, False, "Euro", "€",
-         "EUR", 38.5, 0.633, 0.829,
+         "EUR", 38.5, 0.633, 0.829, "Montenegro",
     ],
     "montserrat|^MS$|^MSR$": [
          "Montserrat", "Montserrat", "United Kingdom", "MS", "MSR", 500,
@@ -1249,7 +1293,7 @@ regex_dict = {
          "62°11′14.5″W", "North America", "Caribbean", "🇲🇸", 102.0, 102.0,
          0.0, "Brades", 16.7928, -62.2106, "16°47′34″N", "62°12′38″W",
          "", "", "", "", False, False, False, "Eastern Caribbean dollar",
-         "$", "XCD", "", "", "",
+         "$", "XCD", "", "", "", "Montserrat",
     ],
     "morocco|^MA$|^MAR$": [
          "Morocco", "Morocco", "UN member state", "MA", "MAR", 504, ".ma",
@@ -1258,6 +1302,7 @@ regex_dict = {
          "Rabat", 34.0333, -6.8333, "34°02′N", "6°50′W", 36910558.0,
          112870591694.044, 3009.2495, 7296.1581, False, False,
          False, "Moroccan dirham", "د.م.", "MAD", 39.5, 0.504, 0.686,
+         "Marocko",
     ],
     "mozambique|^MZ$|^MOZ$": [
          "Mozambique", "Mozambique", "UN member state", "MZ", "MOZ", 508,
@@ -1266,7 +1311,7 @@ regex_dict = {
          786380.0, 13000.0, "Maputo", -25.9667, 32.5833, "25°58′S",
          "32°35′E", 31255435.0, 14021421105.9078, 448.6075, 1296.575,
          False, False, False, "Mozambican metical", "MT", "MZN", 54.0,
-         0.362, 0.456,
+         0.362, 0.456, "Moçambique",
     ],
     "myanmar|burma|^MM$|^MMR$": [
          "Myanmar", "Myanmar", "UN member state", "MM", "MMR", 104, ".mm",
@@ -1275,7 +1320,7 @@ regex_dict = {
          "Naypyidaw", 19.7475, 96.115, "19°44′51″N", "96°06′54″E",
          54409794.0, 76185586096.7974, 1400.2182, 4793.5568, False,
          False, False, "Burmese kyat", "Ks", "MMK", 30.7, 0.478,
-         0.583,
+         0.583, "Myanmar",
     ],
     "namibia|^NA$|^NAM$": [
          "Namibia", "Namibia", "UN member state", "NA", "NAM", 516, ".na",
@@ -1284,7 +1329,7 @@ regex_dict = {
          "Windhoek", -22.57, 17.0836, "22°34′12″S", "17°5′1″E",
          2540916.0, 10699926682.6513, 4211.0509, 9382.2175, False,
          False, False, "Namibian dollar", "$", "NAD", 59.1, 0.446,
-         0.646,
+         0.646, "Namibia",
     ],
     "nauru|^NR$|^NRU$": [
          "Nauru", "Nauru", "UN member state", "NR", "NRU", 520, ".nr",
@@ -1292,7 +1337,7 @@ regex_dict = {
          "Oceania", "Micronesia", "🇳🇷", 21.0, 21.0, 0.0, "Yaren",
          -0.5477, 166.9209, "0°32′51.72″S", "166°55′15.12″E", 10834.0,
          "", "", "", False, False, False, "Australian dollar", "$",
-         "AUD", 34.8, 0.508, "",
+         "AUD", 34.8, 0.508, "", "Nauru",
     ],
     "nepal|^NP$|^NPL$": [
          "Nepal", "Nepal", "UN member state", "NP", "NPL", 524, ".np",
@@ -1301,7 +1346,7 @@ regex_dict = {
          "Kathmandu", 27.7172, 85.3239, "27°43′02″N", "85°19′26″E",
          29136808.0, 33657175561.329, 1155.1429, 4008.7466, False,
          False, False, "Nepalese rupee", "रू", "NPR", 32.8, 0.505,
-         0.602,
+         0.602, "Nepal",
     ],
     "(?!.*antilles).*netherlands|^NL$|^NLD$": [
          "Netherlands (the)", "Netherlands", "UN member state", "NL", "NLD",
@@ -1310,6 +1355,7 @@ regex_dict = {
          7650.0, "Amsterdam", 52.3667, 4.9, "52°22′N", "4°54′E",
          17441139.0, 912242335119.069, 52304.0574, 59228.835, True,
          True, True, "Euro", "€", "EUR", 28.1, 0.79, 0.944,
+         "Nederländerna",
     ],
     "new caledonia|^NC$|^NCL$": [
          "New Caledonia", "New Caledonia", "France", "NC", "NCL", 540, ".nc",
@@ -1317,7 +1363,7 @@ regex_dict = {
          "Oceania", "Melanesia", "🇳🇨", 18575.0, 18275.0, 300.0, "Nouméa",
          -22.2758, 166.4581, "22°16′33″S", "166°27′29″E", 271960.0, "",
          "", "", False, False, False, "CFP franc", "₣", "XPF", "", "",
-         "",
+         "", "Nya Kaledonien",
     ],
     "new zealand|NZ|n[\., ] zealand|^NZ$|^NZL$": [
          "New Zealand", "New Zealand", "UN member state", "NZ", "NZL", 554,
@@ -1327,6 +1373,7 @@ regex_dict = {
          174.7772, "41°17′20″S", "174°46′38″E", 5084300.0,
          212482013605.047, 41791.7931, 44251.7942, True, False,
          False, "New Zealand dollar", "$", "NZD", "", 0.776, 0.931,
+         "Nya Zeeland",
     ],
     ".*nicaragua|^NI$|^NIC$": [
          "Nicaragua", "Nicaragua", "UN member state", "NI", "NIC", 558,
@@ -1335,7 +1382,7 @@ regex_dict = {
          119990.0, 10380.0, "Managua", 12.1364, -86.2514, "12°8′11″N",
          "86°15′5″W", 6624554.0, 12621476263.8278, 1905.2568,
          5570.0999, False, False, False, "Nicaraguan córdoba", "C$",
-         "NIO", 46.2, 0.508, 0.66,
+         "NIO", 46.2, 0.508, 0.66, "Nicaragua",
     ],
     "(?!.*nigeria).*niger|^NE$|^NER$": [
          "Niger (the)", "Niger", "UN member state", "NE", "NER", 562, ".ne",
@@ -1344,7 +1391,7 @@ regex_dict = {
          "Niamey", 13.5117, 2.1253, "13°30′42″N", "2°7′31″E", 24206636.0,
          13678234008.4714, 565.0613, 1262.6042, False, False,
          False, "West African CFA franc", "Fr", "XOF", 34.3, 0.316,
-         0.394,
+         0.394, "Niger",
     ],
     "nigeria|^NG$|^NGA$": [
          "Nigeria", "Nigeria", "UN member state", "NG", "NGA", 566, ".ng",
@@ -1353,6 +1400,7 @@ regex_dict = {
          "Abuja", 9.0667, 7.4833, "9°4′N", "7°29′E", 206139587.0,
          432293776262.398, 2097.0925, 5186.7235, False, False,
          False, "Nigerian naira", "₦", "NGN", 35.1, 0.361, 0.539,
+         "Nigeria",
     ],
     "niue|^NU$|^NIU$": [
          "Niue", "Niue", "Member of 5 UN specialized agencies", "NU", "NIU",
@@ -1360,7 +1408,7 @@ regex_dict = {
          "169°52′2.0″W", "Oceania", "Polynesia", "🇳🇺", 260.0, 260.0, 0.0,
          "Alofi", -19.0539, -169.92, "19°03′14″S", "169°55′12″W", "", "",
          "", "", False, False, False, "New Zealand dollar", "$", "NZD",
-         "", "", "",
+         "", "", "", "Niue",
     ],
     "norfolk|^NF$|^NFK$": [
          "Norfolk Island", "Norfolk Island", "Australia", "NF", "NFK", 574,
@@ -1368,7 +1416,7 @@ regex_dict = {
          "167°57′17.0″E", "Oceania", "Australia and New Zealand", "🇳🇫", 36.0,
          36.0, 0.0, "Kingston", -29.05, 167.9667, "29°3′S", "167°58′E",
          "", "", "", "", False, False, False, "Australian dollar", "$",
-         "AUD", "", "", "",
+         "AUD", "", "", "", "Norfolkön",
     ],
     ".*macedonia|^MK$|^MKD$": [
          "North Macedonia", "North Macedonia", "UN member state", "MK", "MKD",
@@ -1377,7 +1425,7 @@ regex_dict = {
          25433.0, 280.0, "Skopje", 42.0, 21.4333, "42°0′N", "21°26′E",
          2083380.0, 12266949805.1436, 5888.004, 16926.6241, False,
          False, False, "Macedonian denar", "ден", "MKD", 33.0, 0.557,
-         0.774,
+         0.774, "Nordmakedonien",
     ],
     ".*mariana|^MP$|^MNP$": [
          "Northern Mariana Islands (the)", "Northern Mariana Islands",
@@ -1386,6 +1434,7 @@ regex_dict = {
          "Micronesia", "🇲🇵", 464.0, 464.0, 0.0, "Saipan", 15.1833,
          145.75, "15°11′N", "145°45′E", 57557.0, "", "", "", False,
          False, False, "United States dollar", "$", "USD", "", "", "",
+         "Nordmarianerna",
     ],
     "norway|^NO$|^NOR$": [
          "Norway", "Norway", "UN member state", "NO", "NOR", 578, ".no",
@@ -1394,6 +1443,7 @@ regex_dict = {
          "Oslo", 59.9139, 10.7522, "59°54′50″N", "10°45′8″E", 5379475.0,
          362008956544.827, 67294.477, 63197.9815, True, False,
          True, "Norwegian krone", "kr", "NOK", 27.6, 0.771, 0.957,
+         "Norge",
     ],
     "oman|^OM$|^OMN$": [
          "Oman", "Oman", "UN member state", "OM", "OMN", 512, ".om", "+968",
@@ -1401,7 +1451,7 @@ regex_dict = {
          "Western Asia", "🇴🇲", 309500.0, 309500.0, 0.0, "Muscat",
          23.5889, 58.4083, "23°35′20″N", "58°24′30″E", 5106622.0, "", "",
          "", False, False, False, "Omani rial", "ر.ع.", "OMR", "",
-         0.608, 0.813,
+         0.608, 0.813, "Oman",
     ],
     "pakistan|^PK$|^PAK$": [
          "Pakistan", "Pakistan", "UN member state", "PK", "PAK", 586, ".pk",
@@ -1410,6 +1460,7 @@ regex_dict = {
          33.6931, 73.0639, "33°41′35″N", "73°03′50″E", 220892331.0,
          263686552686.208, 1193.7334, 4876.6306, False, False,
          False, "Pakistani rupee", "₨", "PKR", 31.6, 0.406, 0.557,
+         "Pakistan",
     ],
     "palau|^PW$|^PLW$": [
          "Palau", "Palau", "UN member state", "PW", "PLW", 585, ".pw",
@@ -1417,7 +1468,7 @@ regex_dict = {
          "Oceania", "Micronesia", "🇵🇼", 459.0, 459.0, 0.0, "Ngerulmud",
          7.5006, 134.6242, "7°30′2″N", "134°37′27″E", 18092.0, "", "",
          "", False, False, False, "United States dollar", "$", "USD", "",
-         0.588, 0.826,
+         0.588, 0.826, "Palau",
     ],
     ".*palestine|^PS$|^PSE$": [
          "Palestine, State of", "Palestine", "UN observer state", "PS", "PSE",
@@ -1425,7 +1476,7 @@ regex_dict = {
          "35°17′49.0″E", "Asia", "Western Asia", "🇵🇸", "", "", "", "", "", "",
          "", "", 4803269.0, 15561300000.0, 3239.7311, 5690.2875,
          False, False, False, "Israeli new shekel", "₪", "ILS", 33.7,
-         0.58, 0.708,
+         0.58, 0.708, "Palestina",
     ],
     "panama|^PA$|^PAN$": [
          "Panama", "Panama", "UN member state", "PA", "PAN", 591, ".pa",
@@ -1434,7 +1485,7 @@ regex_dict = {
          1080.0, "Panama City", 8.9833, -79.5167, "8°59′N", "79°31′W",
          4314768.0, 52938100000.0, 12269.049, 26775.6945, False,
          False, False, "Panamanian balboa", "B/.", "PAB", 49.8, 0.502,
-         0.815,
+         0.815, "Panama",
     ],
     ".*papua new guinea|^PG$|^PNG$": [
          "Papua New Guinea", "Papua New Guinea", "UN member state", "PG",
@@ -1443,7 +1494,7 @@ regex_dict = {
          9980.0, "Port Moresby", -9.4789, 147.1494, "9°28′44″S",
          "147°08′58″E", 8947027.0, 23591523025.2864, 2636.8002,
          4326.4376, False, False, False, "Papua New Guinean kina", "K",
-         "PGK", 41.9, 0.429, 0.555,
+         "PGK", 41.9, 0.429, 0.555, "Papua Nya Guinea",
     ],
     "paraguay|^PY$|^PRY$": [
          "Paraguay", "Paraguay", "UN member state", "PY", "PRY", 600, ".py",
@@ -1452,7 +1503,7 @@ regex_dict = {
          9450.0, "Asunción", -25.3, -57.6333, "25°18′S", "57°38′W",
          7132530.0, 35304238230.1132, 4949.7497, 13012.8757, False,
          False, False, "Paraguayan guaraní", "₲", "PYG", 45.7, 0.528,
-         0.728,
+         0.728, "Paraguay",
     ],
     "peru|^PE$|^PER$": [
          "Peru", "Peru", "UN member state", "PE", "PER", 604, ".pe", "+51",
@@ -1461,7 +1512,7 @@ regex_dict = {
          5220.0, "Lima", -12.05, -77.0333, "12°03′S", "77°02′W",
          32971846.0, 202014363787.233, 6126.8745, 11879.2359, False,
          False, False, "Peruvian sol", "S/", "PEN", 41.5, 0.605,
-         0.777,
+         0.777, "Peru",
     ],
     ".*philippines|^PH$|^PHL$": [
          "Philippines (the)", "Philippines", "UN member state", "PH", "PHL",
@@ -1470,7 +1521,7 @@ regex_dict = {
          298170.0, 1830.0, "Manila", 14.6, 120.9833, "14°36′N",
          "120°59′E", 109581085.0, 361489354350.0, 3298.8299, 8390.3531,
          False, False, False, "Philippine peso", "₱", "PHP", 42.3,
-         0.516, 0.718,
+         0.516, 0.718, "Filippinerna",
     ],
     ".*pitcairn|^PN$|^PCN$": [
          "Pitcairn", "Pitcairn", "United Kingdom", "PN", "PCN", 612, ".pn",
@@ -1478,6 +1529,7 @@ regex_dict = {
          "Oceania", "Polynesia", "🇵🇳", 47.0, 47.0, 0.0, "Adamstown",
          -25.0667, -130.1, "25°4′S", "130°6′W", "", "", "", "", False,
          False, False, "New Zealand dollar", "$", "NZD", "", "", "",
+         "Pitcairnöarna",
     ],
     "poland|^PL$|^POL$": [
          "Poland", "Poland", "UN member state", "PL", "POL", 616, ".pl",
@@ -1485,7 +1537,7 @@ regex_dict = {
          "Europe", "Eastern Europe", "🇵🇱", 312685.0, 304255.0, 8430.0,
          "Warsaw", 52.2333, 21.0167, "52°14′N", "21°1′E", 37950802.0,
          594164690894.936, 15656.1827, 34264.7598, True, True,
-         True, "Polish złoty", "zł", "PLN", 30.2, 0.753, 0.88,
+         True, "Polish złoty", "zł", "PLN", 30.2, 0.753, 0.88, "Polen",
     ],
     "portugal|^PT$|^PRT$": [
          "Portugal", "Portugal", "UN member state", "PT", "PRT", 620, ".pt",
@@ -1493,7 +1545,7 @@ regex_dict = {
          "Europe", "Southern Europe", "🇵🇹", 92090.0, 91470.0, 620.0,
          "Lisbon", 38.7253, -9.15, "38°43′31″N", "9°09′00″W", 10305564.0,
          231255587276.741, 22439.8769, 34495.9225, True, True,
-         True, "Euro", "€", "EUR", 33.5, 0.769, 0.864,
+         True, "Euro", "€", "EUR", 33.5, 0.769, 0.864, "Portugal",
     ],
     ".*puerto rico|^PR$|^PRI$": [
          "Puerto Rico", "Puerto Rico", "United States of America", "PR", "PRI",
@@ -1502,7 +1554,7 @@ regex_dict = {
          9104.0, 8959.0, 145.0, "San Juan", 18.4064, -66.0639,
          "18°24′23″N", "66°3′50″W", 3194034.0, 103138300000.0,
          32290.9211, 35279.347, False, False, False,
-         "United States dollar", "$", "USD", "", "", "",
+         "United States dollar", "$", "USD", "", "", "", "Puerto Rico",
     ],
     "qatar|^QA$|^QAT$": [
          "Qatar", "Qatar", "UN member state", "QA", "QAT", 634, ".qa",
@@ -1510,7 +1562,7 @@ regex_dict = {
          "Asia", "Western Asia", "🇶🇦", 11586.0, 11586.0, 0.0, "Doha",
          25.2867, 51.5333, "25°17′12″N", "51°32′0″E", 2881060.0,
          146373588866.511, 50805.4636, 89948.6106, False, False,
-         False, "Qatari riyal", "ر.ق", "QAR", "", 0.638, 0.848,
+         False, "Qatari riyal", "ر.ق", "QAR", "", 0.638, 0.848, "Qatar",
     ],
     "romania|^RO$|^ROU$": [
          "Romania", "Romania", "UN member state", "RO", "ROU", 642, ".ro",
@@ -1519,7 +1571,7 @@ regex_dict = {
          "Bucharest", 44.4325, 26.1039, "44°25′57″N", "26°6′14″E",
          19286123.0, 248715551366.635, 12896.0886, 31945.7497, False,
          True, True, "Romanian leu", "lei", "RON", 35.8, 0.584,
-         0.828,
+         0.828, "Rumänien",
     ],
     ".*russia|^RU$|^RUS$": [
          "Russian Federation (the)", "Russia", "UN member state", "RU", "RUS",
@@ -1528,7 +1580,7 @@ regex_dict = {
          16377742.0, 720500.0, "Moscow", 55.7558, 37.6172,
          "55°45′21″N", "37°37′2″E", 144104080.0, 1483497784867.6,
          10126.7218, 28213.4478, False, False, False,
-         "Russian ruble", "₽", "RUB", 37.5, 0.681, 0.824,
+         "Russian ruble", "₽", "RUB", 37.5, 0.681, 0.824, "Ryssland",
     ],
     "rwanda|^RW$|^RWA$": [
          "Rwanda", "Rwanda", "UN member state", "RW", "RWA", 646, ".rw",
@@ -1537,13 +1589,13 @@ regex_dict = {
          "Kigali", -1.9439, 30.0594, "1°56′38″S", "30°3′34″E",
          12952209.0, 10333991891.7032, 797.8556, 2213.9612, False,
          False, False, "Rwandan franc", "Fr", "RWF", 43.7, 0.38,
-         0.543,
+         0.543, "Rwanda",
     ],
     "réunion|reunion|^RE$|^REU$": [
          "Réunion", "Réunion", "France", "RE", "REU", 638, ".re", "+262",
          -21.115141, 55.536384, "21°6′54.5″S", "55°32′11.0″E", "Africa",
          "Eastern Africa", "🇷🇪", "", "", "", "", "", "", "", "", "", "", "",
-         "", False, False, False, "", "", "", "", "", "",
+         "", False, False, False, "", "", "", "", "", "", "Réunion",
     ],
     ".*barthélemy|.*barthelemy|.*barths|.*barts|^BL$|^BLM$": [
          "Saint Barthélemy", "Saint Barthélemy", "France", "BL", "BLM", 652,
@@ -1551,6 +1603,7 @@ regex_dict = {
          "North America", "Caribbean", "🇧🇱", 25.0, 25.0, "", "Gustavia",
          17.8979, -62.8506, "17°53′52.47″N", "62°51′2.0″W", "", "", "", "",
          False, False, False, "Euro", "€", "EUR", "", "", "",
+         "Saint-Barthélemy",
     ],
     ".*helena|.*ascension|^SH$|^SHN$": [
          "Saint Helena, Ascension and Tristan da Cunha",
@@ -1559,7 +1612,7 @@ regex_dict = {
          "15°58′1.2″S", "5°42′14.7″W", "Africa", "Western Africa", "🇸🇭",
          394.0, 122.0, 0.0, "Jamestown", -15.9244, -5.7181,
          "15°55′28″S", "5°43′5″W", "", "", "", "", False, False, False,
-         "Saint Helena pound", "£", "SHP", "", "", "",
+         "Saint Helena pound", "£", "SHP", "", "", "", "Sankta Helena",
     ],
     ".*kitts|^KN$|^KNA$": [
          "Saint Kitts and Nevis", "Saint Kitts and Nevis", "UN member state",
@@ -1568,7 +1621,7 @@ regex_dict = {
          261.0, 261.0, 0.0, "Basseterre", 17.3, -62.7333, "17°18′N",
          "62°44′W", 53192.0, 927451851.851852, 17435.9274, 24536.6518,
          False, False, False, "Eastern Caribbean dollar", "$", "XCD", "",
-         0.586, 0.779,
+         0.586, 0.779, "Saint Kitts och Nevis",
     ],
     ".*lucia|^LC$|^LCA$": [
          "Saint Lucia", "Saint Lucia", "UN member state", "LC", "LCA", 662,
@@ -1577,7 +1630,7 @@ regex_dict = {
          10.0, "Castries", 14.0167, -60.9833, "14°01′N", "60°59′W",
          183629.0, 1703364240.74074, 9276.1178, 12943.8219, False,
          False, False, "Eastern Caribbean dollar", "$", "XCD", 51.2,
-         0.603, 0.759,
+         0.603, 0.759, "Saint Lucia",
     ],
     "(?=.*saint|.*st).*martin|^MF$|^MAF$": [
          "Saint Martin (French part)", "Saint Martin", "France", "MF", "MAF",
@@ -1585,7 +1638,7 @@ regex_dict = {
          "63°2′58.7″W", "North America", "Caribbean", "🇲🇫", 54.4, 54.4, "",
          "Marigot", 18.0731, -63.0822, "18°04′23″N", "63°04′56″W",
          38659.0, "", "", "", False, False, False, "Euro", "€", "EUR",
-         "", "", "",
+         "", "", "", "Saint-Martin",
     ],
     ".*miquelon|^PM$|^SPM$": [
          "Saint Pierre and Miquelon", "Saint Pierre and Miquelon", "France",
@@ -1593,7 +1646,7 @@ regex_dict = {
          "46°57′42.4″N", "56°19′36.5″W", "North America", "Northern America",
          "🇵🇲", 242.0, 242.0, 0.0, "St. Pierre", 46.7778, -56.1778,
          "46°46′40″N", "56°10′40″W", "", "", "", "", False, False, False,
-         "Euro", "€", "EUR", "", "", "",
+         "Euro", "€", "EUR", "", "", "", "Saint-Pierre och Miquelon",
     ],
     ".*vincent|.*grenadines|^VC$|^VCT$": [
          "Saint Vincent and the Grenadines",
@@ -1603,7 +1656,7 @@ regex_dict = {
          0.0, "Kingstown", 13.1578, -61.225, "13°09′28″N", "061°13′30″W",
          110947.0, 809681481.481481, 7297.9123, 12770.1492, False,
          False, False, "Eastern Caribbean dollar", "$", "XCD", "", 0.533,
-         0.738,
+         0.738, "Saint Vincent och Grenadinerna",
     ],
     "samoa|^WS$|^WSM$": [
          "Samoa", "Samoa", "UN member state", "WS", "WSM", 882, ".ws",
@@ -1611,7 +1664,7 @@ regex_dict = {
          "Oceania", "Polynesia", "🇼🇸", 2831.0, 2821.0, 10.0, "Apia",
          -13.8333, -171.75, "13°50′S", "171°45′W", 198410.0,
          807027244.42138, 4067.4726, "", False, False, False,
-         "Samoan tālā", "T", "WST", 38.7, 0.548, 0.715,
+         "Samoan tālā", "T", "WST", 38.7, 0.548, 0.715, "Samoa",
     ],
     "san marino|^SM$|^SMR$": [
          "San Marino", "San Marino", "UN member state", "SM", "SMR", 674,
@@ -1619,7 +1672,7 @@ regex_dict = {
          "12°27′28.0″E", "Europe", "Southern Europe", "🇸🇲", 61.0, 61.0,
          0.0, "San Marino", 43.9346, 12.4473, "43°56′4.56″N",
          "12°26′50.28″E", 33938.0, "", "", "", False, False, False,
-         "Euro", "€", "EUR", "", "", "",
+         "Euro", "€", "EUR", "", "", "", "San Marino",
     ],
     ".*tome|.*tomé|^ST$|^STP$": [
          "São Tomé and Príncipe", "São Tomé and Príncipe", "UN member state",
@@ -1628,7 +1681,7 @@ regex_dict = {
          964.0, 0.0, "São Tomé", 0.3361, 6.7306, "0°20′10″N",
          "6°43′50″E", 219161.0, 472914469.91933, 2157.8404, 4274.099,
          False, False, False, "São Tomé and Príncipe dobra", "Db", "STN",
-         56.3, "", 0.625,
+         56.3, "", 0.625, "São Tomé och Príncipe",
     ],
     "saudi|^SA$|^SAU$": [
          "Saudi Arabia", "Saudi Arabia", "UN member state", "SA", "SAU", 682,
@@ -1637,6 +1690,7 @@ regex_dict = {
          "Riyadh", 24.6333, 46.7167, "24°38′N", "46°43′E", 34813867.0,
          700117873249.269, 20110.3162, 46762.4693, False, False,
          False, "Saudi riyal", "﷼", "SAR", "", 0.576, 0.854,
+         "Saudiarabien",
     ],
     "senegal|^SN$|^SEN$": [
          "Senegal", "Senegal", "UN member state", "SN", "SEN", 686, ".sn",
@@ -1645,7 +1699,7 @@ regex_dict = {
          "Dakar", 14.6928, -17.4467, "14°41′34″N", "17°26′48″W",
          16743930.0, 24910904235.857, 1487.7573, 3481.3099, False,
          False, False, "West African CFA franc", "Fr", "XOF", 40.3,
-         0.42, 0.512,
+         0.42, 0.512, "Senegal",
     ],
     "(?!.*montenegro).*serbia|^RS$|^SRB$": [
          "Serbia", "Serbia", "UN member state", "RS", "SRB", 688, ".rs",
@@ -1654,7 +1708,7 @@ regex_dict = {
          "Belgrade", 44.8167, 20.4667, "44°49′N", "20°28′E", 6908224.0,
          52960134078.6888, 7666.2445, 19230.6301, False, False,
          False, "Serbian dinar", "дин. or din.", "RSD", 36.2, 0.677,
-         0.806,
+         0.806, "Serbien",
     ],
     ".*seychelles|^SC$|^SYC$": [
          "Seychelles", "Seychelles", "UN member state", "SC", "SYC", 690,
@@ -1663,6 +1717,7 @@ regex_dict = {
          0.0, "Victoria", -4.6167, 55.45, "4°37′S", "55°27′E", 98462.0,
          1124937500.0, 11425.0929, 25699.7291, False, False, False,
          "Seychellois rupee", "₨", "SCR", 32.1, 0.633, 0.796,
+         "Seychellerna",
     ],
     ".*sierra leone|selone|^SL$|^SLE$": [
          "Sierra Leone", "Sierra Leone", "UN member state", "SL", "SLE", 694,
@@ -1671,7 +1726,7 @@ regex_dict = {
          71620.0, 120.0, "Freetown", 8.4844, -13.2344, "8°29′4″N",
          "13°14′4″W", 7976985.0, 3865018882.89755, 484.5213, 1738.5563,
          False, False, False, "Sierra Leonean leone", "Le", "SLL",
-         35.7, 0.363, 0.452,
+         35.7, 0.363, 0.452, "Sierra Leone",
     ],
     "singapore|^SG$|^SGP$": [
          "Singapore", "Singapore", "UN member state", "SG", "SGP", 702,
@@ -1680,6 +1735,7 @@ regex_dict = {
          "Singapore", 1.2833, 103.8333, "1°17′N", "103°50′E", 5685807.0,
          339998477929.985, 59797.7522, 98525.9544, False, False,
          False, "Singapore dollar", "$", "SGD", "", 0.879, 0.938,
+         "Singapore",
     ],
     "(?=.*sint|.*st).*maarten|^SX$|^SXM$": [
          "Sint Maarten (Dutch part)", "Sint Maarten", "Netherlands", "SX",
@@ -1688,6 +1744,7 @@ regex_dict = {
          34.0, 34.0, 0.0, "Philipsburg", 18.0236, -63.0458,
          "18°01′25″N", "63°02′45″W", 40812.0, "", "", "", False, False,
          False, "Netherlands Antillean guilder", "ƒ", "ANG", "", "", "",
+         "Sint Maarten",
     ],
     ".*slovak|^SK$|^SVK$": [
          "Slovakia", "Slovakia", "UN member state", "SK", "SVK", 703, ".sk",
@@ -1696,6 +1753,7 @@ regex_dict = {
          "Bratislava", 48.1439, 17.1097, "48°08′38″N", "17°06′35″E",
          5458827.0, 104574146248.364, 19156.8896, 31832.3946, True,
          True, True, "Euro", "€", "EUR", 25.0, 0.665, 0.86,
+         "Slovakien",
     ],
     "slovenia|^SI$|^SVN$": [
          "Slovenia", "Slovenia", "UN member state", "SI", "SVN", 705, ".si",
@@ -1704,6 +1762,7 @@ regex_dict = {
          "Ljubljana", 46.0556, 14.5083, "46°03′20″N", "14°30′30″E",
          2100126.0, 52880473699.8803, 25179.6672, 39593.3074, True,
          True, True, "Euro", "€", "EUR", 24.6, 0.775, 0.917,
+         "Slovenien",
     ],
     "solomon|^SB$|^SLB$": [
          "Solomon Islands", "Solomon Islands", "UN member state", "SB", "SLB",
@@ -1712,7 +1771,7 @@ regex_dict = {
          910.0, "Honiara", -9.4319, 159.9556, "9°25′55″S", "159°57′20″E",
          686878.0, 1551245525.6045, 2258.4004, 2619.219, False,
          False, False, "Solomon Islands dollar", "$", "SBD", 37.1,
-         0.42, 0.567,
+         0.42, 0.567, "Salomonöarna",
     ],
     "somalia|^SO$|^SOM$": [
          "Somalia", "Somalia", "UN member state", "SO", "SOM", 706, ".so",
@@ -1720,7 +1779,7 @@ regex_dict = {
          "Africa", "Eastern Africa", "🇸🇴", 637657.0, 627337.0, 10320.0,
          "Mogadishu", 2.0333, 45.3333, "02°02′N", "45°20′E", 15893219.0,
          4917607582.22895, 309.4155, 875.1696, False, False, False,
-         "Somali shilling", "Sh", "SOS", 36.8, "", "",
+         "Somali shilling", "Sh", "SOS", 36.8, "", "", "Somalia",
     ],
     "(?=.*africa).*south|s[\., ]|^ZA$|^ZAF$": [
          "South Africa", "South Africa", "UN member state", "ZA", "ZAF", 710,
@@ -1730,6 +1789,7 @@ regex_dict = {
          -25.7461, 28.188, "25°44′46″S", "28°11′17″E", 59308690.0,
          301923639269.552, 5090.715, 12095.8563, False, False,
          False, "South African rand", "R", "ZAR", 63.0, 0.425, 0.709,
+         "Sydafrika",
     ],
     ".*sandwich|^GS$|^SGS$": [
          "South Georgia and the South Sandwich Islands",
@@ -1738,7 +1798,7 @@ regex_dict = {
          "54°25′46.5″S", "36°35′16.5″W", "", "", "🇬🇸", 3903.0, 3903.0,
          0.0, "King Edward Point", -54.2833, -36.5, "54°17′00″S",
          "36°30′00″W", "", "", "", "", False, False, False,
-         "Falkland Islands pound", "£", "FKP", "", "", "",
+         "Falkland Islands pound", "£", "FKP", "", "", "", "Sydgeorgien",
     ],
     "(?=.*south).*sudan|^SS$|^SSD$": [
          "South Sudan", "South Sudan", "UN member state", "SS", "SSD", 728,
@@ -1746,7 +1806,7 @@ regex_dict = {
          "Africa", "Eastern Africa", "🇸🇸", 644329.0, "", "", "Juba", 4.85,
          31.6, "4°51′N", "31°36′E", 11193729.0, "", "", "", False,
          False, False, "South Sudanese pound", "£", "SSP", 44.1, 0.307,
-         0.433,
+         0.433, "Sydsudan",
     ],
     "spain|^ES$|^ESP$": [
          "Spain", "Spain", "UN member state", "ES", "ESP", 724, ".es", "+34",
@@ -1754,7 +1814,7 @@ regex_dict = {
          "Southern Europe", "🇪🇸", 505370.0, 498980.0, 6390.0, "Madrid",
          40.4167, -3.7167, "40°25′N", "3°43′W", 47351567.0,
          1281199091016.35, 27057.1635, 38334.6113, True, True,
-         True, "Euro", "€", "EUR", 34.7, 0.728, 0.904,
+         True, "Euro", "€", "EUR", 34.7, 0.728, 0.904, "Spanien",
     ],
     "sri lanka|^LK$|^LKA$": [
          "Sri Lanka", "Sri Lanka", "UN member state", "LK", "LKA", 144,
@@ -1763,7 +1823,7 @@ regex_dict = {
          "Sri Jayawardenepura Kotte", 6.9167, 79.9167, "6°55′N", "79°55′E",
          21919000.0, 80706600228.6499, 3682.0384, 13225.4088, False,
          False, False, "Sri Lankan rupee", "Rs, රු  or  ரூ", "LKR", 39.3,
-         0.598, 0.782,
+         0.598, 0.782, "Sri Lanka",
     ],
     "(?!.*south).*sudan|^SD$|^SDN$": [
          "Sudan (the)", "Sudan", "UN member state", "SD", "SDN", 729, ".sd",
@@ -1772,7 +1832,7 @@ regex_dict = {
          129813.0, "Khartoum", 15.5006, 32.56, "15°30′2″N", "32°33′36″E",
          43849269.0, 26110829190.4008, 595.4678, 4243.7819, False,
          False, False, "Sudanese pound", "ج.س.", "SDG", 34.2, 0.377,
-         0.51,
+         0.51, "Sudan",
     ],
     "surinam|^SR$|^SUR$": [
          "Suriname", "Suriname", "UN member state", "SR", "SUR", 740, ".sr",
@@ -1781,14 +1841,14 @@ regex_dict = {
          7820.0, "Paramaribo", 5.8522, -55.2039, "5°51′8″N",
          "55°12′14″W", 586634.0, 3807922874.48306, 6491.1391,
          17015.9603, False, False, False, "Surinamese dollar", "$",
-         "SRD", "", "", 0.738,
+         "SRD", "", "", 0.738, "Surinam",
     ],
     "(?=.*svalbard).*jan mayen|^SJ$|^SJM$": [
          "Svalbard and Jan Mayen", "Svalbard and Jan Mayen", "Norway", "SJ",
          "SJM", 744, "", "+47", 78.792212, 19.159548, "78°47′32.0″N",
          "19°9′34.4″E", "Europe", "Northern Europe", "🇸🇯", "", "", "", "", "",
          "", "", "", "", "", "", "", False, False, False,
-         "Norwegian krone", "kr", "NOK", "", "", "",
+         "Norwegian krone", "kr", "NOK", "", "", "", "Svalbard och Jan Mayen",
     ],
     "sweden|^SE$|^SWE$": [
          "Sweden", "Sweden", "UN member state", "SE", "SWE", 752, ".se",
@@ -1797,7 +1857,7 @@ regex_dict = {
          "Stockholm", 59.3294, 18.0686, "59°19′46″N", "18°4′7″E",
          10353442.0, 537609865719.019, 51925.7138, 54563.1214, True,
          True, True, "Swedish krona", "kr", "SEK", 30.0, 0.795,
-         0.945,
+         0.945, "Sverige",
     ],
     "switzerland|^CH$|^CHE$": [
          "Switzerland", "Switzerland", "UN member state", "CH", "CHE", 756,
@@ -1806,6 +1866,7 @@ regex_dict = {
          "Bern", 46.9481, 7.4475, "46°56′53″N", "7°26′51″E", 8636896.0,
          747968636174.008, 86601.5564, 71352.3526, True, False,
          False, "Swiss franc", "Fr.", "CHF", 33.1, 0.756, 0.955,
+         "Schweiz",
     ],
     ".*syria|^SY$|^SYR$": [
          "Syrian Arab Republic (the)", "Syria", "UN member state", "SY", "SYR",
@@ -1813,7 +1874,7 @@ regex_dict = {
          "38°35′49.5″E", "Asia", "Western Asia", "🇸🇾", 187437.0, 185887.0,
          1550.0, "Damascus", 33.5131, 36.2919, "33°30′47″N",
          "36°17′31″E", 17500657.0, "", "", "", False, False, False,
-         "Syrian pound", "£ or ل.س", "SYP", 37.5, "", 0.567,
+         "Syrian pound", "£ or ل.س", "SYP", 37.5, "", 0.567, "Syrien",
     ],
     "taiwan|^TW$|^TWN$": [
          "Taiwan (Province of China)", "Taiwan", "Disputed", "TW", "TWN",
@@ -1821,7 +1882,7 @@ regex_dict = {
          "120°57′37.9″E", "Asia", "Eastern Asia", "🇹🇼", 35980.0, 32260.0,
          3720.0, "Taipei", 25.0667, 121.5167, "25°04′N", "121°31′E", "",
          "", "", "", False, False, False, "New Taiwan dollar", "$",
-         "TWD", "", "", "",
+         "TWD", "", "", "", "Taiwan",
     ],
     "tajikistan|^TJ$|^TJK$": [
          "Tajikistan", "Tajikistan", "UN member state", "TJ", "TJK", 762,
@@ -1830,7 +1891,7 @@ regex_dict = {
          2590.0, "Dushanbe", 38.5367, 68.78, "38°32′12″N", "68°46′48″E",
          9537642.0, 8194150301.78552, 859.138, 3858.4294, False,
          False, False, "Tajikistani samani", "ЅМ", "TJS", 34.0, 0.504,
-         0.668,
+         0.668, "Tadzjikistan",
     ],
     ".*tanzania|^TZ$|^TZA$": [
          "Tanzania, the United Republic of", "Tanzania", "UN member state",
@@ -1840,6 +1901,7 @@ regex_dict = {
          "6°10′23″S", "35°44′31″E", 59734213.0, 62409748426.5824,
          1076.4704, 2780.0555, False, False, False,
          "Tanzanian shilling", "Sh", "TZS", 40.5, 0.39, 0.529,
+         "Tanzania",
     ],
     "thailand|^TH$|^THA$": [
          "Thailand", "Thailand", "UN member state", "TH", "THA", 764, ".th",
@@ -1848,6 +1910,7 @@ regex_dict = {
          "Bangkok", 13.7525, 100.4942, "13°45′09″N", "100°29′39″E",
          69799978.0, 501794961925.244, 7189.0418, 18236.1761, False,
          False, False, "Thai baht", "฿", "THB", 34.9, 0.609, 0.777,
+         "Thailand",
     ],
     "timor.*lest|east timor|^TL$|^TLS$": [
          "Timor-Leste", "Timor-Leste", "UN member state", "TL", "TLS", 626,
@@ -1856,7 +1919,7 @@ regex_dict = {
          14874.0, 0.0, "Dili", -8.5667, 125.5667, "8°34′S", "125°34′E",
          1318442.0, 1821000000.0, 1381.1757, 3355.8296, False,
          False, False, "United States dollar", "$", "USD", 28.7, 0.454,
-         0.606,
+         0.606, "Östtimor",
     ],
     "togo|^TG$|^TGO$": [
          "Togo", "Togo", "UN member state", "TG", "TGO", 768, ".tg", "+228",
@@ -1865,14 +1928,14 @@ regex_dict = {
          6.1319, 1.2228, "6°7′55″N", "1°13′22″E", 8278737.0,
          7574635241.30191, 914.9506, 2223.6315, False, False,
          False, "West African CFA franc", "Fr", "XOF", 43.1, 0.432,
-         0.515,
+         0.515, "Togo",
     ],
     "tokelau|^TK$|^TKL$": [
          "Tokelau", "Tokelau ", "New Zealand", "TK", "TKL", 772, ".tk",
          "+690", -8.967363, -171.855881, "8°58′2.5″S", "171°51′21.2″W",
          "Oceania", "Polynesia", "🇹🇰", 12.0, 12.0, 0.0, "", "", "", "",
          "", "", "", "", "", False, False, False, "New Zealand dollar",
-         "$", "NZD", "", "", "",
+         "$", "NZD", "", "", "", "Tokelauöarna",
     ],
     "tonga|^TO$|^TON$": [
          "Tonga", "Tonga", "UN member state", "TO", "TON", 776, ".to",
@@ -1880,7 +1943,7 @@ regex_dict = {
          "Oceania", "Polynesia", "🇹🇴", 747.0, 717.0, 30.0, "Nukuʻalofa",
          -21.1333, -175.2, "21°8′0″S", "175°12′0″W", 105697.0, "", "",
          "", False, False, False, "Tongan paʻanga", "T$", "TOP", 37.6,
-         0.531, 0.725,
+         0.531, 0.725, "Tonga",
     ],
     ".*trinidad|.*tobago|^TT$|^TTO$": [
          "Trinidad and Tobago", "Trinidad and Tobago", "UN member state", "TT",
@@ -1889,7 +1952,7 @@ regex_dict = {
          5128.0, 5128.0, 0.0, "Port of Spain", 10.6667, -61.5167,
          "10°40′N", "61°31′W", 1399491.0, 21529824769.2969, 15384.0395,
          25031.1922, False, False, False, "Trinidad and Tobago dollar",
-         "$", "TTD", "", 0.603, 0.796,
+         "$", "TTD", "", 0.603, 0.796, "Trinidad och Tobago",
     ],
     "tunisia|^TN$|^TUN$": [
          "Tunisia", "Tunisia", "UN member state", "TN", "TUN", 788, ".tn",
@@ -1898,7 +1961,7 @@ regex_dict = {
          "Tunis", 36.8064, 10.1817, "36°48′23″N", "10°10′54″E",
          11818618.0, 39235672868.2722, 3319.819, 10261.6908, False,
          False, False, "Tunisian dinar", "د.ت", "TND", 32.8, 0.517,
-         0.74,
+         0.74, "Tunisien",
     ],
     "turkey|^TR$|^TUR$": [
          "Turkey", "Turkey", "UN member state", "TR", "TUR", 792, ".tr",
@@ -1907,6 +1970,7 @@ regex_dict = {
          "Ankara", 39.93, 32.85, "39°55′48″N", "32°51′00″E", 84339067.0,
          720101212394.114, 8538.1691, 28119.453, True, False,
          False, "Turkish lira", "₺", "TRY", 41.9, 0.649, 0.82,
+         "Turkiet",
     ],
     "turkmenistan|^TM$|^TKM$": [
          "Turkmenistan", "Turkmenistan", "UN member state", "TM", "TKM", 795,
@@ -1914,7 +1978,7 @@ regex_dict = {
          "58°46′10.1″E", "Asia", "Central Asia", "🇹🇲", 488100.0, 469930.0,
          18170.0, "Ashgabat", 37.9333, 58.3667, "37°56′N", "58°22′E",
          6031187.0, "", "", "", False, False, False,
-         "Turkmenistan manat", "m", "TMT", "", "", 0.715,
+         "Turkmenistan manat", "m", "TMT", "", "", 0.715, "Turkmenistan",
     ],
     "(?=.*turks).*caicos|^TC$|^TCA$": [
          "Turks and Caicos Islands (the)", "Turks and Caicos Islands",
@@ -1924,6 +1988,7 @@ regex_dict = {
          21.4589, -71.1389, "21°27′32″N", "71°08′20″W", 38718.0,
          924583000.0, 23879.9266, 22281.9222, False, False, False,
          "United States dollar", "$", "USD", "", "", "",
+         "Turks- och Caicosöarna",
     ],
     "tuvalu|^TV$|^TUV$": [
          "Tuvalu", "Tuvalu", "UN member state", "TV", "TUV", 798, ".tv",
@@ -1931,7 +1996,7 @@ regex_dict = {
          "Oceania", "Polynesia", "🇹🇻", 26.0, 26.0, 0.0, "Funafuti",
          -8.5167, 179.2, "08°31′S", "179°12′E", 11792.0,
          48855550.2030142, 4143.1098, 4653.2337, False, False,
-         False, "Tuvaluan dollar", "$", "TVD", 39.1, 0.448, "",
+         False, "Tuvaluan dollar", "$", "TVD", 39.1, 0.448, "", "Tuvalu",
     ],
     "uganda|^UG$|^UGA$": [
          "Uganda", "Uganda", "UN member state", "UG", "UGA", 800, ".ug",
@@ -1940,7 +2005,7 @@ regex_dict = {
          "Kampala", 0.3136, 32.5811, "00°18′49″N", "32°34′52″E",
          45741000.0, 37372032557.5944, 817.0358, 2297.1787, False,
          False, False, "Ugandan shilling", "Sh", "UGX", 42.8, 0.384,
-         0.544,
+         0.544, "Uganda",
     ],
     "ukraine|^UA$|^UKR$": [
          "Ukraine", "Ukraine", "UN member state", "UA", "UKR", 804, ".ua",
@@ -1949,6 +2014,7 @@ regex_dict = {
          "Kyiv", 50.45, 30.5233, "50°27′00″N", "30°31′24″E", 44134693.0,
          155582008717.426, 3726.9271, 13056.7021, False, False,
          False, "Ukrainian hryvnia", "₴", "UAH", 26.6, 0.631, 0.779,
+         "Ukraina",
     ],
     ".*united arab emirates|UAE|^AE$|^ARE$": [
          "United Arab Emirates (the)", "United Arab Emirates",
@@ -1957,7 +2023,7 @@ regex_dict = {
          "🇦🇪", 83600.0, 83600.0, 0.0, "Abu Dhabi", 24.4667, 54.3667,
          "24°28′N", "54°22′E", 9890400.0, "", "", "", False, False,
          False, "United Arab Emirates dirham", "د.إ", "AED", 26.0, 0.673,
-         0.89,
+         0.89, "Förenade Arabemiraten",
     ],
     "u\.k\.|united kingdom|gb$|g\.b\.|great britain|^GB$|^GBR$": [
          "United Kingdom of Great Britain and Northern Ireland (the)",
@@ -1967,6 +2033,7 @@ regex_dict = {
          51.5072, -0.1275, "51°30′26″N", "0°7′39″W", 67215293.0,
          2707743777173.91, 40284.6385, 44916.2283, True, False,
          False, "Pound sterling", "£", "GBP", 35.1, 0.783, 0.932,
+         "Storbritannien",
     ],
     "(?=.*minor outlying).*(united states|u\.s\.|us$)|^UM$|^UMI$": [
          "United States Minor Outlying Islands (the)",
@@ -1975,6 +2042,7 @@ regex_dict = {
          "12°1′18.1″N", "177°35′25.9″E", "", "", "🇺🇲", "", "", "", "", "", "",
          "", "", "", "", "", "", False, False, False,
          "United States dollar", "$", "USD", "", "", "",
+         "Förenta staternas mindre öar i Oceanien och Västindien",
     ],
     "u[\.]*s[\.]*a[\.]*$|u[\.]*s[\.]*$|.*united states of america|(?!.*minor).*united states$|^US$|^USA$": [
          "United States of America (the)", "United States", "UN member state",
@@ -1984,6 +2052,7 @@ regex_dict = {
          38.91, -77.0147, "38°54′36″N", "77°00′53″W", 329484123.0,
          20936600000000.0, 63543.5778, 63543.5778, True, False,
          False, "United States dollar", "$", "USD", 41.4, 0.702, 0.926,
+         "USA",
     ],
     "uruguay|^UY$|^URY$": [
          "Uruguay", "Uruguay", "UN member state", "UY", "URY", 858, ".uy",
@@ -1992,7 +2061,7 @@ regex_dict = {
          1200.0, "Montevideo", -34.8836, -56.1819, "34°53′1″S",
          "56°10′55″W", 3473727.0, 53628827440.3582, 15438.4117,
          22795.0588, False, False, False, "Uruguayan peso", "$", "UYU",
-         39.7, 0.599, 0.817,
+         39.7, 0.599, 0.817, "Uruguay",
     ],
     "uzbekistan|^UZ$|^UZB$": [
          "Uzbekistan", "Uzbekistan", "UN member state", "UZ", "UZB", 860,
@@ -2001,7 +2070,7 @@ regex_dict = {
          22000.0, "Tashkent", 41.3, 69.2667, "41°18′N", "69°16′E",
          34232050.0, 57707189945.4214, 1685.7649, 7378.2547, False,
          False, False, "Uzbekistani soʻm", "so'm or сўм", "UZS", 35.3,
-         0.623, 0.72,
+         0.623, 0.72, "Uzbekistan",
     ],
     "vanuatu|^VU$|^VUT$": [
          "Vanuatu", "Vanuatu", "UN member state", "VU", "VUT", 548, ".vu",
@@ -2010,7 +2079,7 @@ regex_dict = {
          "Port Vila", -17.7333, 168.3167, "17°44′S", "168°19′E",
          307150.0, 854793640.145606, 2782.9843, 2914.5103, False,
          False, False, "Vanuatu vatu", "Vt", "VUV", 37.6, 0.455,
-         0.609,
+         0.609, "Vanuatu",
     ],
     "venezuela|^VE$|^VEN$": [
          "Venezuela (Bolivarian Republic of)", "Venezuela", "UN member state",
@@ -2019,7 +2088,7 @@ regex_dict = {
          912050.0, 882050.0, 30000.0, "Caracas", 10.4806, -66.9036,
          "10°28′50″N", "66°54′13″W", 28435943.0, "", "", "", False,
          False, False, "Venezuelan bolívar", "Bs.S. or Bs.", "VES", 44.8,
-         "", 0.711,
+         "", 0.711, "Venezuela",
     ],
     "vietnam|viet nam|^VN$|^VNM$": [
          "Viet Nam", "Viet Nam", "UN member state", "VN", "VNM", 704, ".vn",
@@ -2028,7 +2097,7 @@ regex_dict = {
          "Hanoi", 21.0283, 105.8542, "21°01′42″N", "105°51′15″E",
          97338583.0, 271158442059.082, 2785.7242, 8650.6537, False,
          False, False, "Vietnamese đồng", "₫", "VND", 35.7, 0.69,
-         0.704,
+         0.704, "Vietnam",
     ],
     "(?=.*virgin).*(u\.k\.|uk$|\(uk\)|british)|^VG$|^VGB$": [
          "Virgin Islands (British)", "Virgin Islands (British)",
@@ -2037,7 +2106,7 @@ regex_dict = {
          "Caribbean", "🇻🇬", 151.0, 151.0, 0.0, "Road Town", 18.4314,
          -64.6231, "18°25′53″N", "64°37′23″W", 30237.0, "", "", "",
          False, False, False, "United States dollar", "$", "USD", "", "",
-         "",
+         "", "Brittiska Jungfruöarna",
     ],
     "(?=.*virgin).*(u\.s\.|us$|\(us\)|united states)|^VI$|^VIR$": [
          "Virgin Islands (U.S.)", "Virgin Islands (U.S.)",
@@ -2046,7 +2115,7 @@ regex_dict = {
          "North America", "Caribbean", "🇻🇮", "", "", "", "Charlotte Amalie",
          18.35, -64.95, "18°21′N", "64°57′W", 106290.0, "", "", "",
          False, False, False, "United States dollar", "$", "USD", "", "",
-         "",
+         "", "Amerikanska Jungfruöarna",
     ],
     "(?=.*wallis).*futuna|^WF$|^WLF$": [
          "Wallis and Futuna", "Wallis and Futuna", "France", "WF", "WLF",
@@ -2054,7 +2123,7 @@ regex_dict = {
          "177°9′21.9″W", "Oceania", "Polynesia", "🇼🇫", 142.0, 142.0, 0.0,
          "Mata Utu", -13.2833, -176.1833, "13°17′S", "176°11′W", "", "",
          "", "", False, False, False, "CFP franc", "₣", "XPF", "", "",
-         "",
+         "", "Wallis- och Futunaöarna",
     ],
     "(?=.*western).*sahara|^EH$|^ESH$": [
          "Western Sahara", "Western Sahara", "Disputed", "EH", "ESH", 732,
@@ -2062,7 +2131,7 @@ regex_dict = {
          "13°25′18.8″W", "Africa", "Northern Africa", "🇪🇭", 266000.0,
          266000.0, 0.0, "El Aaiún", 27.1536, -13.2033, "27°9′13″N",
          "13°12′12″W", "", "", "", "", False, False, False, "", "", "",
-         "", "", "",
+         "", "", "", "Västsahara",
     ],
     "yemen|^YE$|^YEM$": [
          "Yemen", "Yemen", "UN member state", "YE", "YEM", 887, ".ye",
@@ -2070,7 +2139,7 @@ regex_dict = {
          "Asia", "Western Asia", "🇾🇪", 527968.0, 527968.0, 0.0, "Aden",
          12.8, 45.0333, "12°48′N", "45°02′E", 29825968.0, "", "", "",
          False, False, False, "Yemeni rial", "﷼", "YER", 36.7, 0.373,
-         0.47,
+         0.47, "Jemen",
     ],
     "zambia|^ZM$|^ZMB$": [
          "Zambia", "Zambia", "UN member state", "ZM", "ZMB", 894, ".zm",
@@ -2079,6 +2148,7 @@ regex_dict = {
          "Lusaka", -15.4167, 28.2833, "15°25′S", "28°17′E", 18383956.0,
          19320053859.279, 1050.9193, 3449.6093, False, False,
          False, "Zambian kwacha", "ZK", "ZMW", 57.1, 0.397, 0.584,
+         "Zambia",
     ],
     "zimbabwe|^ZW$|^ZWE$": [
          "Zimbabwe", "Zimbabwe", "UN member state", "ZW", "ZWE", 716, ".zw",
@@ -2087,13 +2157,13 @@ regex_dict = {
          "Harare", -17.8292, 31.0522, "17°49′45″S", "31°3′8″E",
          14862927.0, 16768513442.6415, 1128.2107, 2895.4156, False,
          False, False, "RTGS dollar", "ZWL$", "ZWB", 50.3, 0.467,
-         0.571,
+         0.571, "Zimbabwe",
     ],
     "(?!.*[z]).*(a|å)land|^AX$|^ALA$": [
          "Åland Islands", "Åland Islands", "Finland", "AX", "ALA", 248,
          ".ax", "+358 18", 60.209445, 20.134315, "60°12′34.0″N",
          "20°8′3.5″E", "", "", "🇦🇽", "", "", "", "Mariehamn", 60.1,
          19.9333, "60°06′N", "019°56′E", "", "", "", "", False, False,
-         False, "Euro", "€", "EUR", "", "", "",
+         False, "Euro", "€", "EUR", "", "", "", "Åland",
     ],
 }
