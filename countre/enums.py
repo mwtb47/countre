@@ -78,7 +78,7 @@ class Attribute(Enum):
     """World Bank's Human Capital Index."""
 
     HDI = "hdi"
-    """World Bank's Human Development Index."""
+    """United Nations Development Programme's Human Development Index."""
 
     ISO2 = "iso2"
     """The ISO2 code."""
