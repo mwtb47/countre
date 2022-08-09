@@ -31,9 +31,14 @@ def country_info(
         values if more than one attribute is given. The attributes are the
         keys and the list of values are the values.
     """
+    attribute_error_message = (
+        "attributes argument must be Attribute enum or a list of Attribute enums."
+    )
     unique_countries = set(countries)
 
     if isinstance(attributes, list):
+        if not all(isinstance(attr, enums.Attribute) for attr in attributes):
+            raise TypeError(attribute_error_message)
         results = {}
         for attribute in attributes:
             unique_data = _get_unique_data(attribute, unique_countries, no_match)
@@ -44,9 +49,7 @@ def country_info(
         unique_data = _get_unique_data(attributes, unique_countries, no_match)
         return [unique_data[country] for country in countries]
 
-    raise TypeError(
-        "attributes argument must be Attribute enum or a list of Attribute enums."
-    )
+    raise TypeError(attribute_error_message)
 
 
 def _pattern_match(regex_pattern: str, country: str) -> bool:
