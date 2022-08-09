@@ -3,15 +3,15 @@
 
 regex_dict = {
     "Afghanistan": {
-        "regex": "afghanistan|^AF$|^AFG$",
+        "regex": ".*afghanistan|^AF$|^AFG$",
         "iso3": "AFG",
     },
     "Albania": {
-        "regex": "albania|^AL$|^ALB$",
+        "regex": ".*albania|^AL$|^ALB$",
         "iso3": "ALB",
     },
     "Algeria": {
-        "regex": "algeria|^DZ$|^DZA$",
+        "regex": ".*algeria|^DZ$|^DZA$",
         "iso3": "DZA",
     },
     "American Samoa": {
@@ -23,7 +23,7 @@ regex_dict = {
         "iso3": "AND",
     },
     "Angola": {
-        "regex": "angola|^AO$|^AGO$",
+        "regex": ".*angola|^AO$|^AGO$",
         "iso3": "AGO",
     },
     "Anguilla": {
@@ -35,31 +35,31 @@ regex_dict = {
         "iso3": "ATA",
     },
     "Antigua and Barbuda": {
-        "regex": "antigua|barbuda|^AG$|^ATG$",
+        "regex": ".*antigua|.*barbuda|.*waladli|.*wadadli|^AG$|^ATG$",
         "iso3": "ATG",
     },
     "Argentina": {
-        "regex": "argentina|^AR$|^ARG$",
+        "regex": "argentin|^AR$|^ARG$",
         "iso3": "ARG",
     },
     "Armenia": {
-        "regex": "armenia|^AM$|^ARM$",
+        "regex": ".*armenia|^AM$|^ARM$",
         "iso3": "ARM",
     },
     "Aruba": {
-        "regex": "aruba|^AW$|^ABW$",
+        "regex": ".*aruba|^AW$|^ABW$",
         "iso3": "ABW",
     },
     "Australia": {
-        "regex": "australia|^AU$|^AUS$",
+        "regex": ".*australia|^AU$|^AUS$",
         "iso3": "AUS",
     },
     "Austria": {
-        "regex": "austria|^AT$|^AUT$",
+        "regex": ".*austria|^AT$|^AUT$",
         "iso3": "AUT",
     },
     "Azerbaijan": {
-        "regex": "azerbaijan|^AZ$|^AZE$",
+        "regex": ".*azerbaijan|^AZ$|^AZE$",
         "iso3": "AZE",
     },
     "Bahamas (the)": {
@@ -67,11 +67,11 @@ regex_dict = {
         "iso3": "BHS",
     },
     "Bahrain": {
-        "regex": "bahrain|^BH$|^BHR$",
+        "regex": ".*bahrain|^BH$|^BHR$",
         "iso3": "BHR",
     },
     "Bangladesh": {
-        "regex": "bangladesh|^BD$|^BGD$",
+        "regex": ".*bangladesh|^BD$|^BGD$",
         "iso3": "BGD",
     },
     "Barbados": {
@@ -79,11 +79,11 @@ regex_dict = {
         "iso3": "BRB",
     },
     "Belarus": {
-        "regex": "belarus|^BY$|^BLR$",
+        "regex": ".*belarus|^BY$|^BLR$",
         "iso3": "BLR",
     },
     "Belgium": {
-        "regex": "belgium|^BE$|^BEL$",
+        "regex": ".*belgium|^BE$|^BEL$",
         "iso3": "BEL",
     },
     "Belize": {
@@ -91,15 +91,15 @@ regex_dict = {
         "iso3": "BLZ",
     },
     "Benin": {
-        "regex": "benin|^BJ$|^BEN$",
+        "regex": ".*benin|^BJ$|^BEN$",
         "iso3": "BEN",
     },
     "Bermuda": {
-        "regex": "bermuda|^BM$|^BMU$",
+        "regex": ".*bermuda|.*somers isles|^BM$|^BMU$",
         "iso3": "BMU",
     },
     "Bhutan": {
-        "regex": "bhutan|^BT$|^BTN$",
+        "regex": ".*bhutan|^BT$|^BTN$",
         "iso3": "BTN",
     },
     "Bolivia (Plurinational State of)": {
@@ -107,15 +107,15 @@ regex_dict = {
         "iso3": "BOL",
     },
     "Bonaire, Sint Eustatius and Saba": {
-        "regex": ".*bonaire|^BQ$|^BES$",
+        "regex": ".*bonaire.*eustatius.*saba|.*caribbean netherlands|bes islands|^BQ$|^BES$",
         "iso3": "BES",
     },
     "Bosnia and Herzegovina": {
-        "regex": "bosnia|herzegovina|^BA$|^BIH$",
+        "regex": "bosnia|.*herzegovina|^BA$|^BIH$",
         "iso3": "BIH",
     },
     "Botswana": {
-        "regex": "botswana|^BW$|^BWA$",
+        "regex": ".*botswana|^BW$|^BWA$",
         "iso3": "BWA",
     },
     "Bouvet Island": {
@@ -123,19 +123,19 @@ regex_dict = {
         "iso3": "BVT",
     },
     "Brazil": {
-        "regex": "brazil|^BR$|^BRA$",
+        "regex": ".*brazil|^BR$|^BRA$",
         "iso3": "BRA",
     },
     "British Indian Ocean Territory (the)": {
-        "regex": ".*british indian|^IO$|^IOT$",
+        "regex": ".*british indian ocean territory|^BIOT$|^IO$|^IOT$",
         "iso3": "IOT",
     },
     "Brunei Darussalam": {
-        "regex": ".*brunei|^BN$|^BRN$",
+        "regex": "brunei|^BN$|^BRN$",
         "iso3": "BRN",
     },
     "Bulgaria": {
-        "regex": "bulgaria|^BG$|^BGR$",
+        "regex": ".*bulgaria|^BG$|^BGR$",
         "iso3": "BGR",
     },
     "Burkina Faso": {
@@ -143,19 +143,19 @@ regex_dict = {
         "iso3": "BFA",
     },
     "Burundi": {
-        "regex": "burundi|^BI$|^BDI$",
+        "regex": ".*burundi|^BI$|^BDI$",
         "iso3": "BDI",
     },
     "Cabo Verde": {
-        "regex": "cape verde|cabo verde|^CV$|^CPV$",
+        "regex": ".*cape verde|.*cabo verde|^CV$|^CPV$",
         "iso3": "CPV",
     },
     "Cambodia": {
-        "regex": "cambodia|^KH$|^KHM$",
+        "regex": ".*cambodia|kampuchea|^KH$|^KHM$",
         "iso3": "KHM",
     },
     "Cameroon": {
-        "regex": "cameroon|cameroun|^CM$|^CMR$",
+        "regex": ".*cameroon|.*cameroun|^CM$|^CMR$",
         "iso3": "CMR",
     },
     "Canada": {
@@ -171,19 +171,19 @@ regex_dict = {
         "iso3": "CAF",
     },
     "Chad": {
-        "regex": "chad|^TD$|^TCD$",
+        "regex": ".*chad|^TD$|^TCD$",
         "iso3": "TCD",
     },
     "Chile": {
-        "regex": "chile|^CL$|^CHL$",
+        "regex": ".*chile|^CL$|^CHL$",
         "iso3": "CHL",
     },
     "China": {
-        "regex": "(?!.*hong kong|.*taiwan|.*macau|.*macao).*china|^CN$|^CHN$",
+        "regex": "(?!.*hong kong|.*taiwan|.*macau|.*macao).*china|^PRC$|^CN$|^CHN$",
         "iso3": "CHN",
     },
     "Christmas Island": {
-        "regex": "christmas|^CX$|^CXR$",
+        "regex": ".*christmas|^CX$|^CXR$",
         "iso3": "CXR",
     },
     "Cocos (Keeling) Islands (the)": {
@@ -191,7 +191,7 @@ regex_dict = {
         "iso3": "CCK",
     },
     "Colombia": {
-        "regex": "colombia|^CO$|^COL$",
+        "regex": ".*colombia|^CO$|^COL$",
         "iso3": "COL",
     },
     "Comoros (the)": {
@@ -199,7 +199,7 @@ regex_dict = {
         "iso3": "COM",
     },
     "Congo (the Democratic Republic of the)": {
-        "regex": "(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|DRC|DROC|^CD$|^COD$",
+        "regex": "(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|(the )?DRC|(the )?DROC|^CD$|^COD$",
         "iso3": "COD",
     },
     "Congo (the)": {
@@ -211,31 +211,31 @@ regex_dict = {
         "iso3": "COK",
     },
     "Costa Rica": {
-        "regex": "costa rica|^CR$|^CRI$",
+        "regex": ".*costa rica|^CR$|^CRI$",
         "iso3": "CRI",
     },
     "Croatia": {
-        "regex": "croatia|^HR$|^HRV$",
+        "regex": ".*croatia|^HR$|^HRV$",
         "iso3": "HRV",
     },
     "Cuba": {
-        "regex": "cuba|^CU$|^CUB$",
+        "regex": ".*cuba|^CU$|^CUB$",
         "iso3": "CUB",
     },
     "Curaçao": {
-        "regex": "curaçao|curacao|^CW$|^CUW$",
+        "regex": ".*curaçao|.*curacao|^CW$|^CUW$",
         "iso3": "CUW",
     },
     "Cyprus": {
-        "regex": "cyprus|^CY$|^CYP$",
+        "regex": ".*cyprus|^CY$|^CYP$",
         "iso3": "CYP",
     },
     "Czechia": {
-        "regex": "czech|^CZ$|^CZE$",
+        "regex": "czechia|.*czech republic|^CZ$|^CZE$",
         "iso3": "CZE",
     },
     "Côte d'Ivoire": {
-        "regex": "côte d.*ivoire|cote d.*ivoire|ivory coast|^CI$|^CIV$",
+        "regex": ".*côte d.*ivoire|.*cote d.*ivoire|ivory coast|^CI$|^CIV$",
         "iso3": "CIV",
     },
     "Denmark": {
@@ -243,23 +243,23 @@ regex_dict = {
         "iso3": "DNK",
     },
     "Djibouti": {
-        "regex": "djibouti|^DJ$|^DJI$",
+        "regex": ".*djibouti|^DJ$|^DJI$",
         "iso3": "DJI",
     },
     "Dominica": {
-        "regex": "(?!.*rep).*dominica|.*dominique|^DM$|^DMA$",
+        "regex": "(?!.*rep).*dominica$|.*dominique|^DM$|^DMA$",
         "iso3": "DMA",
     },
     "Dominican Republic (the)": {
-        "regex": ".*dominican republic|^DO$|^DOM$",
+        "regex": ".*dominican rep|^DO$|^DOM$",
         "iso3": "DOM",
     },
     "Ecuador": {
-        "regex": "ecuador|^EC$|^ECU$",
+        "regex": ".*ecuador|^EC$|^ECU$",
         "iso3": "ECU",
     },
     "Egypt": {
-        "regex": "egypt|^EG$|^EGY$",
+        "regex": ".*egypt|^EG$|^EGY$",
         "iso3": "EGY",
     },
     "El Salvador": {
@@ -271,39 +271,39 @@ regex_dict = {
         "iso3": "GNQ",
     },
     "Eritrea": {
-        "regex": "eritrea|^ER$|^ERI$",
+        "regex": ".*eritrea|^ER$|^ERI$",
         "iso3": "ERI",
     },
     "Estonia": {
-        "regex": "estonia|^EE$|^EST$",
+        "regex": ".*estonia|^EE$|^EST$",
         "iso3": "EST",
     },
     "Eswatini": {
-        "regex": "eswatini|swaziland|^SZ$|^SWZ$",
+        "regex": ".*eswatini|swaziland|^SZ$|^SWZ$",
         "iso3": "SWZ",
     },
     "Ethiopia": {
-        "regex": "ethiopia|^ET$|^ETH$",
+        "regex": ".*ethiopia|^ET$|^ETH$",
         "iso3": "ETH",
     },
     "Falkland Islands (the) [Malvinas]": {
-        "regex": ".*falkland|^FK$|^FLK$",
+        "regex": ".*falkland|.*malvinas|^FK$|^FLK$",
         "iso3": "FLK",
     },
     "Faroe Islands (the)": {
-        "regex": ".*faroe|^FO$|^FRO$",
+        "regex": ".*faroe|.*faeroe|^FO$|^FRO$",
         "iso3": "FRO",
     },
     "Fiji": {
-        "regex": "fiji|^FJ$|^FJI$",
+        "regex": ".*fiji|^FJ$|^FJI$",
         "iso3": "FJI",
     },
     "Finland": {
-        "regex": "finland|^FI$|^FIN$",
+        "regex": ".*finland|^FI$|^FIN$",
         "iso3": "FIN",
     },
     "France": {
-        "regex": "france|^FR$|^FRA$",
+        "regex": "france|.*french rep|^FR$|^FRA$",
         "iso3": "FRA",
     },
     "French Guiana": {
@@ -315,7 +315,7 @@ regex_dict = {
         "iso3": "PYF",
     },
     "French Southern Territories (the)": {
-        "regex": ".*french southern|^TF$|^ATF$",
+        "regex": ".*french southern|^TAAF$|^TF$|^ATF$",
         "iso3": "ATF",
     },
     "Gabon": {
@@ -331,7 +331,7 @@ regex_dict = {
         "iso3": "GEO",
     },
     "Germany": {
-        "regex": "germany|^DE$|^DEU$",
+        "regex": ".*germany|^DE$|^DEU$",
         "iso3": "DEU",
     },
     "Ghana": {
@@ -343,7 +343,7 @@ regex_dict = {
         "iso3": "GIB",
     },
     "Greece": {
-        "regex": "greece|^GR$|^GRC$",
+        "regex": "greece|hellenic|^GR$|^GRC$",
         "iso3": "GRC",
     },
     "Greenland": {
@@ -363,7 +363,7 @@ regex_dict = {
         "iso3": "GUM",
     },
     "Guatemala": {
-        "regex": "guatemala|^GT$|^GTM$",
+        "regex": ".*guatemala|^GT$|^GTM$",
         "iso3": "GTM",
     },
     "Guernsey": {
@@ -375,31 +375,31 @@ regex_dict = {
         "iso3": "GIN",
     },
     "Guinea-Bissau": {
-        "regex": "guinea.*bissau|^GW$|^GNB$",
+        "regex": ".*guinea.*bissau|^GW$|^GNB$",
         "iso3": "GNB",
     },
     "Guyana": {
-        "regex": "guyana|^GY$|^GUY$",
+        "regex": ".*guyana|^GY$|^GUY$",
         "iso3": "GUY",
     },
     "Haiti": {
-        "regex": "haiti|^HT$|^HTI$",
+        "regex": ".*haiti|^HT$|^HTI$",
         "iso3": "HTI",
     },
     "Heard Island and McDonald Islands": {
-        "regex": ".*heard|^HM$|^HMD$",
+        "regex": ".*heard|^HIMI$|^HM$|^HMD$",
         "iso3": "HMD",
     },
     "Holy See (the)": {
-        "regex": ".*holy see|.*vatican|^VA$|^VAT$",
+        "regex": ".*holy see|.*vatican|.*see of rome|.*petrine see|.*apostolic see|^VA$|^VAT$",
         "iso3": "VAT",
     },
     "Honduras": {
-        "regex": "honduras|^HN$|^HND$",
+        "regex": ".*honduras|^HN$|^HND$",
         "iso3": "HND",
     },
     "Hong Kong": {
-        "regex": "hong kong|^HK$|^HKG$",
+        "regex": ".*hong kong|^HKSAR*|^HK$|^HKG$",
         "iso3": "HKG",
     },
     "Hungary": {
@@ -411,15 +411,15 @@ regex_dict = {
         "iso3": "ISL",
     },
     "India": {
-        "regex": "india$|^IN$|^IND$",
+        "regex": ".*india$|^IN$|^IND$",
         "iso3": "IND",
     },
     "Indonesia": {
-        "regex": "indonesia|^ID$|^IDN$",
+        "regex": ".*indonesia|^ID$|^IDN$",
         "iso3": "IDN",
     },
     "Iran (Islamic Republic of)": {
-        "regex": ".*iran|^IR$|^IRN$",
+        "regex": ".*iran|persia|^IR$|^IRN$",
         "iso3": "IRN",
     },
     "Iraq": {
@@ -427,19 +427,19 @@ regex_dict = {
         "iso3": "IRQ",
     },
     "Ireland": {
-        "regex": "(?!.*north).*ireland|^IE$|^IRL$",
+        "regex": "(?!.*north).*ireland|éire|eire|^IE$|^IRL$",
         "iso3": "IRL",
     },
     "Isle of Man": {
-        "regex": ".*isle of man|^IM$|^IMN$",
+        "regex": ".*isle of man|mann|^IM$|^IMN$",
         "iso3": "IMN",
     },
     "Israel": {
-        "regex": "israel|^IL$|^ISR$",
+        "regex": ".*israel|^IL$|^ISR$",
         "iso3": "ISR",
     },
     "Italy": {
-        "regex": "italy|^IT$|^ITA$",
+        "regex": ".*ital|^IT$|^ITA$",
         "iso3": "ITA",
     },
     "Jamaica": {
@@ -451,19 +451,19 @@ regex_dict = {
         "iso3": "JPN",
     },
     "Jersey": {
-        "regex": "jersey|^JE$|^JEY$",
+        "regex": ".*jersey|^JE$|^JEY$",
         "iso3": "JEY",
     },
     "Jordan": {
-        "regex": "jordan|^JO$|^JOR$",
+        "regex": ".*jordan|^JO$|^JOR$",
         "iso3": "JOR",
     },
     "Kazakhstan": {
-        "regex": "kazakhstan|^KZ$|^KAZ$",
+        "regex": ".*kazakhstan|^KZ$|^KAZ$",
         "iso3": "KAZ",
     },
     "Kenya": {
-        "regex": "kenya|^KE$|^KEN$",
+        "regex": ".*kenya|^KE$|^KEN$",
         "iso3": "KEN",
     },
     "Kiribati": {
@@ -471,11 +471,11 @@ regex_dict = {
         "iso3": "KIR",
     },
     "Korea (the Democratic People's Republic of)": {
-        "regex": "(?=.*korea).*(north|dem|n[\\. ]*)|^KP$|^PRK$",
+        "regex": "(?=.*korea).*(north|dem|n[\\. ]*)|^DPRK$|^KP$|^PRK$",
         "iso3": "PRK",
     },
     "Korea (the Republic of)": {
-        "regex": "(?!.*dem|.*people|.*north|.*n[\\., ]|DPR).*korea|^KR$|^KOR$",
+        "regex": "(?!.*dem|.*people|.*north|.*n[\\., ]|DPR).*korea|^ROK$|^KR$|^KOR$",
         "iso3": "KOR",
     },
     "Kosovo (the Republic of)": {
@@ -483,7 +483,7 @@ regex_dict = {
         "iso3": "XKX",
     },
     "Kuwait": {
-        "regex": "kuwait|^KW$|^KWT$",
+        "regex": ".*kuwait|kureyn|^KW$|^KWT$",
         "iso3": "KWT",
     },
     "Kyrgyzstan": {
@@ -491,51 +491,51 @@ regex_dict = {
         "iso3": "KGZ",
     },
     "Lao People's Democratic Republic (the)": {
-        "regex": ".*lao|^LA$|^LAO$",
+        "regex": ".*lao\\b|^laos$|^LA$|^LAO$",
         "iso3": "LAO",
     },
     "Latvia": {
-        "regex": "latvia|^LV$|^LVA$",
+        "regex": ".*latvia|^LV$|^LVA$",
         "iso3": "LVA",
     },
     "Lebanon": {
-        "regex": "lebanon|^LB$|^LBN$",
+        "regex": ".*leban|^LB$|^LBN$",
         "iso3": "LBN",
     },
     "Lesotho": {
-        "regex": "lesotho|^LS$|^LSO$",
+        "regex": ".*lesotho|^LS$|^LSO$",
         "iso3": "LSO",
     },
     "Liberia": {
-        "regex": "liberia|^LR$|^LBR$",
+        "regex": ".*liberia|^LR$|^LBR$",
         "iso3": "LBR",
     },
     "Libya": {
-        "regex": "libya|^LY$|^LBY$",
+        "regex": ".*libya|^LY$|^LBY$",
         "iso3": "LBY",
     },
     "Liechtenstein": {
-        "regex": "liechtenstein|^LI$|^LIE$",
+        "regex": ".*liechtenstein|^LI$|^LIE$",
         "iso3": "LIE",
     },
     "Lithuania": {
-        "regex": "lithuania|^LT$|^LTU$",
+        "regex": ".*lithuania|^LT$|^LTU$",
         "iso3": "LTU",
     },
     "Luxembourg": {
-        "regex": "luxembourg|^LU$|^LUX$",
+        "regex": ".*luxembourg|^LU$|^LUX$",
         "iso3": "LUX",
     },
     "Macao": {
-        "regex": ".*macao|.*macau|^MO$|^MAC$",
+        "regex": ".*macao|.*macau|^MSAR$|^MO$|^MAC$",
         "iso3": "MAC",
     },
     "Madagascar": {
-        "regex": "madagascar|^MG$|^MDG$",
+        "regex": ".*madagascar|^MG$|^MDG$",
         "iso3": "MDG",
     },
     "Malawi": {
-        "regex": "malawi|^MW$|^MWI$",
+        "regex": ".*malawi|^MW$|^MWI$",
         "iso3": "MWI",
     },
     "Malaysia": {
@@ -543,15 +543,15 @@ regex_dict = {
         "iso3": "MYS",
     },
     "Maldives": {
-        "regex": "maldives|^MV$|^MDV$",
+        "regex": ".*maldives|^MV$|^MDV$",
         "iso3": "MDV",
     },
     "Mali": {
-        "regex": "mali$|^ML$|^MLI$",
+        "regex": ".*mali$|^ML$|^MLI$",
         "iso3": "MLI",
     },
     "Malta": {
-        "regex": "malta|^MT$|^MLT$",
+        "regex": ".*malta|^MT$|^MLT$",
         "iso3": "MLT",
     },
     "Marshall Islands (the)": {
@@ -563,11 +563,11 @@ regex_dict = {
         "iso3": "MTQ",
     },
     "Mauritania": {
-        "regex": "mauritania|^MR$|^MRT$",
+        "regex": ".*mauritania|^MR$|^MRT$",
         "iso3": "MRT",
     },
     "Mauritius": {
-        "regex": "mauritius|^MU$|^MUS$",
+        "regex": ".*mauritius|^MU$|^MUS$",
         "iso3": "MUS",
     },
     "Mayotte": {
@@ -575,7 +575,7 @@ regex_dict = {
         "iso3": "MYT",
     },
     "Mexico": {
-        "regex": "mexico|^MX$|^MEX$",
+        "regex": ".*mexic|^MX$|^MEX$",
         "iso3": "MEX",
     },
     "Micronesia (Federated States of)": {
@@ -587,7 +587,7 @@ regex_dict = {
         "iso3": "MDA",
     },
     "Monaco": {
-        "regex": "monaco|^MC$|^MCO$",
+        "regex": ".*monaco|^MC$|^MCO$",
         "iso3": "MCO",
     },
     "Mongolia": {
@@ -603,31 +603,31 @@ regex_dict = {
         "iso3": "MSR",
     },
     "Morocco": {
-        "regex": "morocco|^MA$|^MAR$",
+        "regex": ".*morocco|^MA$|^MAR$",
         "iso3": "MAR",
     },
     "Mozambique": {
-        "regex": "mozambique|^MZ$|^MOZ$",
+        "regex": ".*mozambique|^MZ$|^MOZ$",
         "iso3": "MOZ",
     },
     "Myanmar": {
-        "regex": "myanmar|burma|^MM$|^MMR$",
+        "regex": ".*myanmar|burma|^MM$|^MMR$",
         "iso3": "MMR",
     },
     "Namibia": {
-        "regex": "namibia|^NA$|^NAM$",
+        "regex": ".*namibia|^NA$|^NAM$",
         "iso3": "NAM",
     },
     "Nauru": {
-        "regex": "nauru|^NR$|^NRU$",
+        "regex": ".*nauru|pleasant island|^NR$|^NRU$",
         "iso3": "NRU",
     },
     "Nepal": {
-        "regex": "nepal|^NP$|^NPL$",
+        "regex": ".*nepal|^NP$|^NPL$",
         "iso3": "NPL",
     },
     "Netherlands (the)": {
-        "regex": "(?!.*antilles).*netherlands|^NL$|^NLD$",
+        "regex": "(?!.*antilles).*netherlands|holland|^NL$|^NLD$",
         "iso3": "NLD",
     },
     "New Caledonia": {
@@ -635,7 +635,7 @@ regex_dict = {
         "iso3": "NCL",
     },
     "New Zealand": {
-        "regex": "new zealand|NZ|n[\\., ] zealand|^NZ$|^NZL$",
+        "regex": "(?=new|n|\\.n).*zealand|^NZ$|^NZL$",
         "iso3": "NZL",
     },
     "Nicaragua": {
@@ -647,7 +647,7 @@ regex_dict = {
         "iso3": "NER",
     },
     "Nigeria": {
-        "regex": "nigeria|^NG$|^NGA$",
+        "regex": ".*nigeria|^NG$|^NGA$",
         "iso3": "NGA",
     },
     "Niue": {
@@ -655,7 +655,7 @@ regex_dict = {
         "iso3": "NIU",
     },
     "Norfolk Island": {
-        "regex": "norfolk|^NF$|^NFK$",
+        "regex": "(?=.*norfolk).*(?=.*island)|^NF$|^NFK$",
         "iso3": "NFK",
     },
     "North Macedonia": {
@@ -663,23 +663,23 @@ regex_dict = {
         "iso3": "MKD",
     },
     "Northern Mariana Islands (the)": {
-        "regex": ".*mariana|^MP$|^MNP$",
+        "regex": ".*mariana|^CNMI$|^MP$|^MNP$",
         "iso3": "MNP",
     },
     "Norway": {
-        "regex": "norway|^NO$|^NOR$",
+        "regex": ".*norway|^NO$|^NOR$",
         "iso3": "NOR",
     },
     "Oman": {
-        "regex": "oman|^OM$|^OMN$",
+        "regex": ".*oman$|^OM$|^OMN$",
         "iso3": "OMN",
     },
     "Pakistan": {
-        "regex": "pakistan|^PK$|^PAK$",
+        "regex": ".*pakistan|^PK$|^PAK$",
         "iso3": "PAK",
     },
     "Palau": {
-        "regex": "palau|^PW$|^PLW$",
+        "regex": ".*palau|^belau$|^palaos$|^pelew$|^PW$|^PLW$",
         "iso3": "PLW",
     },
     "Palestine, State of": {
@@ -687,7 +687,7 @@ regex_dict = {
         "iso3": "PSE",
     },
     "Panama": {
-        "regex": "panama|^PA$|^PAN$",
+        "regex": ".*panama|^PA$|^PAN$",
         "iso3": "PAN",
     },
     "Papua New Guinea": {
@@ -695,11 +695,11 @@ regex_dict = {
         "iso3": "PNG",
     },
     "Paraguay": {
-        "regex": "paraguay|^PY$|^PRY$",
+        "regex": ".*paraguay|^PY$|^PRY$",
         "iso3": "PRY",
     },
     "Peru": {
-        "regex": "peru|^PE$|^PER$",
+        "regex": ".*peru|^PE$|^PER$",
         "iso3": "PER",
     },
     "Philippines (the)": {
@@ -711,11 +711,11 @@ regex_dict = {
         "iso3": "PCN",
     },
     "Poland": {
-        "regex": "poland|^PL$|^POL$",
+        "regex": ".*poland|^PL$|^POL$",
         "iso3": "POL",
     },
     "Portugal": {
-        "regex": "portugal|^PT$|^PRT$",
+        "regex": "portug|^PT$|^PRT$",
         "iso3": "PRT",
     },
     "Puerto Rico": {
@@ -723,7 +723,7 @@ regex_dict = {
         "iso3": "PRI",
     },
     "Qatar": {
-        "regex": "qatar|^QA$|^QAT$",
+        "regex": ".*qatar|^QA$|^QAT$",
         "iso3": "QAT",
     },
     "Romania": {
@@ -735,15 +735,15 @@ regex_dict = {
         "iso3": "RUS",
     },
     "Rwanda": {
-        "regex": "rwanda|^RW$|^RWA$",
+        "regex": ".*rwanda|^RW$|^RWA$",
         "iso3": "RWA",
     },
     "Réunion": {
-        "regex": "réunion|reunion|^RE$|^REU$",
+        "regex": ".*réunion|.*reunion|^RE$|^REU$",
         "iso3": "REU",
     },
     "Saint Barthélemy": {
-        "regex": ".*barthélemy|.*barthelemy|.*barths|.*barts|^BL$|^BLM$",
+        "regex": ".*barthélemy|.*barthelemy|.*barth|.*barts|^BL$|^BLM$",
         "iso3": "BLM",
     },
     "Saint Helena, Ascension and Tristan da Cunha": {
@@ -751,7 +751,7 @@ regex_dict = {
         "iso3": "SHN",
     },
     "Saint Kitts and Nevis": {
-        "regex": ".*kitts|^KN$|^KNA$",
+        "regex": ".*kitts|.*nevis|^KN$|^KNA$",
         "iso3": "KNA",
     },
     "Saint Lucia": {
@@ -759,7 +759,7 @@ regex_dict = {
         "iso3": "LCA",
     },
     "Saint Martin (French part)": {
-        "regex": "(?=.*saint|.*st).*martin|^MF$|^MAF$",
+        "regex": ".*(?=.*saint|.*st).*martin|^MF$|^MAF$",
         "iso3": "MAF",
     },
     "Saint Pierre and Miquelon": {
@@ -771,11 +771,11 @@ regex_dict = {
         "iso3": "VCT",
     },
     "Samoa": {
-        "regex": "samoa|^WS$|^WSM$",
+        "regex": "(?!.*america).*samoa$|^WS$|^WSM$",
         "iso3": "WSM",
     },
     "San Marino": {
-        "regex": "san marino|^SM$|^SMR$",
+        "regex": ".*san marino|^SM$|^SMR$",
         "iso3": "SMR",
     },
     "Sao Tome and Principe": {
@@ -783,11 +783,11 @@ regex_dict = {
         "iso3": "STP",
     },
     "Saudi Arabia": {
-        "regex": "saudi|^SA$|^SAU$",
+        "regex": ".*saudi|^KSA$|^SA$|^SAU$",
         "iso3": "SAU",
     },
     "Senegal": {
-        "regex": "senegal|^SN$|^SEN$",
+        "regex": ".*senegal|^SN$|^SEN$",
         "iso3": "SEN",
     },
     "Serbia": {
@@ -799,11 +799,11 @@ regex_dict = {
         "iso3": "SYC",
     },
     "Sierra Leone": {
-        "regex": ".*sierra leone|selone|^SL$|^SLE$",
+        "regex": ".*sierra leone|salone|^SL$|^SLE$",
         "iso3": "SLE",
     },
     "Singapore": {
-        "regex": "singapore|^SG$|^SGP$",
+        "regex": ".*singapore|^SG$|^SGP$",
         "iso3": "SGP",
     },
     "Sint Maarten (Dutch part)": {
@@ -815,35 +815,35 @@ regex_dict = {
         "iso3": "SVK",
     },
     "Slovenia": {
-        "regex": "slovenia|^SI$|^SVN$",
+        "regex": ".*slovenia|^SI$|^SVN$",
         "iso3": "SVN",
     },
     "Solomon Islands": {
-        "regex": "solomon|^SB$|^SLB$",
+        "regex": ".*solomon|^SB$|^SLB$",
         "iso3": "SLB",
     },
     "Somalia": {
-        "regex": "somalia|^SO$|^SOM$",
+        "regex": ".*somalia|^SO$|^SOM$",
         "iso3": "SOM",
     },
     "South Africa": {
-        "regex": "(?=.*africa).*south|s[\\., ]|^ZA$|^ZAF$",
+        "regex": "(?=.*africa).*south|s[\\., ]|^RSA$|^ZA$|^ZAF$",
         "iso3": "ZAF",
     },
     "South Georgia and the South Sandwich Islands": {
-        "regex": ".*sandwich|^GS$|^SGS$",
+        "regex": ".*sandwich|^SGSSI$|^GS$|^SGS$",
         "iso3": "SGS",
     },
     "South Sudan": {
-        "regex": "(?=.*south).*sudan|^SS$|^SSD$",
+        "regex": "(?=.*south).*sudan|.*nilotic|^SS$|^SSD$",
         "iso3": "SSD",
     },
     "Spain": {
-        "regex": "spain|^ES$|^ESP$",
+        "regex": ".*spain|^ES$|^ESP$",
         "iso3": "ESP",
     },
     "Sri Lanka": {
-        "regex": "sri lanka|^LK$|^LKA$",
+        "regex": ".*sri lanka|^LK$|^LKA$",
         "iso3": "LKA",
     },
     "Sudan (the)": {
@@ -851,19 +851,19 @@ regex_dict = {
         "iso3": "SDN",
     },
     "Suriname": {
-        "regex": "surinam|^SR$|^SUR$",
+        "regex": ".*surinam|^SR$|^SUR$",
         "iso3": "SUR",
     },
     "Svalbard and Jan Mayen": {
-        "regex": "(?=.*svalbard).*jan mayen|^SJ$|^SJM$",
+        "regex": ".*svalbard.*jan mayen|^SJ$|^SJM$",
         "iso3": "SJM",
     },
     "Sweden": {
-        "regex": "sweden|^SE$|^SWE$",
+        "regex": ".*sweden|^SE$|^SWE$",
         "iso3": "SWE",
     },
     "Switzerland": {
-        "regex": "switzerland|^CH$|^CHE$",
+        "regex": "switzerland|swiss|^CH$|^CHE$",
         "iso3": "CHE",
     },
     "Syrian Arab Republic (the)": {
@@ -875,7 +875,7 @@ regex_dict = {
         "iso3": "TWN",
     },
     "Tajikistan": {
-        "regex": "tajikistan|^TJ$|^TJK$",
+        "regex": ".*tajikistan|^TJ$|^TJK$",
         "iso3": "TJK",
     },
     "Tanzania, the United Republic of": {
@@ -883,11 +883,11 @@ regex_dict = {
         "iso3": "TZA",
     },
     "Thailand": {
-        "regex": "thailand|^TH$|^THA$",
+        "regex": ".*thailand|^TH$|^THA$",
         "iso3": "THA",
     },
     "Timor-Leste": {
-        "regex": "timor.*lest|east timor|^TL$|^TLS$",
+        "regex": ".*timor.*lest|.*east.*timor|^TL$|^TLS$",
         "iso3": "TLS",
     },
     "Togo": {
@@ -895,39 +895,39 @@ regex_dict = {
         "iso3": "TGO",
     },
     "Tokelau": {
-        "regex": "tokelau|^TK$|^TKL$",
+        "regex": "tokelau|union islands|^TK$|^TKL$",
         "iso3": "TKL",
     },
     "Tonga": {
-        "regex": "tonga|^TO$|^TON$",
+        "regex": ".*tonga|^TO$|^TON$",
         "iso3": "TON",
     },
     "Trinidad and Tobago": {
-        "regex": ".*trinidad|.*tobago|^TT$|^TTO$",
+        "regex": ".*trinidad.*tobago|^TT$|^TTO$",
         "iso3": "TTO",
     },
     "Tunisia": {
-        "regex": "tunisia|^TN$|^TUN$",
+        "regex": ".*tunisia|^TN$|^TUN$",
         "iso3": "TUN",
     },
     "Turkey": {
-        "regex": "turkey|^TR$|^TUR$",
+        "regex": ".*turkey|.*türkiye|^TR$|^TUR$",
         "iso3": "TUR",
     },
     "Turkmenistan": {
-        "regex": "turkmenistan|^TM$|^TKM$",
+        "regex": "turkmeni|^TM$|^TKM$",
         "iso3": "TKM",
     },
     "Turks and Caicos Islands (the)": {
-        "regex": "(?=.*turks).*caicos|^TC$|^TCA$",
+        "regex": ".*turks.*caicos|^TCI$|^TC$|^TCA$",
         "iso3": "TCA",
     },
     "Tuvalu": {
-        "regex": "tuvalu|^TV$|^TUV$",
+        "regex": "tuvalu|ellice islands|^TV$|^TUV$",
         "iso3": "TUV",
     },
     "Uganda": {
-        "regex": "uganda|^UG$|^UGA$",
+        "regex": ".*uganda|^UG$|^UGA$",
         "iso3": "UGA",
     },
     "Ukraine": {
@@ -935,67 +935,67 @@ regex_dict = {
         "iso3": "UKR",
     },
     "United Arab Emirates (the)": {
-        "regex": ".*united arab emirates|UAE|^AE$|^ARE$",
+        "regex": ".*emirates|^UAE$|^AE$|^ARE$",
         "iso3": "ARE",
     },
     "United Kingdom of Great Britain and Northern Ireland (the)": {
-        "regex": "u\\.k\\.|united kingdom|gb$|g\\.b\\.|great britain|^GB$|^GBR$",
+        "regex": "^(the )?uk$|^(the )?u\\.k\\.|(the )?united kingdom|gb$|g\\.b\\.|great britain|^GB$|^GBR$",
         "iso3": "GBR",
     },
     "United States Minor Outlying Islands (the)": {
-        "regex": "(?=.*minor outlying).*(united states|u\\.s\\.|us$)|^UM$|^UMI$",
+        "regex": ".*(?=united states|u\\.s\\.|us).*(?=minor outlying)|^UM$|^UMI$",
         "iso3": "UMI",
     },
     "United States of America (the)": {
-        "regex": "u[\\.]*s[\\.]*a[\\.]*$|u[\\.]*s[\\.]*$|.*united states of america|(?!.*minor).*united states$|^US$|^USA$",
+        "regex": ".*united states of america|(?!.*minor|virgin).*united states$|^(the )?U\.?S\.?$|^(the )?U\.?S\.?A\.?$",
         "iso3": "USA",
     },
     "Uruguay": {
-        "regex": "uruguay|^UY$|^URY$",
+        "regex": ".*uruguay|^UY$|^URY$",
         "iso3": "URY",
     },
     "Uzbekistan": {
-        "regex": "uzbekistan|^UZ$|^UZB$",
+        "regex": ".*uzbekistan|^UZ$|^UZB$",
         "iso3": "UZB",
     },
     "Vanuatu": {
-        "regex": "vanuatu|^VU$|^VUT$",
+        "regex": ".*vanuatu|^VU$|^VUT$",
         "iso3": "VUT",
     },
     "Venezuela (Bolivarian Republic of)": {
-        "regex": "venezuela|^VE$|^VEN$",
+        "regex": ".*venezuela|^VE$|^VEN$",
         "iso3": "VEN",
     },
     "Viet Nam": {
-        "regex": "vietnam|viet nam|^VN$|^VNM$",
+        "regex": ".*vietnam|viet nam|^VN$|^VNM$",
         "iso3": "VNM",
     },
     "Virgin Islands (British)": {
-        "regex": "(?=.*virgin).*(u\\.k\\.|uk$|\\(uk\\)|british)|^VG$|^VGB$",
+        "regex": "(?=.*virgin).*(?=.*u\\.k\\.|uk|british)|^BVI$|^VG$|^VGB$",
         "iso3": "VGB",
     },
     "Virgin Islands (U.S.)": {
-        "regex": "(?=.*virgin).*(u\\.s\\.|us$|\\(us\\)|united states)|^VI$|^VIR$",
+        "regex": "(?=.*virgin).*(?=.*u\\.s\\.|us|united states)|^VI$|^VIR$",
         "iso3": "VIR",
     },
     "Wallis and Futuna": {
-        "regex": "(?=.*wallis).*futuna|^WF$|^WLF$",
+        "regex": ".*wallis.*futuna|^WF$|^WLF$",
         "iso3": "WLF",
     },
     "Western Sahara*": {
-        "regex": "(?=.*western).*sahara|^EH$|^ESH$",
+        "regex": ".*western.*sahara|^EH$|^ESH$",
         "iso3": "ESH",
     },
     "Yemen": {
-        "regex": "yemen|^YE$|^YEM$",
+        "regex": ".*yemen|^YE$|^YEM$",
         "iso3": "YEM",
     },
     "Zambia": {
-        "regex": "zambia|^ZM$|^ZMB$",
+        "regex": ".*zambia|^ZM$|^ZMB$",
         "iso3": "ZMB",
     },
     "Zimbabwe": {
-        "regex": "zimbabwe|^ZW$|^ZWE$",
+        "regex": ".*zimbabwe|^ZW$|^ZWE$",
         "iso3": "ZWE",
     },
     "Åland Islands": {

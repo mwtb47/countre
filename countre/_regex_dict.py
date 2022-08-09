@@ -2,7 +2,7 @@
 
 
 data = {
-    "afghanistan|^AF$|^AFG$": {
+    ".*afghanistan|^AF$|^AFG$": {
         "calling_code": "+93",
         "capital_city": "Kabul",
         "capital_latitude": 69.1783,
@@ -42,7 +42,7 @@ data = {
         "total_area": 652230.0,
         "water_area": 0.0,
     },
-    "albania|^AL$|^ALB$": {
+    ".*albania|^AL$|^ALB$": {
         "calling_code": "+355",
         "capital_city": "Tirana",
         "capital_latitude": 19.8178,
@@ -82,7 +82,7 @@ data = {
         "total_area": 28748.0,
         "water_area": 1350.0,
     },
-    "algeria|^DZ$|^DZA$": {
+    ".*algeria|^DZ$|^DZA$": {
         "calling_code": "+213",
         "capital_city": "Algiers",
         "capital_latitude": 3.0589,
@@ -202,7 +202,7 @@ data = {
         "total_area": 468.0,
         "water_area": 0.0,
     },
-    "angola|^AO$|^AGO$": {
+    ".*angola|^AO$|^AGO$": {
         "calling_code": "+244",
         "capital_city": "Luanda",
         "capital_latitude": 13.2344,
@@ -322,7 +322,7 @@ data = {
         "total_area": 14200000.0,
         "water_area": "",
     },
-    "antigua|barbuda|^AG$|^ATG$": {
+    ".*antigua|.*barbuda|.*waladli|.*wadadli|^AG$|^ATG$": {
         "calling_code": "+1 268",
         "capital_city": "St. John's",
         "capital_latitude": -61.85,
@@ -362,7 +362,7 @@ data = {
         "total_area": 442.6,
         "water_area": 0.0,
     },
-    "argentina|^AR$|^ARG$": {
+    "argentin|^AR$|^ARG$": {
         "calling_code": "+54",
         "capital_city": "Buenos Aires",
         "capital_latitude": -58.3817,
@@ -402,7 +402,7 @@ data = {
         "total_area": 2780400.0,
         "water_area": 43710.0,
     },
-    "armenia|^AM$|^ARM$": {
+    ".*armenia|^AM$|^ARM$": {
         "calling_code": "+374",
         "capital_city": "Yerevan",
         "capital_latitude": 44.5144,
@@ -442,7 +442,7 @@ data = {
         "total_area": 29743.0,
         "water_area": 1540.0,
     },
-    "aruba|^AW$|^ABW$": {
+    ".*aruba|^AW$|^ABW$": {
         "calling_code": "+297",
         "capital_city": "Oranjestad",
         "capital_latitude": -70.0358,
@@ -482,7 +482,7 @@ data = {
         "total_area": 180.0,
         "water_area": 0.0,
     },
-    "australia|^AU$|^AUS$": {
+    ".*australia|^AU$|^AUS$": {
         "calling_code": "+61",
         "capital_city": "Canberra",
         "capital_latitude": 149.1269,
@@ -522,7 +522,7 @@ data = {
         "total_area": 7741220.0,
         "water_area": 58920.0,
     },
-    "austria|^AT$|^AUT$": {
+    ".*austria|^AT$|^AUT$": {
         "calling_code": "+43",
         "capital_city": "Vienna",
         "capital_latitude": 16.3667,
@@ -562,7 +562,7 @@ data = {
         "total_area": 83871.0,
         "water_area": 1426.0,
     },
-    "azerbaijan|^AZ$|^AZE$": {
+    ".*azerbaijan|^AZ$|^AZE$": {
         "calling_code": "+994",
         "capital_city": "Baku",
         "capital_latitude": 49.8822,
@@ -642,7 +642,7 @@ data = {
         "total_area": 13880.0,
         "water_area": 3870.0,
     },
-    "bahrain|^BH$|^BHR$": {
+    ".*bahrain|^BH$|^BHR$": {
         "calling_code": "+973",
         "capital_city": "Manama",
         "capital_latitude": 50.5775,
@@ -682,7 +682,7 @@ data = {
         "total_area": 760.0,
         "water_area": 0.0,
     },
-    "bangladesh|^BD$|^BGD$": {
+    ".*bangladesh|^BD$|^BGD$": {
         "calling_code": "+880",
         "capital_city": "Dhaka",
         "capital_latitude": 90.3889,
@@ -762,7 +762,7 @@ data = {
         "total_area": 430.0,
         "water_area": 0.0,
     },
-    "belarus|^BY$|^BLR$": {
+    ".*belarus|^BY$|^BLR$": {
         "calling_code": "+375",
         "capital_city": "Minsk",
         "capital_latitude": 27.5667,
@@ -802,7 +802,7 @@ data = {
         "total_area": 207600.0,
         "water_area": 4700.0,
     },
-    "belgium|^BE$|^BEL$": {
+    ".*belgium|^BE$|^BEL$": {
         "calling_code": "+32",
         "capital_city": "Brussels",
         "capital_latitude": 4.3525,
@@ -882,7 +882,7 @@ data = {
         "total_area": 22966.0,
         "water_area": 160.0,
     },
-    "benin|^BJ$|^BEN$": {
+    ".*benin|^BJ$|^BEN$": {
         "calling_code": "+229",
         "capital_city": "Porto-Novo",
         "capital_latitude": 2.605,
@@ -922,7 +922,7 @@ data = {
         "total_area": 112622.0,
         "water_area": 2000.0,
     },
-    "bermuda|^BM$|^BMU$": {
+    ".*bermuda|.*somers isles|^BM$|^BMU$": {
         "calling_code": "+1 441",
         "capital_city": "Hamilton",
         "capital_latitude": -64.7819,
@@ -962,7 +962,7 @@ data = {
         "total_area": 54.0,
         "water_area": 0.0,
     },
-    "bhutan|^BT$|^BTN$": {
+    ".*bhutan|^BT$|^BTN$": {
         "calling_code": "+975",
         "capital_city": "Thimphu",
         "capital_latitude": 89.6361,
@@ -1042,7 +1042,7 @@ data = {
         "total_area": 1098581.0,
         "water_area": 15280.0,
     },
-    ".*bonaire|^BQ$|^BES$": {
+    ".*bonaire.*eustatius.*saba|.*caribbean netherlands|bes islands|^BQ$|^BES$": {
         "calling_code": "+599",
         "capital_city": "",
         "capital_latitude": "",
@@ -1082,7 +1082,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "bosnia|herzegovina|^BA$|^BIH$": {
+    "bosnia|.*herzegovina|^BA$|^BIH$": {
         "calling_code": "+387",
         "capital_city": "Sarajevo",
         "capital_latitude": 18.4167,
@@ -1122,7 +1122,7 @@ data = {
         "total_area": 51197.0,
         "water_area": 10.0,
     },
-    "botswana|^BW$|^BWA$": {
+    ".*botswana|^BW$|^BWA$": {
         "calling_code": "+267",
         "capital_city": "Gaborone",
         "capital_latitude": 25.9122,
@@ -1202,7 +1202,7 @@ data = {
         "total_area": 49.0,
         "water_area": 0.0,
     },
-    "brazil|^BR$|^BRA$": {
+    ".*brazil|^BR$|^BRA$": {
         "calling_code": "+55",
         "capital_city": "Brasília",
         "capital_latitude": -47.8828,
@@ -1242,7 +1242,7 @@ data = {
         "total_area": 8515770.0,
         "water_area": 157630.0,
     },
-    ".*british indian|^IO$|^IOT$": {
+    ".*british indian ocean territory|^BIOT$|^IO$|^IOT$": {
         "calling_code": "+246",
         "capital_city": "",
         "capital_latitude": "",
@@ -1282,7 +1282,7 @@ data = {
         "total_area": 60.0,
         "water_area": 54340.0,
     },
-    ".*brunei|^BN$|^BRN$": {
+    "brunei|^BN$|^BRN$": {
         "calling_code": "+673",
         "capital_city": "Bandar Seri Begawan",
         "capital_latitude": 114.9422,
@@ -1322,7 +1322,7 @@ data = {
         "total_area": 5765.0,
         "water_area": 500.0,
     },
-    "bulgaria|^BG$|^BGR$": {
+    ".*bulgaria|^BG$|^BGR$": {
         "calling_code": "+359",
         "capital_city": "Sofia",
         "capital_latitude": 23.3333,
@@ -1402,7 +1402,7 @@ data = {
         "total_area": 274200.0,
         "water_area": 400.0,
     },
-    "burundi|^BI$|^BDI$": {
+    ".*burundi|^BI$|^BDI$": {
         "calling_code": "+257",
         "capital_city": "Gitega",
         "capital_latitude": 29.9,
@@ -1442,7 +1442,7 @@ data = {
         "total_area": 27830.0,
         "water_area": 2150.0,
     },
-    "cape verde|cabo verde|^CV$|^CPV$": {
+    ".*cape verde|.*cabo verde|^CV$|^CPV$": {
         "calling_code": "+238",
         "capital_city": "Praia",
         "capital_latitude": -23.5089,
@@ -1482,7 +1482,7 @@ data = {
         "total_area": 4033.0,
         "water_area": 0.0,
     },
-    "cambodia|^KH$|^KHM$": {
+    ".*cambodia|kampuchea|^KH$|^KHM$": {
         "calling_code": "+855",
         "capital_city": "Phnom Penh",
         "capital_latitude": 104.9211,
@@ -1522,7 +1522,7 @@ data = {
         "total_area": 181035.0,
         "water_area": 4520.0,
     },
-    "cameroon|cameroun|^CM$|^CMR$": {
+    ".*cameroon|.*cameroun|^CM$|^CMR$": {
         "calling_code": "+237",
         "capital_city": "Yaoundé",
         "capital_latitude": 11.5167,
@@ -1682,7 +1682,7 @@ data = {
         "total_area": 622984.0,
         "water_area": 0.0,
     },
-    "chad|^TD$|^TCD$": {
+    ".*chad|^TD$|^TCD$": {
         "calling_code": "+235",
         "capital_city": "N'Djamena",
         "capital_latitude": 15.05,
@@ -1722,7 +1722,7 @@ data = {
         "total_area": 1284000.0,
         "water_area": 24800.0,
     },
-    "chile|^CL$|^CHL$": {
+    ".*chile|^CL$|^CHL$": {
         "calling_code": "+56",
         "capital_city": "Santiago",
         "capital_latitude": -70.6667,
@@ -1762,7 +1762,7 @@ data = {
         "total_area": 756102.0,
         "water_area": 12290.0,
     },
-    "(?!.*hong kong|.*taiwan|.*macau|.*macao).*china|^CN$|^CHN$": {
+    "(?!.*hong kong|.*taiwan|.*macau|.*macao).*china|^PRC$|^CN$|^CHN$": {
         "calling_code": "+86",
         "capital_city": "Beijing",
         "capital_latitude": 116.3975,
@@ -1802,7 +1802,7 @@ data = {
         "total_area": 9596960.0,
         "water_area": 270550.0,
     },
-    "christmas|^CX$|^CXR$": {
+    ".*christmas|^CX$|^CXR$": {
         "calling_code": "+61",
         "capital_city": "Flying Fish Cove",
         "capital_latitude": "",
@@ -1882,7 +1882,7 @@ data = {
         "total_area": 14.0,
         "water_area": 0.0,
     },
-    "colombia|^CO$|^COL$": {
+    ".*colombia|^CO$|^COL$": {
         "calling_code": "+57",
         "capital_city": "Bogotá",
         "capital_latitude": -74.0722,
@@ -1962,7 +1962,7 @@ data = {
         "total_area": 2235.0,
         "water_area": 0.0,
     },
-    "(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|DRC|DROC|^CD$|^COD$": {
+    "(?!,*brazzaville).*(?=.*dem|DR|.*kinshasa).*congo|kinshasa|(the )?DRC|(the )?DROC|^CD$|^COD$": {
         "calling_code": "+243",
         "capital_city": "Kinshasa",
         "capital_latitude": 15.3222,
@@ -2082,7 +2082,7 @@ data = {
         "total_area": 236.0,
         "water_area": 0.0,
     },
-    "costa rica|^CR$|^CRI$": {
+    ".*costa rica|^CR$|^CRI$": {
         "calling_code": "+506",
         "capital_city": "San José",
         "capital_latitude": -84.0833,
@@ -2122,7 +2122,7 @@ data = {
         "total_area": 51100.0,
         "water_area": 40.0,
     },
-    "croatia|^HR$|^HRV$": {
+    ".*croatia|^HR$|^HRV$": {
         "calling_code": "+385",
         "capital_city": "Zagreb",
         "capital_latitude": 15.9833,
@@ -2162,7 +2162,7 @@ data = {
         "total_area": 56594.0,
         "water_area": 620.0,
     },
-    "cuba|^CU$|^CUB$": {
+    ".*cuba|^CU$|^CUB$": {
         "calling_code": "+53",
         "capital_city": "Havana",
         "capital_latitude": -82.3589,
@@ -2202,7 +2202,7 @@ data = {
         "total_area": 110860.0,
         "water_area": 1040.0,
     },
-    "curaçao|curacao|^CW$|^CUW$": {
+    ".*curaçao|.*curacao|^CW$|^CUW$": {
         "calling_code": "+599",
         "capital_city": "Willemstad",
         "capital_latitude": -68.9333,
@@ -2242,7 +2242,7 @@ data = {
         "total_area": 444.0,
         "water_area": 0.0,
     },
-    "cyprus|^CY$|^CYP$": {
+    ".*cyprus|^CY$|^CYP$": {
         "calling_code": "+357",
         "capital_city": "Nicosia",
         "capital_latitude": 33.365,
@@ -2282,7 +2282,7 @@ data = {
         "total_area": 9251.0,
         "water_area": 10.0,
     },
-    "czech|^CZ$|^CZE$": {
+    "czechia|.*czech republic|^CZ$|^CZE$": {
         "calling_code": "+420",
         "capital_city": "Prague",
         "capital_latitude": 14.4167,
@@ -2322,7 +2322,7 @@ data = {
         "total_area": 78867.0,
         "water_area": 1620.0,
     },
-    "côte d.*ivoire|cote d.*ivoire|ivory coast|^CI$|^CIV$": {
+    ".*côte d.*ivoire|.*cote d.*ivoire|ivory coast|^CI$|^CIV$": {
         "calling_code": "+225",
         "capital_city": "Yamoussoukro",
         "capital_latitude": -5.2742,
@@ -2402,7 +2402,7 @@ data = {
         "total_area": 43094.0,
         "water_area": 660.0,
     },
-    "djibouti|^DJ$|^DJI$": {
+    ".*djibouti|^DJ$|^DJI$": {
         "calling_code": "+253",
         "capital_city": "Djibouti",
         "capital_latitude": 43.145,
@@ -2442,7 +2442,7 @@ data = {
         "total_area": 23200.0,
         "water_area": 20.0,
     },
-    "(?!.*rep).*dominica|.*dominique|^DM$|^DMA$": {
+    "(?!.*rep).*dominica$|.*dominique|^DM$|^DMA$": {
         "calling_code": "+1 767",
         "capital_city": "Roseau",
         "capital_latitude": -61.3883,
@@ -2482,7 +2482,7 @@ data = {
         "total_area": 751.0,
         "water_area": "",
     },
-    ".*dominican republic|^DO$|^DOM$": {
+    ".*dominican rep|^DO$|^DOM$": {
         "calling_code": "+1 809, +1 829, +1 849",
         "capital_city": "Santo Domingo",
         "capital_latitude": -69.95,
@@ -2522,7 +2522,7 @@ data = {
         "total_area": 48670.0,
         "water_area": 350.0,
     },
-    "ecuador|^EC$|^ECU$": {
+    ".*ecuador|^EC$|^ECU$": {
         "calling_code": "+593",
         "capital_city": "Quito",
         "capital_latitude": -78.5167,
@@ -2562,7 +2562,7 @@ data = {
         "total_area": 283561.0,
         "water_area": 6720.0,
     },
-    "egypt|^EG$|^EGY$": {
+    ".*egypt|^EG$|^EGY$": {
         "calling_code": "+20",
         "capital_city": "Cairo",
         "capital_latitude": 31.2333,
@@ -2682,7 +2682,7 @@ data = {
         "total_area": 28051.0,
         "water_area": 0.0,
     },
-    "eritrea|^ER$|^ERI$": {
+    ".*eritrea|^ER$|^ERI$": {
         "calling_code": "+291",
         "capital_city": "Asmara",
         "capital_latitude": 38.925,
@@ -2722,7 +2722,7 @@ data = {
         "total_area": 117600.0,
         "water_area": 16600.0,
     },
-    "estonia|^EE$|^EST$": {
+    ".*estonia|^EE$|^EST$": {
         "calling_code": "+372",
         "capital_city": "Tallinn",
         "capital_latitude": 24.7453,
@@ -2762,7 +2762,7 @@ data = {
         "total_area": 45228.0,
         "water_area": 2840.0,
     },
-    "eswatini|swaziland|^SZ$|^SWZ$": {
+    ".*eswatini|swaziland|^SZ$|^SWZ$": {
         "calling_code": "+268",
         "capital_city": "Lobamba, Mbabane",
         "capital_latitude": 31.1667,
@@ -2802,7 +2802,7 @@ data = {
         "total_area": 17364.0,
         "water_area": 160.0,
     },
-    "ethiopia|^ET$|^ETH$": {
+    ".*ethiopia|^ET$|^ETH$": {
         "calling_code": "+251",
         "capital_city": "Addis Ababa",
         "capital_latitude": 38.74,
@@ -2842,7 +2842,7 @@ data = {
         "total_area": 1104300.0,
         "water_area": 7730.0,
     },
-    ".*falkland|^FK$|^FLK$": {
+    ".*falkland|.*malvinas|^FK$|^FLK$": {
         "calling_code": "+500",
         "capital_city": "Stanley",
         "capital_latitude": -57.8528,
@@ -2882,7 +2882,7 @@ data = {
         "total_area": 12173.0,
         "water_area": 0.0,
     },
-    ".*faroe|^FO$|^FRO$": {
+    ".*faroe|.*faeroe|^FO$|^FRO$": {
         "calling_code": "+298",
         "capital_city": "Tórshavn",
         "capital_latitude": -6.7675,
@@ -2922,7 +2922,7 @@ data = {
         "total_area": 1393.0,
         "water_area": 0.0,
     },
-    "fiji|^FJ$|^FJI$": {
+    ".*fiji|^FJ$|^FJI$": {
         "calling_code": "+679",
         "capital_city": "Suva",
         "capital_latitude": 178.4419,
@@ -2962,7 +2962,7 @@ data = {
         "total_area": 18274.0,
         "water_area": 0.0,
     },
-    "finland|^FI$|^FIN$": {
+    ".*finland|^FI$|^FIN$": {
         "calling_code": "+358",
         "capital_city": "Helsinki",
         "capital_latitude": 24.9375,
@@ -3002,7 +3002,7 @@ data = {
         "total_area": 338145.0,
         "water_area": 34330.0,
     },
-    "france|^FR$|^FRA$": {
+    "france|.*french rep|^FR$|^FRA$": {
         "calling_code": "+33",
         "capital_city": "Paris",
         "capital_latitude": 2.3522,
@@ -3122,7 +3122,7 @@ data = {
         "total_area": 4167.0,
         "water_area": 340.0,
     },
-    ".*french southern|^TF$|^ATF$": {
+    ".*french southern|^TAAF$|^TF$|^ATF$": {
         "calling_code": "",
         "capital_city": "",
         "capital_latitude": "",
@@ -3282,7 +3282,7 @@ data = {
         "total_area": 69700.0,
         "water_area": 0.0,
     },
-    "germany|^DE$|^DEU$": {
+    ".*germany|^DE$|^DEU$": {
         "calling_code": "+49",
         "capital_city": "Berlin",
         "capital_latitude": 13.405,
@@ -3402,7 +3402,7 @@ data = {
         "total_area": 6.5,
         "water_area": 0.0,
     },
-    "greece|^GR$|^GRC$": {
+    "greece|hellenic|^GR$|^GRC$": {
         "calling_code": "+30",
         "capital_city": "Athens",
         "capital_latitude": 23.7281,
@@ -3602,7 +3602,7 @@ data = {
         "total_area": 544.0,
         "water_area": 0.0,
     },
-    "guatemala|^GT$|^GTM$": {
+    ".*guatemala|^GT$|^GTM$": {
         "calling_code": "+502",
         "capital_city": "Guatemala City",
         "capital_latitude": -90.5353,
@@ -3722,7 +3722,7 @@ data = {
         "total_area": 245857.0,
         "water_area": 140.0,
     },
-    "guinea.*bissau|^GW$|^GNB$": {
+    ".*guinea.*bissau|^GW$|^GNB$": {
         "calling_code": "+245",
         "capital_city": "Bissau",
         "capital_latitude": -15.5667,
@@ -3762,7 +3762,7 @@ data = {
         "total_area": 36125.0,
         "water_area": 8005.0,
     },
-    "guyana|^GY$|^GUY$": {
+    ".*guyana|^GY$|^GUY$": {
         "calling_code": "+592",
         "capital_city": "Georgetown",
         "capital_latitude": -58.1553,
@@ -3802,7 +3802,7 @@ data = {
         "total_area": 214969.0,
         "water_area": 18120.0,
     },
-    "haiti|^HT$|^HTI$": {
+    ".*haiti|^HT$|^HTI$": {
         "calling_code": "+509",
         "capital_city": "Port-au-Prince",
         "capital_latitude": -72.3333,
@@ -3842,7 +3842,7 @@ data = {
         "total_area": 27750.0,
         "water_area": 190.0,
     },
-    ".*heard|^HM$|^HMD$": {
+    ".*heard|^HIMI$|^HM$|^HMD$": {
         "calling_code": "+672",
         "capital_city": "",
         "capital_latitude": "",
@@ -3882,7 +3882,7 @@ data = {
         "total_area": 412.0,
         "water_area": 0.0,
     },
-    ".*holy see|.*vatican|^VA$|^VAT$": {
+    ".*holy see|.*vatican|.*see of rome|.*petrine see|.*apostolic see|^VA$|^VAT$": {
         "calling_code": "+379",
         "capital_city": "Vatican City",
         "capital_latitude": 12.4525,
@@ -3922,7 +3922,7 @@ data = {
         "total_area": 0.44,
         "water_area": 0.0,
     },
-    "honduras|^HN$|^HND$": {
+    ".*honduras|^HN$|^HND$": {
         "calling_code": "+504",
         "capital_city": "Tegucigalpa",
         "capital_latitude": -87.2167,
@@ -3962,7 +3962,7 @@ data = {
         "total_area": 112090.0,
         "water_area": 200.0,
     },
-    "hong kong|^HK$|^HKG$": {
+    ".*hong kong|^HKSAR*|^HK$|^HKG$": {
         "calling_code": "+852",
         "capital_city": "",
         "capital_latitude": "",
@@ -4082,7 +4082,7 @@ data = {
         "total_area": 103000.0,
         "water_area": 2750.0,
     },
-    "india$|^IN$|^IND$": {
+    ".*india$|^IN$|^IND$": {
         "calling_code": "+91",
         "capital_city": "New Delhi",
         "capital_latitude": 77.2089,
@@ -4122,7 +4122,7 @@ data = {
         "total_area": 3287263.0,
         "water_area": 314070.0,
     },
-    "indonesia|^ID$|^IDN$": {
+    ".*indonesia|^ID$|^IDN$": {
         "calling_code": "+62",
         "capital_city": "Jakarta",
         "capital_latitude": 106.8167,
@@ -4162,7 +4162,7 @@ data = {
         "total_area": 1904569.0,
         "water_area": 93000.0,
     },
-    ".*iran|^IR$|^IRN$": {
+    ".*iran|persia|^IR$|^IRN$": {
         "calling_code": "+98",
         "capital_city": "Tehran",
         "capital_latitude": 51.3889,
@@ -4242,7 +4242,7 @@ data = {
         "total_area": 438317.0,
         "water_area": 950.0,
     },
-    "(?!.*north).*ireland|^IE$|^IRL$": {
+    "(?!.*north).*ireland|éire|eire|^IE$|^IRL$": {
         "calling_code": "+353",
         "capital_city": "Dublin",
         "capital_latitude": -6.2603,
@@ -4282,7 +4282,7 @@ data = {
         "total_area": 70273.0,
         "water_area": 1390.0,
     },
-    ".*isle of man|^IM$|^IMN$": {
+    ".*isle of man|mann|^IM$|^IMN$": {
         "calling_code": "+44 1624",
         "capital_city": "Douglas",
         "capital_latitude": -4.4819,
@@ -4322,7 +4322,7 @@ data = {
         "total_area": 572.0,
         "water_area": 0.0,
     },
-    "israel|^IL$|^ISR$": {
+    ".*israel|^IL$|^ISR$": {
         "calling_code": "+972",
         "capital_city": "Jerusalem",
         "capital_latitude": 35.2167,
@@ -4362,7 +4362,7 @@ data = {
         "total_area": 21937.0,
         "water_area": 440.0,
     },
-    "italy|^IT$|^ITA$": {
+    ".*ital|^IT$|^ITA$": {
         "calling_code": "+39",
         "capital_city": "Rome",
         "capital_latitude": 12.5,
@@ -4482,7 +4482,7 @@ data = {
         "total_area": 377915.0,
         "water_area": 13430.0,
     },
-    "jersey|^JE$|^JEY$": {
+    ".*jersey|^JE$|^JEY$": {
         "calling_code": "+44 1534",
         "capital_city": "St. Helier",
         "capital_latitude": -2.1069,
@@ -4522,7 +4522,7 @@ data = {
         "total_area": 116.0,
         "water_area": 0.0,
     },
-    "jordan|^JO$|^JOR$": {
+    ".*jordan|^JO$|^JOR$": {
         "calling_code": "+962",
         "capital_city": "Amman",
         "capital_latitude": 35.9328,
@@ -4562,7 +4562,7 @@ data = {
         "total_area": 89342.0,
         "water_area": 540.0,
     },
-    "kazakhstan|^KZ$|^KAZ$": {
+    ".*kazakhstan|^KZ$|^KAZ$": {
         "calling_code": "+7",
         "capital_city": "Nur-Sultan",
         "capital_latitude": 71.4333,
@@ -4602,7 +4602,7 @@ data = {
         "total_area": 2724900.0,
         "water_area": 25200.0,
     },
-    "kenya|^KE$|^KEN$": {
+    ".*kenya|^KE$|^KEN$": {
         "calling_code": "+254",
         "capital_city": "Nairobi",
         "capital_latitude": 36.8172,
@@ -4682,7 +4682,7 @@ data = {
         "total_area": 811.0,
         "water_area": 0.0,
     },
-    "(?=.*korea).*(north|dem|n[\\. ]*)|^KP$|^PRK$": {
+    "(?=.*korea).*(north|dem|n[\\. ]*)|^DPRK$|^KP$|^PRK$": {
         "calling_code": "+850",
         "capital_city": "Pyongyang",
         "capital_latitude": 125.7381,
@@ -4722,7 +4722,7 @@ data = {
         "total_area": 120538.0,
         "water_area": 130.0,
     },
-    "(?!.*dem|.*people|.*north|.*n[\\., ]|DPR).*korea|^KR$|^KOR$": {
+    "(?!.*dem|.*people|.*north|.*n[\\., ]|DPR).*korea|^ROK$|^KR$|^KOR$": {
         "calling_code": "+82",
         "capital_city": "Seoul",
         "capital_latitude": 126.99,
@@ -4762,7 +4762,7 @@ data = {
         "total_area": 99720.0,
         "water_area": 2800.0,
     },
-    "kuwait|^KW$|^KWT$": {
+    ".*kuwait|kureyn|^KW$|^KWT$": {
         "calling_code": "+965",
         "capital_city": "Kuwait City",
         "capital_latitude": 47.9783,
@@ -4842,7 +4842,7 @@ data = {
         "total_area": 199951.0,
         "water_area": 8150.0,
     },
-    ".*lao|^LA$|^LAO$": {
+    ".*lao\\b|^laos$|^LA$|^LAO$": {
         "calling_code": "+856",
         "capital_city": "Vientiane",
         "capital_latitude": 102.6,
@@ -4882,7 +4882,7 @@ data = {
         "total_area": 236800.0,
         "water_area": 6000.0,
     },
-    "latvia|^LV$|^LVA$": {
+    ".*latvia|^LV$|^LVA$": {
         "calling_code": "+371",
         "capital_city": "Riga",
         "capital_latitude": 24.1064,
@@ -4922,7 +4922,7 @@ data = {
         "total_area": 64589.0,
         "water_area": 2340.0,
     },
-    "lebanon|^LB$|^LBN$": {
+    ".*leban|^LB$|^LBN$": {
         "calling_code": "+961",
         "capital_city": "Beirut",
         "capital_latitude": 35.5131,
@@ -4962,7 +4962,7 @@ data = {
         "total_area": 10400.0,
         "water_area": 170.0,
     },
-    "lesotho|^LS$|^LSO$": {
+    ".*lesotho|^LS$|^LSO$": {
         "calling_code": "+266",
         "capital_city": "Maseru",
         "capital_latitude": 27.4833,
@@ -5002,7 +5002,7 @@ data = {
         "total_area": 30355.0,
         "water_area": 0.0,
     },
-    "liberia|^LR$|^LBR$": {
+    ".*liberia|^LR$|^LBR$": {
         "calling_code": "+231",
         "capital_city": "Monrovia",
         "capital_latitude": -10.8014,
@@ -5042,7 +5042,7 @@ data = {
         "total_area": 111369.0,
         "water_area": 15049.0,
     },
-    "libya|^LY$|^LBY$": {
+    ".*libya|^LY$|^LBY$": {
         "calling_code": "+218",
         "capital_city": "Tripoli",
         "capital_latitude": 13.1914,
@@ -5082,7 +5082,7 @@ data = {
         "total_area": 1759540.0,
         "water_area": 0.0,
     },
-    "liechtenstein|^LI$|^LIE$": {
+    ".*liechtenstein|^LI$|^LIE$": {
         "calling_code": "+423",
         "capital_city": "Vaduz",
         "capital_latitude": 9.5211,
@@ -5122,7 +5122,7 @@ data = {
         "total_area": 160.0,
         "water_area": 0.0,
     },
-    "lithuania|^LT$|^LTU$": {
+    ".*lithuania|^LT$|^LTU$": {
         "calling_code": "+370",
         "capital_city": "Vilnius",
         "capital_latitude": 25.2833,
@@ -5162,7 +5162,7 @@ data = {
         "total_area": 65300.0,
         "water_area": 2620.0,
     },
-    "luxembourg|^LU$|^LUX$": {
+    ".*luxembourg|^LU$|^LUX$": {
         "calling_code": "+352",
         "capital_city": "Luxembourg",
         "capital_latitude": 6.1319,
@@ -5202,7 +5202,7 @@ data = {
         "total_area": 2586.0,
         "water_area": 0.0,
     },
-    ".*macao|.*macau|^MO$|^MAC$": {
+    ".*macao|.*macau|^MSAR$|^MO$|^MAC$": {
         "calling_code": "+853",
         "capital_city": "",
         "capital_latitude": "",
@@ -5242,7 +5242,7 @@ data = {
         "total_area": 28.2,
         "water_area": 0.0,
     },
-    "madagascar|^MG$|^MDG$": {
+    ".*madagascar|^MG$|^MDG$": {
         "calling_code": "+261",
         "capital_city": "Antananarivo",
         "capital_latitude": 47.5167,
@@ -5282,7 +5282,7 @@ data = {
         "total_area": 587041.0,
         "water_area": 5501.0,
     },
-    "malawi|^MW$|^MWI$": {
+    ".*malawi|^MW$|^MWI$": {
         "calling_code": "+265",
         "capital_city": "Lilongwe",
         "capital_latitude": 33.7833,
@@ -5362,7 +5362,7 @@ data = {
         "total_area": 329847.0,
         "water_area": 1190.0,
     },
-    "maldives|^MV$|^MDV$": {
+    ".*maldives|^MV$|^MDV$": {
         "calling_code": "+960",
         "capital_city": "Malé",
         "capital_latitude": 73.5089,
@@ -5402,7 +5402,7 @@ data = {
         "total_area": 298.0,
         "water_area": 0.0,
     },
-    "mali$|^ML$|^MLI$": {
+    ".*mali$|^ML$|^MLI$": {
         "calling_code": "+223",
         "capital_city": "Bamako",
         "capital_latitude": -8.0028,
@@ -5442,7 +5442,7 @@ data = {
         "total_area": 1240192.0,
         "water_area": 20002.0,
     },
-    "malta|^MT$|^MLT$": {
+    ".*malta|^MT$|^MLT$": {
         "calling_code": "+356",
         "capital_city": "Valletta",
         "capital_latitude": 14.5125,
@@ -5562,7 +5562,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "mauritania|^MR$|^MRT$": {
+    ".*mauritania|^MR$|^MRT$": {
         "calling_code": "+222",
         "capital_city": "Nouakchott",
         "capital_latitude": -15.9786,
@@ -5602,7 +5602,7 @@ data = {
         "total_area": 1030700.0,
         "water_area": 0.0,
     },
-    "mauritius|^MU$|^MUS$": {
+    ".*mauritius|^MU$|^MUS$": {
         "calling_code": "+230",
         "capital_city": "Port Louis",
         "capital_latitude": 57.5042,
@@ -5682,7 +5682,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "mexico|^MX$|^MEX$": {
+    ".*mexic|^MX$|^MEX$": {
         "calling_code": "+52",
         "capital_city": "Mexico City",
         "capital_latitude": -99.1333,
@@ -5802,7 +5802,7 @@ data = {
         "total_area": 33851.0,
         "water_area": 960.0,
     },
-    "monaco|^MC$|^MCO$": {
+    ".*monaco|^MC$|^MCO$": {
         "calling_code": "+377",
         "capital_city": "Monaco",
         "capital_latitude": 7.4197,
@@ -5962,7 +5962,7 @@ data = {
         "total_area": 102.0,
         "water_area": 0.0,
     },
-    "morocco|^MA$|^MAR$": {
+    ".*morocco|^MA$|^MAR$": {
         "calling_code": "+212",
         "capital_city": "Rabat",
         "capital_latitude": -6.8333,
@@ -6002,7 +6002,7 @@ data = {
         "total_area": 446550.0,
         "water_area": 250.0,
     },
-    "mozambique|^MZ$|^MOZ$": {
+    ".*mozambique|^MZ$|^MOZ$": {
         "calling_code": "+258",
         "capital_city": "Maputo",
         "capital_latitude": 32.5833,
@@ -6042,7 +6042,7 @@ data = {
         "total_area": 799380.0,
         "water_area": 13000.0,
     },
-    "myanmar|burma|^MM$|^MMR$": {
+    ".*myanmar|burma|^MM$|^MMR$": {
         "calling_code": "+95",
         "capital_city": "Naypyidaw",
         "capital_latitude": 96.115,
@@ -6082,7 +6082,7 @@ data = {
         "total_area": 676578.0,
         "water_area": 23070.0,
     },
-    "namibia|^NA$|^NAM$": {
+    ".*namibia|^NA$|^NAM$": {
         "calling_code": "+264",
         "capital_city": "Windhoek",
         "capital_latitude": 17.0836,
@@ -6122,7 +6122,7 @@ data = {
         "total_area": 824292.0,
         "water_area": 1002.0,
     },
-    "nauru|^NR$|^NRU$": {
+    ".*nauru|pleasant island|^NR$|^NRU$": {
         "calling_code": "+674",
         "capital_city": "Yaren",
         "capital_latitude": 166.9209,
@@ -6162,7 +6162,7 @@ data = {
         "total_area": 21.0,
         "water_area": 0.0,
     },
-    "nepal|^NP$|^NPL$": {
+    ".*nepal|^NP$|^NPL$": {
         "calling_code": "+977",
         "capital_city": "Kathmandu",
         "capital_latitude": 85.3239,
@@ -6202,7 +6202,7 @@ data = {
         "total_area": 147181.0,
         "water_area": 3830.0,
     },
-    "(?!.*antilles).*netherlands|^NL$|^NLD$": {
+    "(?!.*antilles).*netherlands|holland|^NL$|^NLD$": {
         "calling_code": "+31",
         "capital_city": "Amsterdam",
         "capital_latitude": 4.9,
@@ -6282,7 +6282,7 @@ data = {
         "total_area": 18575.0,
         "water_area": 300.0,
     },
-    "new zealand|NZ|n[\\., ] zealand|^NZ$|^NZL$": {
+    "(?=new|n|\\.n).*zealand|^NZ$|^NZL$": {
         "calling_code": "+64",
         "capital_city": "Wellington",
         "capital_latitude": 174.7772,
@@ -6402,7 +6402,7 @@ data = {
         "total_area": 1267000.0,
         "water_area": 300.0,
     },
-    "nigeria|^NG$|^NGA$": {
+    ".*nigeria|^NG$|^NGA$": {
         "calling_code": "+234",
         "capital_city": "Abuja",
         "capital_latitude": 7.4833,
@@ -6482,7 +6482,7 @@ data = {
         "total_area": 260.0,
         "water_area": 0.0,
     },
-    "norfolk|^NF$|^NFK$": {
+    "(?=.*norfolk).*(?=.*island)|^NF$|^NFK$": {
         "calling_code": "+672",
         "capital_city": "Kingston",
         "capital_latitude": 167.9667,
@@ -6562,7 +6562,7 @@ data = {
         "total_area": 25713.0,
         "water_area": 280.0,
     },
-    ".*mariana|^MP$|^MNP$": {
+    ".*mariana|^CNMI$|^MP$|^MNP$": {
         "calling_code": "+1 670",
         "capital_city": "Saipan",
         "capital_latitude": 145.75,
@@ -6602,7 +6602,7 @@ data = {
         "total_area": 464.0,
         "water_area": 0.0,
     },
-    "norway|^NO$|^NOR$": {
+    ".*norway|^NO$|^NOR$": {
         "calling_code": "+47",
         "capital_city": "Oslo",
         "capital_latitude": 10.7522,
@@ -6642,7 +6642,7 @@ data = {
         "total_area": 323802.0,
         "water_area": 19520.0,
     },
-    "oman|^OM$|^OMN$": {
+    ".*oman$|^OM$|^OMN$": {
         "calling_code": "+968",
         "capital_city": "Muscat",
         "capital_latitude": 58.4083,
@@ -6682,7 +6682,7 @@ data = {
         "total_area": 309500.0,
         "water_area": 0.0,
     },
-    "pakistan|^PK$|^PAK$": {
+    ".*pakistan|^PK$|^PAK$": {
         "calling_code": "+92",
         "capital_city": "Islamabad",
         "capital_latitude": 73.0639,
@@ -6722,7 +6722,7 @@ data = {
         "total_area": 796095.0,
         "water_area": 25220.0,
     },
-    "palau|^PW$|^PLW$": {
+    ".*palau|^belau$|^palaos$|^pelew$|^PW$|^PLW$": {
         "calling_code": "+680",
         "capital_city": "Ngerulmud",
         "capital_latitude": 134.6242,
@@ -6802,7 +6802,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "panama|^PA$|^PAN$": {
+    ".*panama|^PA$|^PAN$": {
         "calling_code": "+507",
         "capital_city": "Panama City",
         "capital_latitude": -79.5167,
@@ -6882,7 +6882,7 @@ data = {
         "total_area": 462840.0,
         "water_area": 9980.0,
     },
-    "paraguay|^PY$|^PRY$": {
+    ".*paraguay|^PY$|^PRY$": {
         "calling_code": "+595",
         "capital_city": "Asunción",
         "capital_latitude": -57.6333,
@@ -6922,7 +6922,7 @@ data = {
         "total_area": 406752.0,
         "water_area": 9450.0,
     },
-    "peru|^PE$|^PER$": {
+    ".*peru|^PE$|^PER$": {
         "calling_code": "+51",
         "capital_city": "Lima",
         "capital_latitude": -77.0333,
@@ -7042,7 +7042,7 @@ data = {
         "total_area": 47.0,
         "water_area": 0.0,
     },
-    "poland|^PL$|^POL$": {
+    ".*poland|^PL$|^POL$": {
         "calling_code": "+48",
         "capital_city": "Warsaw",
         "capital_latitude": 21.0167,
@@ -7082,7 +7082,7 @@ data = {
         "total_area": 312685.0,
         "water_area": 8430.0,
     },
-    "portugal|^PT$|^PRT$": {
+    "portug|^PT$|^PRT$": {
         "calling_code": "+351",
         "capital_city": "Lisbon",
         "capital_latitude": -9.15,
@@ -7162,7 +7162,7 @@ data = {
         "total_area": 9104.0,
         "water_area": 145.0,
     },
-    "qatar|^QA$|^QAT$": {
+    ".*qatar|^QA$|^QAT$": {
         "calling_code": "+974",
         "capital_city": "Doha",
         "capital_latitude": 51.5333,
@@ -7282,7 +7282,7 @@ data = {
         "total_area": 17098242.0,
         "water_area": 720500.0,
     },
-    "rwanda|^RW$|^RWA$": {
+    ".*rwanda|^RW$|^RWA$": {
         "calling_code": "+250",
         "capital_city": "Kigali",
         "capital_latitude": 30.0594,
@@ -7322,7 +7322,7 @@ data = {
         "total_area": 26338.0,
         "water_area": 1670.0,
     },
-    "réunion|reunion|^RE$|^REU$": {
+    ".*réunion|.*reunion|^RE$|^REU$": {
         "calling_code": "+262",
         "capital_city": "",
         "capital_latitude": "",
@@ -7362,7 +7362,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    ".*barthélemy|.*barthelemy|.*barths|.*barts|^BL$|^BLM$": {
+    ".*barthélemy|.*barthelemy|.*barth|.*barts|^BL$|^BLM$": {
         "calling_code": "+590",
         "capital_city": "Gustavia",
         "capital_latitude": -62.8506,
@@ -7442,7 +7442,7 @@ data = {
         "total_area": 394.0,
         "water_area": 0.0,
     },
-    ".*kitts|^KN$|^KNA$": {
+    ".*kitts|.*nevis|^KN$|^KNA$": {
         "calling_code": "+1 869",
         "capital_city": "Basseterre",
         "capital_latitude": -62.7333,
@@ -7522,7 +7522,7 @@ data = {
         "total_area": 616.0,
         "water_area": 10.0,
     },
-    "(?=.*saint|.*st).*martin|^MF$|^MAF$": {
+    ".*(?=.*saint|.*st).*martin|^MF$|^MAF$": {
         "calling_code": "+590",
         "capital_city": "Marigot",
         "capital_latitude": -63.0822,
@@ -7642,7 +7642,7 @@ data = {
         "total_area": 389.0,
         "water_area": 0.0,
     },
-    "samoa|^WS$|^WSM$": {
+    "(?!.*america).*samoa$|^WS$|^WSM$": {
         "calling_code": "+685",
         "capital_city": "Apia",
         "capital_latitude": -171.75,
@@ -7682,7 +7682,7 @@ data = {
         "total_area": 2831.0,
         "water_area": 10.0,
     },
-    "san marino|^SM$|^SMR$": {
+    ".*san marino|^SM$|^SMR$": {
         "calling_code": "+378",
         "capital_city": "San Marino",
         "capital_latitude": 12.4473,
@@ -7762,7 +7762,7 @@ data = {
         "total_area": 964.0,
         "water_area": 0.0,
     },
-    "saudi|^SA$|^SAU$": {
+    ".*saudi|^KSA$|^SA$|^SAU$": {
         "calling_code": "+966",
         "capital_city": "Riyadh",
         "capital_latitude": 46.7167,
@@ -7802,7 +7802,7 @@ data = {
         "total_area": 2149690.0,
         "water_area": 0.0,
     },
-    "senegal|^SN$|^SEN$": {
+    ".*senegal|^SN$|^SEN$": {
         "calling_code": "+221",
         "capital_city": "Dakar",
         "capital_latitude": -17.4467,
@@ -7922,7 +7922,7 @@ data = {
         "total_area": 455.0,
         "water_area": 0.0,
     },
-    ".*sierra leone|selone|^SL$|^SLE$": {
+    ".*sierra leone|salone|^SL$|^SLE$": {
         "calling_code": "+232",
         "capital_city": "Freetown",
         "capital_latitude": -13.2344,
@@ -7962,7 +7962,7 @@ data = {
         "total_area": 71740.0,
         "water_area": 120.0,
     },
-    "singapore|^SG$|^SGP$": {
+    ".*singapore|^SG$|^SGP$": {
         "calling_code": "+65",
         "capital_city": "Singapore",
         "capital_latitude": 103.8333,
@@ -8082,7 +8082,7 @@ data = {
         "total_area": 49035.0,
         "water_area": 930.0,
     },
-    "slovenia|^SI$|^SVN$": {
+    ".*slovenia|^SI$|^SVN$": {
         "calling_code": "+386",
         "capital_city": "Ljubljana",
         "capital_latitude": 14.5083,
@@ -8122,7 +8122,7 @@ data = {
         "total_area": 20273.0,
         "water_area": 122.0,
     },
-    "solomon|^SB$|^SLB$": {
+    ".*solomon|^SB$|^SLB$": {
         "calling_code": "+677",
         "capital_city": "Honiara",
         "capital_latitude": 159.9556,
@@ -8162,7 +8162,7 @@ data = {
         "total_area": 28896.0,
         "water_area": 910.0,
     },
-    "somalia|^SO$|^SOM$": {
+    ".*somalia|^SO$|^SOM$": {
         "calling_code": "+252",
         "capital_city": "Mogadishu",
         "capital_latitude": 45.3333,
@@ -8202,7 +8202,7 @@ data = {
         "total_area": 637657.0,
         "water_area": 10320.0,
     },
-    "(?=.*africa).*south|s[\\., ]|^ZA$|^ZAF$": {
+    "(?=.*africa).*south|s[\\., ]|^RSA$|^ZA$|^ZAF$": {
         "calling_code": "+27",
         "capital_city": "Bloemfontein, Cape Town, Pretoria",
         "capital_latitude": 28.188,
@@ -8242,7 +8242,7 @@ data = {
         "total_area": 1219090.0,
         "water_area": 4620.0,
     },
-    ".*sandwich|^GS$|^SGS$": {
+    ".*sandwich|^SGSSI$|^GS$|^SGS$": {
         "calling_code": "+500",
         "capital_city": "King Edward Point",
         "capital_latitude": -36.5,
@@ -8282,7 +8282,7 @@ data = {
         "total_area": 3903.0,
         "water_area": 0.0,
     },
-    "(?=.*south).*sudan|^SS$|^SSD$": {
+    "(?=.*south).*sudan|.*nilotic|^SS$|^SSD$": {
         "calling_code": "+211",
         "capital_city": "Juba",
         "capital_latitude": 31.6,
@@ -8322,7 +8322,7 @@ data = {
         "total_area": 644329.0,
         "water_area": "",
     },
-    "spain|^ES$|^ESP$": {
+    ".*spain|^ES$|^ESP$": {
         "calling_code": "+34",
         "capital_city": "Madrid",
         "capital_latitude": -3.7167,
@@ -8362,7 +8362,7 @@ data = {
         "total_area": 505370.0,
         "water_area": 6390.0,
     },
-    "sri lanka|^LK$|^LKA$": {
+    ".*sri lanka|^LK$|^LKA$": {
         "calling_code": "+94",
         "capital_city": "Sri Jayawardenepura Kotte",
         "capital_latitude": 79.9167,
@@ -8442,7 +8442,7 @@ data = {
         "total_area": 1861484.0,
         "water_area": 129813.0,
     },
-    "surinam|^SR$|^SUR$": {
+    ".*surinam|^SR$|^SUR$": {
         "calling_code": "+597",
         "capital_city": "Paramaribo",
         "capital_latitude": -55.2039,
@@ -8482,7 +8482,7 @@ data = {
         "total_area": 163820.0,
         "water_area": 7820.0,
     },
-    "(?=.*svalbard).*jan mayen|^SJ$|^SJM$": {
+    ".*svalbard.*jan mayen|^SJ$|^SJM$": {
         "calling_code": "+47",
         "capital_city": "",
         "capital_latitude": "",
@@ -8522,7 +8522,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "sweden|^SE$|^SWE$": {
+    ".*sweden|^SE$|^SWE$": {
         "calling_code": "+46",
         "capital_city": "Stockholm",
         "capital_latitude": 18.0686,
@@ -8562,7 +8562,7 @@ data = {
         "total_area": 450295.0,
         "water_area": 39960.0,
     },
-    "switzerland|^CH$|^CHE$": {
+    "switzerland|swiss|^CH$|^CHE$": {
         "calling_code": "+41",
         "capital_city": "Bern",
         "capital_latitude": 7.4475,
@@ -8682,7 +8682,7 @@ data = {
         "total_area": 35980.0,
         "water_area": 3720.0,
     },
-    "tajikistan|^TJ$|^TJK$": {
+    ".*tajikistan|^TJ$|^TJK$": {
         "calling_code": "+992",
         "capital_city": "Dushanbe",
         "capital_latitude": 68.78,
@@ -8762,7 +8762,7 @@ data = {
         "total_area": 947300.0,
         "water_area": 61500.0,
     },
-    "thailand|^TH$|^THA$": {
+    ".*thailand|^TH$|^THA$": {
         "calling_code": "+66",
         "capital_city": "Bangkok",
         "capital_latitude": 100.4942,
@@ -8802,7 +8802,7 @@ data = {
         "total_area": 513120.0,
         "water_area": 2230.0,
     },
-    "timor.*lest|east timor|^TL$|^TLS$": {
+    ".*timor.*lest|.*east.*timor|^TL$|^TLS$": {
         "calling_code": "+670",
         "capital_city": "Dili",
         "capital_latitude": 125.5667,
@@ -8882,7 +8882,7 @@ data = {
         "total_area": 56785.0,
         "water_area": 2400.0,
     },
-    "tokelau|^TK$|^TKL$": {
+    "tokelau|union islands|^TK$|^TKL$": {
         "calling_code": "+690",
         "capital_city": "",
         "capital_latitude": "",
@@ -8922,7 +8922,7 @@ data = {
         "total_area": 12.0,
         "water_area": 0.0,
     },
-    "tonga|^TO$|^TON$": {
+    ".*tonga|^TO$|^TON$": {
         "calling_code": "+676",
         "capital_city": "Nukuʻalofa",
         "capital_latitude": -175.2,
@@ -8962,7 +8962,7 @@ data = {
         "total_area": 747.0,
         "water_area": 30.0,
     },
-    ".*trinidad|.*tobago|^TT$|^TTO$": {
+    ".*trinidad.*tobago|^TT$|^TTO$": {
         "calling_code": "+1 868",
         "capital_city": "Port of Spain",
         "capital_latitude": -61.5167,
@@ -9002,7 +9002,7 @@ data = {
         "total_area": 5128.0,
         "water_area": 0.0,
     },
-    "tunisia|^TN$|^TUN$": {
+    ".*tunisia|^TN$|^TUN$": {
         "calling_code": "+216",
         "capital_city": "Tunis",
         "capital_latitude": 10.1817,
@@ -9042,7 +9042,7 @@ data = {
         "total_area": 163610.0,
         "water_area": 8250.0,
     },
-    "turkey|^TR$|^TUR$": {
+    ".*turkey|.*türkiye|^TR$|^TUR$": {
         "calling_code": "+90",
         "capital_city": "Ankara",
         "capital_latitude": 32.85,
@@ -9082,7 +9082,7 @@ data = {
         "total_area": 783562.0,
         "water_area": 13930.0,
     },
-    "turkmenistan|^TM$|^TKM$": {
+    "turkmeni|^TM$|^TKM$": {
         "calling_code": "+993",
         "capital_city": "Ashgabat",
         "capital_latitude": 58.3667,
@@ -9122,7 +9122,7 @@ data = {
         "total_area": 488100.0,
         "water_area": 18170.0,
     },
-    "(?=.*turks).*caicos|^TC$|^TCA$": {
+    ".*turks.*caicos|^TCI$|^TC$|^TCA$": {
         "calling_code": "+1 649",
         "capital_city": "Cockburn Town",
         "capital_latitude": -71.1389,
@@ -9162,7 +9162,7 @@ data = {
         "total_area": 948.0,
         "water_area": 0.0,
     },
-    "tuvalu|^TV$|^TUV$": {
+    "tuvalu|ellice islands|^TV$|^TUV$": {
         "calling_code": "+688",
         "capital_city": "Funafuti",
         "capital_latitude": 179.2,
@@ -9202,7 +9202,7 @@ data = {
         "total_area": 26.0,
         "water_area": 0.0,
     },
-    "uganda|^UG$|^UGA$": {
+    ".*uganda|^UG$|^UGA$": {
         "calling_code": "+256",
         "capital_city": "Kampala",
         "capital_latitude": 32.5811,
@@ -9282,7 +9282,7 @@ data = {
         "total_area": 603550.0,
         "water_area": 24220.0,
     },
-    ".*united arab emirates|UAE|^AE$|^ARE$": {
+    ".*emirates|^UAE$|^AE$|^ARE$": {
         "calling_code": "+971",
         "capital_city": "Abu Dhabi",
         "capital_latitude": 54.3667,
@@ -9322,7 +9322,7 @@ data = {
         "total_area": 83600.0,
         "water_area": 0.0,
     },
-    "u\\.k\\.|united kingdom|gb$|g\\.b\\.|great britain|^GB$|^GBR$": {
+    "^(the )?uk$|^(the )?u\\.k\\.|(the )?united kingdom|gb$|g\\.b\\.|great britain|^GB$|^GBR$": {
         "calling_code": "+44",
         "capital_city": "London",
         "capital_latitude": -0.1275,
@@ -9362,7 +9362,7 @@ data = {
         "total_area": 243610.0,
         "water_area": 1680.0,
     },
-    "(?=.*minor outlying).*(united states|u\\.s\\.|us$)|^UM$|^UMI$": {
+    ".*(?=united states|u\\.s\\.|us).*(?=minor outlying)|^UM$|^UMI$": {
         "calling_code": "+1",
         "capital_city": "",
         "capital_latitude": "",
@@ -9402,7 +9402,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "u[\\.]*s[\\.]*a[\\.]*$|u[\\.]*s[\\.]*$|.*united states of america|(?!.*minor).*united states$|^US$|^USA$": {
+    ".*united states of america|(?!.*minor|virgin).*united states$|^(the )?U\\.?S\\.?$|^(the )?U\\.?S\\.?A\\.?$": {
         "calling_code": "+1",
         "capital_city": "Washington, D.C.",
         "capital_latitude": -77.0147,
@@ -9442,7 +9442,7 @@ data = {
         "total_area": 9833517.0,
         "water_area": 685924.0,
     },
-    "uruguay|^UY$|^URY$": {
+    ".*uruguay|^UY$|^URY$": {
         "calling_code": "+598",
         "capital_city": "Montevideo",
         "capital_latitude": -56.1819,
@@ -9482,7 +9482,7 @@ data = {
         "total_area": 176215.0,
         "water_area": 1200.0,
     },
-    "uzbekistan|^UZ$|^UZB$": {
+    ".*uzbekistan|^UZ$|^UZB$": {
         "calling_code": "+998",
         "capital_city": "Tashkent",
         "capital_latitude": 69.2667,
@@ -9522,7 +9522,7 @@ data = {
         "total_area": 447400.0,
         "water_area": 22000.0,
     },
-    "vanuatu|^VU$|^VUT$": {
+    ".*vanuatu|^VU$|^VUT$": {
         "calling_code": "+678",
         "capital_city": "Port Vila",
         "capital_latitude": 168.3167,
@@ -9562,7 +9562,7 @@ data = {
         "total_area": 12189.0,
         "water_area": 0.0,
     },
-    "venezuela|^VE$|^VEN$": {
+    ".*venezuela|^VE$|^VEN$": {
         "calling_code": "+58",
         "capital_city": "Caracas",
         "capital_latitude": -66.9036,
@@ -9602,7 +9602,7 @@ data = {
         "total_area": 912050.0,
         "water_area": 30000.0,
     },
-    "vietnam|viet nam|^VN$|^VNM$": {
+    ".*vietnam|viet nam|^VN$|^VNM$": {
         "calling_code": "+84",
         "capital_city": "Hanoi",
         "capital_latitude": 105.8542,
@@ -9642,7 +9642,7 @@ data = {
         "total_area": 331210.0,
         "water_area": 21140.0,
     },
-    "(?=.*virgin).*(u\\.k\\.|uk$|\\(uk\\)|british)|^VG$|^VGB$": {
+    "(?=.*virgin).*(?=.*u\\.k\\.|uk|british)|^BVI$|^VG$|^VGB$": {
         "calling_code": "+1 284",
         "capital_city": "Road Town",
         "capital_latitude": -64.6231,
@@ -9682,7 +9682,7 @@ data = {
         "total_area": 151.0,
         "water_area": 0.0,
     },
-    "(?=.*virgin).*(u\\.s\\.|us$|\\(us\\)|united states)|^VI$|^VIR$": {
+    "(?=.*virgin).*(?=.*u\\.s\\.|us|united states)|^VI$|^VIR$": {
         "calling_code": "+1 340",
         "capital_city": "Charlotte Amalie",
         "capital_latitude": -64.95,
@@ -9722,7 +9722,7 @@ data = {
         "total_area": "",
         "water_area": "",
     },
-    "(?=.*wallis).*futuna|^WF$|^WLF$": {
+    ".*wallis.*futuna|^WF$|^WLF$": {
         "calling_code": "+681",
         "capital_city": "Mata Utu",
         "capital_latitude": -176.1833,
@@ -9762,7 +9762,7 @@ data = {
         "total_area": 142.0,
         "water_area": 0.0,
     },
-    "(?=.*western).*sahara|^EH$|^ESH$": {
+    ".*western.*sahara|^EH$|^ESH$": {
         "calling_code": "+212",
         "capital_city": "El Aaiún",
         "capital_latitude": -13.2033,
@@ -9802,7 +9802,7 @@ data = {
         "total_area": 266000.0,
         "water_area": 0.0,
     },
-    "yemen|^YE$|^YEM$": {
+    ".*yemen|^YE$|^YEM$": {
         "calling_code": "+967",
         "capital_city": "Aden",
         "capital_latitude": 45.0333,
@@ -9842,7 +9842,7 @@ data = {
         "total_area": 527968.0,
         "water_area": 0.0,
     },
-    "zambia|^ZM$|^ZMB$": {
+    ".*zambia|^ZM$|^ZMB$": {
         "calling_code": "+260",
         "capital_city": "Lusaka",
         "capital_latitude": 28.2833,
@@ -9882,7 +9882,7 @@ data = {
         "total_area": 752618.0,
         "water_area": 9220.0,
     },
-    "zimbabwe|^ZW$|^ZWE$": {
+    ".*zimbabwe|^ZW$|^ZWE$": {
         "calling_code": "+263",
         "capital_city": "Harare",
         "capital_latitude": 31.0522,
