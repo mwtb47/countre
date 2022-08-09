@@ -9,6 +9,8 @@ Functions:
     test_default_attribute: Test default attrbute is country name.
 """
 
+import pytest
+
 from countre._organisations import member_countries
 from countre.enums import Attribute, Organisation
 from country_data.organisations import (
@@ -20,34 +22,27 @@ from country_data.organisations import (
 )
 
 
-def test_all_eu_present() -> None:
-    """Test that all EU members are returned."""
-    countries = member_countries(Organisation.EU, Attribute.ISO3)
-    assert sorted(countries) == sorted(EU_ISO3)
+test_data = [
+    (Organisation.EU, EU_ISO3),
+    (Organisation.EU_EEA, EU_EEA_ISO3),
+    (Organisation.NATO, NATO_ISO3),
+    (Organisation.OECD, OECD_ISO3),
+    (Organisation.OPEC, OPEC_ISO3),
+]
+
+test_ids = [pair[0].value for pair in test_data]
 
 
-def test_all_eu_eea_present() -> None:
-    """Test that all EU or EEA members are returned."""
-    countries = member_countries(Organisation.EU_EEA, Attribute.ISO3)
-    assert sorted(countries) == sorted(EU_EEA_ISO3)
+@pytest.mark.parametrize(("organisation", "iso3_codes"), test_data, ids=test_ids)
+def test_all_members(organisation: Organisation, iso3_codes: list[str]) -> None:
+    """Test that all members of an organisation are returned.
 
-
-def test_all_nato_present() -> None:
-    """Test that all NATO members are returned."""
-    countries = member_countries(Organisation.NATO, Attribute.ISO3)
-    assert sorted(countries) == sorted(NATO_ISO3)
-
-
-def test_all_oecd_present() -> None:
-    """Test that all OECD members are returned."""
-    countries = member_countries(Organisation.OECD, Attribute.ISO3)
-    assert sorted(countries) == sorted(OECD_ISO3)
-
-
-def test_all_opec_present() -> None:
-    """Test that all OPEC members are returned."""
-    countries = member_countries(Organisation.OPEC, Attribute.ISO3)
-    assert sorted(countries) == sorted(OPEC_ISO3)
+    Args:
+        organisation: Organisation enum.
+        iso3_codes: List of expected ISO3 codes.
+    """
+    countries = member_countries(organisation, Attribute.ISO3)
+    assert sorted(countries) == sorted(iso3_codes)
 
 
 def test_default_attribute() -> None:
