@@ -943,7 +943,7 @@ regex_dict = {
         "iso3": "GBR",
     },
     "United States Minor Outlying Islands (the)": {
-        "regex": ".*(?=united states|u\\.s\\.|us).*(?=minor outlying)|^UM$|^UMI$",
+        "regex": ".*(?=united states|u\\.s\\.|us).*(?=outlying)|^UM$|^UMI$",
         "iso3": "UMI",
     },
     "United States of America (the)": {

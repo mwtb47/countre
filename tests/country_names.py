@@ -1351,6 +1351,8 @@ test_specifications = [
             "United States Minor Outlying Islands",
             "U.S. Minor Outlying Islands",
             "US Minor Outlying Islands",
+            "US Outlying Islands",
+            "U.S. Outlying Islands",
         ],
     },
     {

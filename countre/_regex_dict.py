@@ -9362,7 +9362,7 @@ data = {
         "total_area": 243610.0,
         "water_area": 1680.0,
     },
-    ".*(?=united states|u\\.s\\.|us).*(?=minor outlying)|^UM$|^UMI$": {
+    ".*(?=united states|u\\.s\\.|us).*(?=outlying)|^UM$|^UMI$": {
         "calling_code": "+1",
         "capital_city": "",
         "capital_latitude": "",
