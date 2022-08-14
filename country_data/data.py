@@ -183,6 +183,7 @@ def main():
         "country_data/data/ISO_countries.csv",
         dtype={"iso_numeric": str},
         keep_default_na=False,
+        na_values=[""],
     )
 
     # Merge all data frames

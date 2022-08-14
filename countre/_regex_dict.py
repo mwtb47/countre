@@ -6106,7 +6106,7 @@ data = {
         "gini": 59.1,
         "hci": 0.446,
         "hdi": 0.646,
-        "iso2": "",
+        "iso2": "NA",
         "iso3": "NAM",
         "iso_numeric": 516,
         "land_area": 823290.0,

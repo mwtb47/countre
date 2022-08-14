@@ -14,7 +14,9 @@ import pandas as pd
 from regex_dict import regex_dict
 
 
-df = pd.read_csv("country_data/countries_summary_data.csv")
+df = pd.read_csv(
+    "country_data/countries_summary_data.csv", keep_default_na=False, na_values=[""]
+)
 
 # This has to be set outside of a function as black removes the
 # indentation in the blank rows when it is set in a function.
