@@ -13,12 +13,16 @@ test_specifications = [
     {
         "name": "Albania",
         "iso3": "ALB",
-        "test_names": ["Albania", "Republic of Albania"],
+        "test_names": ["Albania", "Republic of Albania", "Rep. of Albania"],
     },
     {
         "name": "Algeria",
         "iso3": "DZA",
-        "test_names": ["Algeria", "People's Democratic Republic of Algeria"],
+        "test_names": [
+            "Algeria",
+            "People's Democratic Republic of Algeria",
+            "People's Democratic Rep. of Algeria",
+        ],
     },
     {
         "name": "American Samoa",
@@ -33,7 +37,7 @@ test_specifications = [
     {
         "name": "Angola",
         "iso3": "AGO",
-        "test_names": ["Angola", "Republic of Angola"],
+        "test_names": ["Angola", "Republic of Angola", "Rep. of Angola"],
     },
     {
         "name": "Anguilla",
@@ -60,12 +64,17 @@ test_specifications = [
     {
         "name": "Argentina",
         "iso3": "ARG",
-        "test_names": ["Argentina", "Argentine Republic"],
+        "test_names": [
+            "Argentina",
+            "Argentine Republic",
+            "Argentine Rep.",
+            "Argentine Rep",
+        ],
     },
     {
         "name": "Armenia",
         "iso3": "ARM",
-        "test_names": ["Armenia", "Republic of Armenia"],
+        "test_names": ["Armenia", "Republic of Armenia", "Rep. of Armenia"],
     },
     {
         "name": "Aruba",
@@ -80,12 +89,12 @@ test_specifications = [
     {
         "name": "Austria",
         "iso3": "AUT",
-        "test_names": ["Austria", "Republic of Austria"],
+        "test_names": ["Austria", "Republic of Austria", "Rep. of Austria"],
     },
     {
         "name": "Azerbaijan",
         "iso3": "AZE",
-        "test_names": ["Azerbaijan", "Republic of Azerbaijan"],
+        "test_names": ["Azerbaijan", "Republic of Azerbaijan", "Rep. of Azerbaijan"],
     },
     {
         "name": "Bahamas",
@@ -105,7 +114,11 @@ test_specifications = [
     {
         "name": "Bangladesh",
         "iso3": "BGD",
-        "test_names": ["Bangladesh", "People's Republic of Bangladesh"],
+        "test_names": [
+            "Bangladesh",
+            "People's Republic of Bangladesh",
+            "People's Rep. of Bangladesh",
+        ],
     },
     {
         "name": "Barbados",
@@ -115,7 +128,7 @@ test_specifications = [
     {
         "name": "Belarus",
         "iso3": "BLR",
-        "test_names": ["Belarus", "Republic of Belarus"],
+        "test_names": ["Belarus", "Republic of Belarus", "Rep. of Belarus"],
     },
     {
         "name": "Belgium",
@@ -130,7 +143,7 @@ test_specifications = [
     {
         "name": "Benin",
         "iso3": "BEN",
-        "test_names": ["Benin", "Republic of Benin"],
+        "test_names": ["Benin", "Republic of Benin", "Rep. of Benin"],
     },
     {
         "name": "Bermuda",
@@ -155,7 +168,7 @@ test_specifications = [
     {
         "name": "Botswana",
         "iso3": "BWA",
-        "test_names": ["Botswana", "Republic of Botswana"],
+        "test_names": ["Botswana", "Republic of Botswana", "Rep. of Botswana"],
     },
     {
         "name": "Bouvet Island",
@@ -165,7 +178,11 @@ test_specifications = [
     {
         "name": "Brazil",
         "iso3": "BRA",
-        "test_names": ["Brazil", "Federative Republic of Brazil"],
+        "test_names": [
+            "Brazil",
+            "Federative Republic of Brazil",
+            "Federative Rep. of Brazil",
+        ],
     },
     {
         "name": "British Indian Ocean Territory",
@@ -184,7 +201,7 @@ test_specifications = [
     {
         "name": "Bulgaria",
         "iso3": "BGR",
-        "test_names": ["Bulgaria", "Republic of Bulgaria"],
+        "test_names": ["Bulgaria", "Republic of Bulgaria", "Rep. of Bulgaria"],
     },
     {
         "name": "Burkina Faso",
@@ -194,12 +211,17 @@ test_specifications = [
     {
         "name": "Burundi",
         "iso3": "BDI",
-        "test_names": ["Burundi", "Republic of Burundi"],
+        "test_names": ["Burundi", "Republic of Burundi", "Rep. of Burundi"],
     },
     {
         "name": "Cabo Verde",
         "iso3": "CPV",
-        "test_names": ["Cabo Verde", "Cape Verde", "Republic of Cabo Verde"],
+        "test_names": [
+            "Cabo Verde",
+            "Cape Verde",
+            "Republic of Cabo Verde",
+            "Rep. of Cabo Verde",
+        ],
     },
     {
         "name": "Cambodia",
@@ -209,7 +231,7 @@ test_specifications = [
     {
         "name": "Cameroon",
         "iso3": "CMR",
-        "test_names": ["Cameroon", "Republic of Cameroon"],
+        "test_names": ["Cameroon", "Republic of Cameroon", "Rep. of Cameroon"],
     },
     {
         "name": "Canada",
@@ -233,22 +255,32 @@ test_specifications = [
     {
         "name": "The Central African Republic",
         "iso3": "CAF",
-        "test_names": ["The Central African Republic", "Central African Republic"],
+        "test_names": [
+            "The Central African Republic",
+            "Central African Republic",
+            "Central African Rep.",
+            "Central African Rep",
+        ],
     },
     {
         "name": "Chad",
         "iso3": "TCD",
-        "test_names": ["Chad", "Republic of Chad"],
+        "test_names": ["Chad", "Republic of Chad", "Rep. of Chad"],
     },
     {
         "name": "Chile",
         "iso3": "CHL",
-        "test_names": ["Chile", "Republic of Chile"],
+        "test_names": ["Chile", "Republic of Chile", "Rep. of Chile"],
     },
     {
         "name": "China",
         "iso3": "CHN",
-        "test_names": ["China", "People's Republic of China", "PRC"],
+        "test_names": [
+            "China",
+            "People's Republic of China",
+            "People's Rep. of China",
+            "PRC",
+        ],
     },
     {
         "name": "Christmas Island",
@@ -267,7 +299,7 @@ test_specifications = [
     {
         "name": "Colombia",
         "iso3": "COL",
-        "test_names": ["Colombia", "Republic of Colombia"],
+        "test_names": ["Colombia", "Republic of Colombia", "Rep. of Colombia"],
     },
     {
         "name": "The Comoros",
@@ -280,6 +312,8 @@ test_specifications = [
         "test_names": [
             "The Democratic Republic of the Congo",
             "Democratic Republic of the Congo",
+            "The Democratic Rep. of the Congo",
+            "Democratic Rep. of the Congo",
             "Congo-Kinshasa",
             "Kinshasa",
             "DR Congo",
@@ -298,6 +332,9 @@ test_specifications = [
             "The Republic of the Congo",
             "Republic of the Congo",
             "Congo Republic",
+            "The Rep. of the Congo",
+            "Rep. of the Congo",
+            "Congo Rep.",
             "Congo-Brazzaville",
             "Brazzaville",
         ],
@@ -310,17 +347,17 @@ test_specifications = [
     {
         "name": "Costa Rica",
         "iso3": "CRI",
-        "test_names": ["Costa Rica", "Republic of Costa Rica"],
+        "test_names": ["Costa Rica", "Republic of Costa Rica", "Rep. of Costa Rica"],
     },
     {
         "name": "Croatia",
         "iso3": "HRV",
-        "test_names": ["Croatia", "Republic of Croatia"],
+        "test_names": ["Croatia", "Republic of Croatia", "Rep. of Croatia"],
     },
     {
         "name": "Cuba",
         "iso3": "CUB",
-        "test_names": ["Cuba", "Republic of Cuba"],
+        "test_names": ["Cuba", "Republic of Cuba", "Rep. of Cuba"],
     },
     {
         "name": "Curaçao",
@@ -335,12 +372,18 @@ test_specifications = [
     {
         "name": "Cyprus",
         "iso3": "CYP",
-        "test_names": ["Cyprus", "Republic of Cyprus"],
+        "test_names": ["Cyprus", "Republic of Cyprus", "Rep. of Cyprus"],
     },
     {
         "name": "Czechia",
         "iso3": "CZE",
-        "test_names": ["Czechia", "Czech Republic", "The Czech Republic"],
+        "test_names": [
+            "Czechia",
+            "Czech Republic",
+            "The Czech Republic",
+            "Czech Rep.",
+            "The Czech Rep.",
+        ],
     },
     {
         "name": "Côte d'Ivoire",
@@ -350,6 +393,8 @@ test_specifications = [
             "Cote d'Ivoire",
             "Republic of Côte d'Ivoire",
             "Republic of Cote d'Ivoire",
+            "Rep. of Côte d'Ivoire",
+            "Rep. of Cote d'Ivoire",
             "Ivory Coast",
         ],
     },
@@ -361,7 +406,7 @@ test_specifications = [
     {
         "name": "Djibouti",
         "iso3": "DJI",
-        "test_names": ["Djibouti", "Republic of Djibouti"],
+        "test_names": ["Djibouti", "Republic of Djibouti", "Rep. of Djibouti"],
     },
     {
         "name": "Dominica",
@@ -375,27 +420,32 @@ test_specifications = [
             "Dominican Republic",
             "The Dominican Republic",
             "Dominican Rep.",
+            "The Dominican Rep.",
         ],
     },
     {
         "name": "Ecuador",
         "iso3": "ECU",
-        "test_names": ["Ecuador", "Republic of Ecuador"],
+        "test_names": ["Ecuador", "Republic of Ecuador", "Rep. of Ecuador"],
     },
     {
         "name": "Egypt",
         "iso3": "EGY",
-        "test_names": ["Egypt", "Arab Republic of Egypt"],
+        "test_names": ["Egypt", "Arab Republic of Egypt", "Arab Rep. of Egypt"],
     },
     {
         "name": "El Salvador",
         "iso3": "SLV",
-        "test_names": ["El Salvador", "Republic of El Salvador"],
+        "test_names": ["El Salvador", "Republic of El Salvador", "Rep. of El Salvador"],
     },
     {
         "name": "Equatorial Guinea",
         "iso3": "GNQ",
-        "test_names": ["Equatorial Guinea", "Republic of Equatorial Guinea"],
+        "test_names": [
+            "Equatorial Guinea",
+            "Republic of Equatorial Guinea",
+            "Rep. of Equatorial Guinea",
+        ],
     },
     {
         "name": "Eritrea",
@@ -405,7 +455,7 @@ test_specifications = [
     {
         "name": "Estonia",
         "iso3": "EST",
-        "test_names": ["Estonia", "Republic of Estonia"],
+        "test_names": ["Estonia", "Republic of Estonia", "Rep. of Estonia"],
     },
     {
         "name": "Eswatini",
@@ -415,7 +465,11 @@ test_specifications = [
     {
         "name": "Ethiopia",
         "iso3": "ETH",
-        "test_names": ["Ethiopia", "Federal Democratic Republic of Ethiopia"],
+        "test_names": [
+            "Ethiopia",
+            "Federal Democratic Republic of Ethiopia",
+            "Federal Democratic Rep. of Ethiopia",
+        ],
     },
     {
         "name": "The Falkland Islands",
@@ -435,17 +489,17 @@ test_specifications = [
     {
         "name": "Fiji",
         "iso3": "FJI",
-        "test_names": ["Fiji", "Republic of Fiji"],
+        "test_names": ["Fiji", "Republic of Fiji", "Rep. of Fiji"],
     },
     {
         "name": "Finland",
         "iso3": "FIN",
-        "test_names": ["Finland", "Republic of Finland"],
+        "test_names": ["Finland", "Republic of Finland", "Rep. of Finland"],
     },
     {
         "name": "France",
         "iso3": "FRA",
-        "test_names": ["France", "French Republic"],
+        "test_names": ["France", "French Republic", "French Rep."],
     },
     {
         "name": "French Guiana",
@@ -470,12 +524,17 @@ test_specifications = [
     {
         "name": "Gabon",
         "iso3": "GAB",
-        "test_names": ["Gabon", "Gabonese Republic"],
+        "test_names": ["Gabon", "Gabonese Republic", "Gabonese Rep."],
     },
     {
         "name": "The Gambia",
         "iso3": "GMB",
-        "test_names": ["The Gambia", "Gambia", "Republic of the Gambia"],
+        "test_names": [
+            "The Gambia",
+            "Gambia",
+            "Republic of the Gambia",
+            "Rep. of the Gambia",
+        ],
     },
     {
         "name": "Georgia",
@@ -485,12 +544,16 @@ test_specifications = [
     {
         "name": "Germany",
         "iso3": "DEU",
-        "test_names": ["Germany", "Federal Republic of Germany"],
+        "test_names": [
+            "Germany",
+            "Federal Republic of Germany",
+            "Federal Rep. of Germany",
+        ],
     },
     {
         "name": "Ghana",
         "iso3": "GHA",
-        "test_names": ["Ghana", "Republic of Ghana"],
+        "test_names": ["Ghana", "Republic of Ghana", "Rep. of Ghana"],
     },
     {
         "name": "Gibraltar",
@@ -500,7 +563,7 @@ test_specifications = [
     {
         "name": "Greece",
         "iso3": "GRC",
-        "test_names": ["Greece", "Hellenic Republic"],
+        "test_names": ["Greece", "Hellenic Republic", "Hellenic Rep."],
     },
     {
         "name": "Greenland",
@@ -525,7 +588,7 @@ test_specifications = [
     {
         "name": "Guatemala",
         "iso3": "GTM",
-        "test_names": ["Guatemala", "Republic of Guatemala"],
+        "test_names": ["Guatemala", "Republic of Guatemala", "Rep. of Guatemala"],
     },
     {
         "name": "Guernsey",
@@ -535,22 +598,36 @@ test_specifications = [
     {
         "name": "Guinea",
         "iso3": "GIN",
-        "test_names": ["Guinea", "Republic of Guinea", "Guinea-Conakry"],
+        "test_names": [
+            "Guinea",
+            "Republic of Guinea",
+            "Rep. of Guinea",
+            "Guinea-Conakry",
+        ],
     },
     {
         "name": "Guinea-Bissau",
         "iso3": "GNB",
-        "test_names": ["Guinea-Bissau", "Republic of Guinea-Bissau", "Guinea Bissau"],
+        "test_names": [
+            "Guinea-Bissau",
+            "Republic of Guinea-Bissau",
+            "Rep. of Guinea-Bissau",
+            "Guinea Bissau",
+        ],
     },
     {
         "name": "Guyana",
         "iso3": "GUY",
-        "test_names": ["Guyana", "Co‑operative Republic of Guyana"],
+        "test_names": [
+            "Guyana",
+            "Co-operative Republic of Guyana",
+            "Co-operative Rep. of Guyana",
+        ],
     },
     {
         "name": "Haiti",
         "iso3": "HTI",
-        "test_names": ["Haiti", "Republic of Haiti"],
+        "test_names": ["Haiti", "Republic of Haiti", "Rep. of Haiti"],
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -575,7 +652,7 @@ test_specifications = [
     {
         "name": "Honduras",
         "iso3": "HND",
-        "test_names": ["Honduras", "Republic of Honduras"],
+        "test_names": ["Honduras", "Republic of Honduras", "Rep. of Honduras"],
     },
     {
         "name": "Hong Kong",
@@ -600,27 +677,38 @@ test_specifications = [
     {
         "name": "India",
         "iso3": "IND",
-        "test_names": ["India", "Republic of India"],
+        "test_names": ["India", "Republic of India", "Rep. of India"],
     },
     {
         "name": "Indonesia",
         "iso3": "IDN",
-        "test_names": ["Indonesia", "Republic of Indonesia"],
+        "test_names": ["Indonesia", "Republic of Indonesia", "Rep. of Indonesia"],
     },
     {
         "name": "Iran",
         "iso3": "IRN",
-        "test_names": ["Iran", "Persia", "Islamic Republic of Iran"],
+        "test_names": [
+            "Iran",
+            "Persia",
+            "Islamic Republic of Iran",
+            "Islamic Rep. of Iran",
+        ],
     },
     {
         "name": "Iraq",
         "iso3": "IRQ",
-        "test_names": ["Iraq", "Republic of Iraq"],
+        "test_names": ["Iraq", "Republic of Iraq", "Rep. of Iraq"],
     },
     {
         "name": "Ireland",
         "iso3": "IRL",
-        "test_names": ["Ireland", "Eire", "Éire"],
+        "test_names": [
+            "Ireland",
+            "Republic of Ireland",
+            "Rep. of Ireland",
+            "Eire",
+            "Éire",
+        ],
     },
     {
         "name": "The Isle of Man",
@@ -635,7 +723,13 @@ test_specifications = [
     {
         "name": "Italy",
         "iso3": "ITA",
-        "test_names": ["Italy", "Italian Republic", "Republic of Italy"],
+        "test_names": [
+            "Italy",
+            "Italian Republic",
+            "Italian Rep.",
+            "Republic of Italy",
+            "Rep. of Italy",
+        ],
     },
     {
         "name": "Jamaica",
@@ -660,17 +754,17 @@ test_specifications = [
     {
         "name": "Kazakhstan",
         "iso3": "KAZ",
-        "test_names": ["Kazakhstan", "Republic of Kazakhstan"],
+        "test_names": ["Kazakhstan", "Republic of Kazakhstan", "Rep. of Kazakhstan"],
     },
     {
         "name": "Kenya",
         "iso3": "KEN",
-        "test_names": ["Kenya", "Republic of Kenya"],
+        "test_names": ["Kenya", "Republic of Kenya", "Rep. of Kenya"],
     },
     {
         "name": "Kiribati",
         "iso3": "KIR",
-        "test_names": ["Kiribati", "Republic of Kiribati"],
+        "test_names": ["Kiribati", "Republic of Kiribati", "Rep. of Kiribati"],
     },
     {
         "name": "North Korea",
@@ -681,6 +775,8 @@ test_specifications = [
             "N Korea",
             "The Democratic People's Republic of Korea",
             "Democratic People's Republic of Korea",
+            "The Democratic People's Rep. of Korea",
+            "Democratic People's Rep. of Korea",
             "DPRK",
         ],
     },
@@ -693,13 +789,15 @@ test_specifications = [
             "S Korea",
             "The Republic of Korea",
             "Republic or Korea",
+            "The Rep. of Korea",
+            "Rep. or Korea",
             "ROK",
         ],
     },
     # {
     #    "name": "Kosovo",
     #    "iso3": "XKX",
-    #    "test_names": ["Kosovo", "Republic of Kosovo"],
+    #    "test_names": ["Kosovo", "Republic of Kosovo", "Rep. of Kosovo"],
     # },
     {
         "name": "Kuwait",
@@ -709,22 +807,32 @@ test_specifications = [
     {
         "name": "Kyrgyzstan",
         "iso3": "KGZ",
-        "test_names": ["Kyrgyzstan", "Kyrgyz Republic"],
+        "test_names": ["Kyrgyzstan", "Kyrgyz Republic", "Kyrgyz Rep."],
     },
     {
         "name": "Laos",
         "iso3": "LAO",
-        "test_names": ["Laos", "Lao People's Democratic Republic"],
+        "test_names": [
+            "Laos",
+            "Lao People's Democratic Republic",
+            "Lao People's Democratic Rep.",
+        ],
     },
     {
         "name": "Latvia",
         "iso3": "LVA",
-        "test_names": ["Latvia", "Republic of Latvia"],
+        "test_names": ["Latvia", "Republic of Latvia", "Rep. of Latvia"],
     },
     {
         "name": "Lebanon",
         "iso3": "LBN",
-        "test_names": ["Lebanon", "Republic of Lebanon", "Lebanese Republic"],
+        "test_names": [
+            "Lebanon",
+            "Republic of Lebanon",
+            "Rep. of Lebanon",
+            "Lebanese Republic",
+            "Lebanese Rep.",
+        ],
     },
     {
         "name": "Lesotho",
@@ -734,7 +842,7 @@ test_specifications = [
     {
         "name": "Liberia",
         "iso3": "LBR",
-        "test_names": ["Liberia", "Republic of Liberia"],
+        "test_names": ["Liberia", "Republic of Liberia", "Rep. of Liberia"],
     },
     {
         "name": "Libya",
@@ -749,7 +857,7 @@ test_specifications = [
     {
         "name": "Lithuania",
         "iso3": "LTU",
-        "test_names": ["Lithuania", "Republic of Lithuania"],
+        "test_names": ["Lithuania", "Republic of Lithuania", "Rep. of Lithuania"],
     },
     {
         "name": "Luxembourg",
@@ -769,12 +877,12 @@ test_specifications = [
     {
         "name": "Madagascar",
         "iso3": "MDG",
-        "test_names": ["Madagascar", "Republic of Madagascar"],
+        "test_names": ["Madagascar", "Republic of Madagascar", "Rep. of Madagascar"],
     },
     {
         "name": "Malawi",
         "iso3": "MWI",
-        "test_names": ["Malawi", "Republic of Malawi"],
+        "test_names": ["Malawi", "Republic of Malawi", "Rep. of Malawi"],
     },
     {
         "name": "Malaysia",
@@ -784,22 +892,31 @@ test_specifications = [
     {
         "name": "Maldives",
         "iso3": "MDV",
-        "test_names": ["Maldives", "The Maldives", "Republic of Maldives"],
+        "test_names": [
+            "Maldives",
+            "The Maldives",
+            "Republic of Maldives",
+            "Rep. of Maldives",
+        ],
     },
     {
         "name": "Mali",
         "iso3": "MLI",
-        "test_names": ["Mali", "Republic of Mali"],
+        "test_names": ["Mali", "Republic of Mali", "Rep. of Mali"],
     },
     {
         "name": "Malta",
         "iso3": "MLT",
-        "test_names": ["Malta", "Republic of Malta"],
+        "test_names": ["Malta", "Republic of Malta", "Rep. of Malta"],
     },
     {
         "name": "Marshall Islands",
         "iso3": "MHL",
-        "test_names": ["Marshall Islands", "Republic of the Marshall Islands"],
+        "test_names": [
+            "Marshall Islands",
+            "Republic of the Marshall Islands",
+            "Rep. of the Marshall Islands",
+        ],
     },
     {
         "name": "Martinique",
@@ -809,12 +926,16 @@ test_specifications = [
     {
         "name": "Mauritania",
         "iso3": "MRT",
-        "test_names": ["Mauritania", "Islamic Republic of Mauritania"],
+        "test_names": [
+            "Mauritania",
+            "Islamic Republic of Mauritania",
+            "Islamic Rep. of Mauritania",
+        ],
     },
     {
         "name": "Mauritius",
         "iso3": "MUS",
-        "test_names": ["Mauritius", "Republic of Mauritius"],
+        "test_names": ["Mauritius", "Republic of Mauritius", "Rep. of Mauritius"],
     },
     {
         "name": "Mayotte",
@@ -834,7 +955,7 @@ test_specifications = [
     {
         "name": "Moldova",
         "iso3": "MDA",
-        "test_names": ["Moldova", "Republic of Moldova"],
+        "test_names": ["Moldova", "Republic of Moldova", "Rep. of Moldova"],
     },
     {
         "name": "Monaco",
@@ -864,27 +985,41 @@ test_specifications = [
     {
         "name": "Mozambique",
         "iso3": "MOZ",
-        "test_names": ["Mozambique", "Republic of Mozambique"],
+        "test_names": ["Mozambique", "Republic of Mozambique", "Rep. of Mozambique"],
     },
     {
         "name": "Myanmar",
         "iso3": "MMR",
-        "test_names": ["Myanmar", "Republic of the Union of Myanmar", "Burma"],
+        "test_names": [
+            "Myanmar",
+            "Republic of the Union of Myanmar",
+            "Rep. of the Union of Myanmar",
+            "Burma",
+        ],
     },
     {
         "name": "Namibia",
         "iso3": "NAM",
-        "test_names": ["Namibia", "Republic of Namibia"],
+        "test_names": ["Namibia", "Republic of Namibia", "Rep. of Namibia"],
     },
     {
         "name": "Nauru",
         "iso3": "NRU",
-        "test_names": ["Nauru", "Republic of Nauru", "Pleasant Island"],
+        "test_names": [
+            "Nauru",
+            "Republic of Nauru",
+            "Rep. of Nauru",
+            "Pleasant Island",
+        ],
     },
     {
         "name": "Nepal",
         "iso3": "NPL",
-        "test_names": ["Nepal", "Federal Democratic Republic of Nepal"],
+        "test_names": [
+            "Nepal",
+            "Federal Democratic Republic of Nepal",
+            "Federal Democratic Rep. of Nepal",
+        ],
     },
     {
         "name": "The Netherlands",
@@ -899,22 +1034,26 @@ test_specifications = [
     {
         "name": "New Zealand",
         "iso3": "NZL",
-        "test_names": ["New Zealand", "N Zealand", "N. Zealand"],
+        "test_names": ["New Zealand", "N. Zealand", "N Zealand"],
     },
     {
         "name": "Nicaragua",
         "iso3": "NIC",
-        "test_names": ["Nicaragua", "Republic of Nicaragua"],
+        "test_names": ["Nicaragua", "Republic of Nicaragua", "Rep. of Nicaragua"],
     },
     {
         "name": "Niger",
         "iso3": "NER",
-        "test_names": ["Niger", "The Niger", "Republic of Niger"],
+        "test_names": ["Niger", "The Niger", "Republic of Niger", "Rep. of Niger"],
     },
     {
         "name": "Nigeria",
         "iso3": "NGA",
-        "test_names": ["Nigeria", "Federal Republic of Nigeria"],
+        "test_names": [
+            "Nigeria",
+            "Federal Republic of Nigeria",
+            "Federal Rep. of Nigeria",
+        ],
     },
     {
         "name": "Niue",
@@ -929,7 +1068,14 @@ test_specifications = [
     {
         "name": "North Macedonia",
         "iso3": "MKD",
-        "test_names": ["North Macedonia", "Macedonia", "Republic of North Macedonia"],
+        "test_names": [
+            "North Macedonia",
+            "N. Macedonia",
+            "N Macedonia",
+            "Macedonia",
+            "Republic of North Macedonia",
+            "Rep. of North Macedonia",
+        ],
     },
     {
         "name": "The Northern Mariana Islands",
@@ -953,12 +1099,23 @@ test_specifications = [
     {
         "name": "Pakistan",
         "iso3": "PAK",
-        "test_names": ["Pakistan", "Islamic Republic of Pakistan"],
+        "test_names": [
+            "Pakistan",
+            "Islamic Republic of Pakistan",
+            "Islamic Rep. of Pakistan",
+        ],
     },
     {
         "name": "Palau",
         "iso3": "PLW",
-        "test_names": ["Palau", "Republic of Palau", "Belau", "Palaos", "Pelew"],
+        "test_names": [
+            "Palau",
+            "Republic of Palau",
+            "Rep. of Palau",
+            "Belau",
+            "Palaos",
+            "Pelew",
+        ],
     },
     {
         "name": "Palestine",
@@ -968,7 +1125,7 @@ test_specifications = [
     {
         "name": "Panama",
         "iso3": "PAN",
-        "test_names": ["Panama", "Republic of Panama"],
+        "test_names": ["Panama", "Republic of Panama", "Rep. of Panama"],
     },
     {
         "name": "Papua New Guinea",
@@ -982,17 +1139,22 @@ test_specifications = [
     {
         "name": "Paraguay",
         "iso3": "PRY",
-        "test_names": ["Paraguay", "Republic of Paraguay"],
+        "test_names": ["Paraguay", "Republic of Paraguay", "Rep. of Paraguay"],
     },
     {
         "name": "Peru",
         "iso3": "PER",
-        "test_names": ["Peru", "Republic of Peru"],
+        "test_names": ["Peru", "Republic of Peru", "Rep. of Peru"],
     },
     {
         "name": "Philippines",
         "iso3": "PHL",
-        "test_names": ["Philippines", "The Philippines", "Republic of Philippines"],
+        "test_names": [
+            "Philippines",
+            "The Philippines",
+            "Republic of Philippines",
+            "Rep. of Philippines",
+        ],
     },
     {
         "name": "The Pitcairn Islands",
@@ -1005,12 +1167,12 @@ test_specifications = [
     {
         "name": "Poland",
         "iso3": "POL",
-        "test_names": ["Poland", "Republic of Poland"],
+        "test_names": ["Poland", "Republic of Poland", "Rep. of Poland"],
     },
     {
         "name": "Portugal",
         "iso3": "PRT",
-        "test_names": ["Portugal", "Portuguese Republic"],
+        "test_names": ["Portugal", "Portuguese Republic", "Portuguese Rep."],
     },
     {
         "name": "Puerto Rico",
@@ -1030,12 +1192,12 @@ test_specifications = [
     {
         "name": "Russia",
         "iso3": "RUS",
-        "test_names": ["Russia", "Russian Federation"],
+        "test_names": ["Russia", "Russian Federation", "Russian Fed."],
     },
     {
         "name": "Rwanda",
         "iso3": "RWA",
-        "test_names": ["Rwanda", "Republic of Rwanda"],
+        "test_names": ["Rwanda", "Republic of Rwanda", "Rep. of Rwanda"],
     },
     {
         "name": "Réunion",
@@ -1071,6 +1233,7 @@ test_specifications = [
             "St. Kitts and Nevis",
             "St Kitts and Nevis",
             "Federation of Saint Christopher and Nevis",
+            "Fed. of Saint Christopher and Nevis",
         ],
     },
     {
@@ -1114,7 +1277,7 @@ test_specifications = [
     {
         "name": "San Marino",
         "iso3": "SMR",
-        "test_names": ["San Marino", "Republic of San Marino"],
+        "test_names": ["San Marino", "Republic of San Marino", "Rep. of San Marino"],
     },
     {
         "name": "São Tomé and Príncipe",
@@ -1123,6 +1286,7 @@ test_specifications = [
             "São Tomé and Príncipe",
             "Sao Tome and Principe",
             "Democratic Republic of São Tomé and Príncipe",
+            "Democratic Rep. of São Tomé and Príncipe",
         ],
     },
     {
@@ -1133,27 +1297,32 @@ test_specifications = [
     {
         "name": "Senegal",
         "iso3": "SEN",
-        "test_names": ["Senegal", "Republic of Senegal"],
+        "test_names": ["Senegal", "Republic of Senegal", "Rep. of Senegal"],
     },
     {
         "name": "Serbia",
         "iso3": "SRB",
-        "test_names": ["Serbia", "Republic of Serbia"],
+        "test_names": ["Serbia", "Republic of Serbia", "Rep. of Serbia"],
     },
     {
         "name": "Seychelles",
         "iso3": "SYC",
-        "test_names": ["Seychelles", "Republic of Seychelles"],
+        "test_names": ["Seychelles", "Republic of Seychelles", "Rep. of Seychelles"],
     },
     {
         "name": "Sierra Leone",
         "iso3": "SLE",
-        "test_names": ["Sierra Leone", "Republic of Sierra Leone", "Salone"],
+        "test_names": [
+            "Sierra Leone",
+            "Republic of Sierra Leone",
+            "Rep. of Sierra Leone",
+            "Salone",
+        ],
     },
     {
         "name": "Singapore",
         "iso3": "SGP",
-        "test_names": ["Singapore", "Republic of Singapore"],
+        "test_names": ["Singapore", "Republic of Singapore", "Rep. of Singapore"],
     },
     {
         "name": "Sint Maarten",
@@ -1163,12 +1332,12 @@ test_specifications = [
     {
         "name": "Slovakia",
         "iso3": "SVK",
-        "test_names": ["Slovakia", "Slovak Republic"],
+        "test_names": ["Slovakia", "Slovak Republic", "Slovak Rep."],
     },
     {
         "name": "Slovenia",
         "iso3": "SVN",
-        "test_names": ["Slovenia", "Republic of Slovenia"],
+        "test_names": ["Slovenia", "Republic of Slovenia", "Rep. of Slovenia"],
     },
     {
         "name": "Solomon Islands",
@@ -1178,7 +1347,11 @@ test_specifications = [
     {
         "name": "Somalia",
         "iso3": "SOM",
-        "test_names": ["Somalia", "Federal Republic of Somalia"],
+        "test_names": [
+            "Somalia",
+            "Federal Republic of Somalia",
+            "Federal Rep. of Somalia",
+        ],
     },
     {
         "name": "South Africa",
@@ -1188,6 +1361,7 @@ test_specifications = [
             "S. Africa",
             "S Africa",
             "Republic of South Africa",
+            "Rep. of South Africa",
             "RSA",
         ],
     },
@@ -1199,7 +1373,15 @@ test_specifications = [
     {
         "name": "South Sudan",
         "iso3": "SSD",
-        "test_names": ["South Sudan", "Republic of South Sudan", "Nilotic Republic"],
+        "test_names": [
+            "South Sudan",
+            "S. Sudan",
+            "S Sudan",
+            "Republic of South Sudan",
+            "Rep. of South Sudan",
+            "Nilotic Republic",
+            "Nilotic Rep.",
+        ],
     },
     {
         "name": "Spain",
@@ -1209,17 +1391,21 @@ test_specifications = [
     {
         "name": "Sri Lanka",
         "iso3": "LKA",
-        "test_names": ["Sri Lanka", "Democratic Socialist Republic of Sri Lanka"],
+        "test_names": [
+            "Sri Lanka",
+            "Democratic Socialist Republic of Sri Lanka",
+            "Democratic Socialist Rep. of Sri Lanka",
+        ],
     },
     {
         "name": "Sudan",
         "iso3": "SDN",
-        "test_names": ["Sudan", "Republic of the Sudan"],
+        "test_names": ["Sudan", "Republic of the Sudan", "Rep. of the Sudan"],
     },
     {
         "name": "Suriname",
         "iso3": "SUR",
-        "test_names": ["Suriname", "Republic of Suriname"],
+        "test_names": ["Suriname", "Republic of Suriname", "Rep. of Suriname"],
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -1239,7 +1425,7 @@ test_specifications = [
     {
         "name": "Syria",
         "iso3": "SYR",
-        "test_names": ["Syria", "Syrian Arab Republic"],
+        "test_names": ["Syria", "Syrian Arab Republic", "Syrian Arab Rep."],
     },
     {
         "name": "Taiwan",
@@ -1249,12 +1435,16 @@ test_specifications = [
     {
         "name": "Tajikistan",
         "iso3": "TJK",
-        "test_names": ["Tajikistan", "Republic of Tajikistan"],
+        "test_names": ["Tajikistan", "Republic of Tajikistan", "Rep. of Tajikistan"],
     },
     {
         "name": "Tanzania",
         "iso3": "TZA",
-        "test_names": ["Tanzania", "United Republic of Tanzania"],
+        "test_names": [
+            "Tanzania",
+            "United Republic of Tanzania",
+            "United Rep. of Tanzania",
+        ],
     },
     {
         "name": "Thailand",
@@ -1268,12 +1458,13 @@ test_specifications = [
             "Timor-Leste",
             "East Timor",
             "Democratic Republic of Timor-Leste",
+            "Democratic Rep. of Timor-Leste",
         ],
     },
     {
         "name": "Togo",
         "iso3": "TGO",
-        "test_names": ["Togo", "Togolese Republic"],
+        "test_names": ["Togo", "Togolese Republic", "Togolese Rep."],
     },
     {
         "name": "Tokelau",
@@ -1288,17 +1479,27 @@ test_specifications = [
     {
         "name": "Trinidad and Tobago",
         "iso3": "TTO",
-        "test_names": ["Trinidad and Tobago", "Republic of Trinidad and Tobago"],
+        "test_names": [
+            "Trinidad and Tobago",
+            "Republic of Trinidad and Tobago",
+            "Rep. of Trinidad and Tobago",
+        ],
     },
     {
         "name": "Tunisia",
         "iso3": "TUN",
-        "test_names": ["Tunisia", "Republic of Tunisia"],
+        "test_names": ["Tunisia", "Republic of Tunisia", "Rep. of Tunisia"],
     },
     {
         "name": "Turkey",
         "iso3": "TUR",
-        "test_names": ["Turkey", "Republic of Turkey", "Republic of Türkiye"],
+        "test_names": [
+            "Turkey",
+            "Republic of Turkey",
+            "Rep. of Turkey",
+            "Republic of Türkiye",
+            "Rep. of Türkiye",
+        ],
     },
     {
         "name": "Turkmenistan",
@@ -1318,7 +1519,7 @@ test_specifications = [
     {
         "name": "Uganda",
         "iso3": "UGA",
-        "test_names": ["Uganda", "Republic of Uganda"],
+        "test_names": ["Uganda", "Republic of Uganda", "Rep. of Uganda"],
     },
     {
         "name": "Ukraine",
@@ -1335,8 +1536,10 @@ test_specifications = [
         "iso3": "GBR",
         "test_names": [
             "The United Kingdom of Great Britain and Northern Ireland",
+            "The United Kingdom of Great Britain and N. Ireland",
             "The United Kingdom",
             "Great Britain and Northern Ireland",
+            "Great Britain and N. Ireland",
             "Great Britain",
             "The U.K.",
             "The UK",
@@ -1375,27 +1578,40 @@ test_specifications = [
     {
         "name": "Uruguay",
         "iso3": "URY",
-        "test_names": ["Uruguay", "Oriental Republic of Uruguay"],
+        "test_names": [
+            "Uruguay",
+            "Oriental Republic of Uruguay",
+            "Oriental Rep. of Uruguay",
+        ],
     },
     {
         "name": "Uzbekistan",
         "iso3": "UZB",
-        "test_names": ["Uzbekistan", "Republic of Uzbekistan"],
+        "test_names": ["Uzbekistan", "Republic of Uzbekistan", "Rep. of Uzbekistan"],
     },
     {
         "name": "Vanuatu",
         "iso3": "VUT",
-        "test_names": ["Vanuatu", "Republic of Vanuatu"],
+        "test_names": ["Vanuatu", "Republic of Vanuatu", "Rep. of Vanuatu"],
     },
     {
         "name": "Venezuela",
         "iso3": "VEN",
-        "test_names": ["Venezuela", "Bolivarian Republic of Venezuela"],
+        "test_names": [
+            "Venezuela",
+            "Bolivarian Republic of Venezuela",
+            "Bolivarian Rep. of Venezuela",
+        ],
     },
     {
         "name": "Vietnam",
         "iso3": "VNM",
-        "test_names": ["Vietnam", "Viet Nam", "Socialist Republic of Vietnam"],
+        "test_names": [
+            "Vietnam",
+            "Viet Nam",
+            "Socialist Republic of Vietnam",
+            "Socialist Rep. of Vietnam",
+        ],
     },
     {
         "name": "British Virgin Islands",
@@ -1439,17 +1655,17 @@ test_specifications = [
     {
         "name": "Yemen",
         "iso3": "YEM",
-        "test_names": ["Yemen", "Republic of Yemen"],
+        "test_names": ["Yemen", "Republic of Yemen", "Rep. of Yemen"],
     },
     {
         "name": "Zambia",
         "iso3": "ZMB",
-        "test_names": ["Zambia", "Republic of Zambia"],
+        "test_names": ["Zambia", "Republic of Zambia", "Rep. of Zambia"],
     },
     {
         "name": "Zimbabwe",
         "iso3": "ZWE",
-        "test_names": ["Zimbabwe", "Republic of Zimbabwe"],
+        "test_names": ["Zimbabwe", "Republic of Zimbabwe", "Rep. of Zimbabwe"],
     },
     {
         "name": "Åland",

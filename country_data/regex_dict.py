@@ -231,7 +231,7 @@ regex_dict = {
         "iso3": "CYP",
     },
     "Czechia": {
-        "regex": "czechia|.*czech republic|^CZ$|^CZE$",
+        "regex": "czechia|.*czech rep|^CZ$|^CZE$",
         "iso3": "CZE",
     },
     "Côte d'Ivoire": {
@@ -427,7 +427,7 @@ regex_dict = {
         "iso3": "IRQ",
     },
     "Ireland": {
-        "regex": "(?!.*north).*ireland|éire|eire|^IE$|^IRL$",
+        "regex": "(?!.*north|.*n\\. ireland|.*n ireland).*ireland|éire|eire|^IE$|^IRL$",
         "iso3": "IRL",
     },
     "Isle of Man": {
@@ -627,7 +627,7 @@ regex_dict = {
         "iso3": "NPL",
     },
     "Netherlands (the)": {
-        "regex": "(?!.*antilles).*netherlands|holland|^NL$|^NLD$",
+        "regex": "(?!.*antilles|.*caribbean).*netherlands|holland|^NL$|^NLD$",
         "iso3": "NLD",
     },
     "New Caledonia": {
@@ -827,7 +827,7 @@ regex_dict = {
         "iso3": "SOM",
     },
     "South Africa": {
-        "regex": "(?=.*africa).*south|s[\\., ]|^RSA$|^ZA$|^ZAF$",
+        "regex": "(?=.*africa).*(=?south|s[\\., ])|^RSA$|^ZA$|^ZAF$",
         "iso3": "ZAF",
     },
     "South Georgia and the South Sandwich Islands": {
@@ -835,7 +835,7 @@ regex_dict = {
         "iso3": "SGS",
     },
     "South Sudan": {
-        "regex": "(?=.*south).*sudan|.*nilotic|^SS$|^SSD$",
+        "regex": ".*(?=south|s sudan|s\\. sudan)|.*nilotic|^SS$|^SSD$",
         "iso3": "SSD",
     },
     "Spain": {
@@ -847,7 +847,7 @@ regex_dict = {
         "iso3": "LKA",
     },
     "Sudan (the)": {
-        "regex": "(?!.*south).*sudan|^SD$|^SDN$",
+        "regex": "(?!.*south|s\\. sudan|s sudan).*sudan|^SD$|^SDN$",
         "iso3": "SDN",
     },
     "Suriname": {

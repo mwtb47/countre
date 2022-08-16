@@ -2282,7 +2282,7 @@ data = {
         "total_area": 9251.0,
         "water_area": 10.0,
     },
-    "czechia|.*czech republic|^CZ$|^CZE$": {
+    "czechia|.*czech rep|^CZ$|^CZE$": {
         "calling_code": "+420",
         "capital_city": "Prague",
         "capital_latitude": 14.4167,
@@ -4242,7 +4242,7 @@ data = {
         "total_area": 438317.0,
         "water_area": 950.0,
     },
-    "(?!.*north).*ireland|éire|eire|^IE$|^IRL$": {
+    "(?!.*north|.*n\\. ireland|.*n ireland).*ireland|éire|eire|^IE$|^IRL$": {
         "calling_code": "+353",
         "capital_city": "Dublin",
         "capital_latitude": -6.2603,
@@ -6202,7 +6202,7 @@ data = {
         "total_area": 147181.0,
         "water_area": 3830.0,
     },
-    "(?!.*antilles).*netherlands|holland|^NL$|^NLD$": {
+    "(?!.*antilles|.*caribbean).*netherlands|holland|^NL$|^NLD$": {
         "calling_code": "+31",
         "capital_city": "Amsterdam",
         "capital_latitude": 4.9,
@@ -8202,7 +8202,7 @@ data = {
         "total_area": 637657.0,
         "water_area": 10320.0,
     },
-    "(?=.*africa).*south|s[\\., ]|^RSA$|^ZA$|^ZAF$": {
+    "(?=.*africa).*(=?south|s[\\., ])|^RSA$|^ZA$|^ZAF$": {
         "calling_code": "+27",
         "capital_city": "Bloemfontein, Cape Town, Pretoria",
         "capital_latitude": 28.188,
@@ -8282,7 +8282,7 @@ data = {
         "total_area": 3903.0,
         "water_area": 0.0,
     },
-    "(?=.*south).*sudan|.*nilotic|^SS$|^SSD$": {
+    ".*(?=south|s sudan|s\\. sudan)|.*nilotic|^SS$|^SSD$": {
         "calling_code": "+211",
         "capital_city": "Juba",
         "capital_latitude": 31.6,
@@ -8402,7 +8402,7 @@ data = {
         "total_area": 65610.0,
         "water_area": 980.0,
     },
-    "(?!.*south).*sudan|^SD$|^SDN$": {
+    "(?!.*south|s\\. sudan|s sudan).*sudan|^SD$|^SDN$": {
         "calling_code": "+249",
         "capital_city": "Khartoum",
         "capital_latitude": 32.56,
