@@ -6,9 +6,11 @@ used to match the country names and the values are a dictionary of
 attributes and their values.
 
 Functions:
+    create_dictionary: Convert csv file to dictionary.
+    get_attributes: Get attribute data for a country.
+    create: Create the _regex_dict.py module.
+    main: Main function to run script.
 """
-
-
 import pandas as pd
 
 from regex_dict import regex_dict
@@ -61,30 +63,23 @@ def get_attributes(df_country: pd.DataFrame) -> dict[str, str | int | float | bo
     }
 
 
-def create(
-    data: dict[str, dict[str, str | int | float | bool]], module_header: str
-) -> None:
+def create(data: dict[str, dict[str, str | int | float | bool]]) -> None:
     """Create the _regex_dict.py module.
 
     Args:
         data: The dictionary containing all data.
-        module_header: String which forms the start of the module.
     """
-    module_string = module_header + str(data)
+    module_string = f"{MODULE_HEADER}{data}"
 
     with open("countre/_regex_dict.py", "w", encoding="utf-8") as file_handle:
         file_handle.write(module_string)
 
 
-def main(module_header: str) -> None:
-    """Main function to run script.
-
-    Args:
-        module_header: String which forms the start of the module.
-    """
+def main() -> None:
+    """Main function to run script."""
     data = create_dictionary()
-    create(data, module_header)
+    create(data)
 
 
 if __name__ == "__main__":
-    main(MODULE_HEADER)
+    main()
