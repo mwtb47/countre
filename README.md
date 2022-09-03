@@ -1,14 +1,11 @@
 # Country Regex Package
 
-**countre** is a package with functions to get standardised names or codes
-from country names, as well as additional country information. Country names
-often differ between data sources, therefore having standardised codes for each
-country makes it easy to merge data from multiple sources.
+**countre** is a package with functions to get standardised names or codes from country names, as well as additional country information. Country names often differ between data sources, therefore having standardised codes for each country makes it easy to merge data from multiple sources.
 
-The countries included are those defined by the International Organization for
-Standardization. The list can be found
-[here](https://www.iso.org/iso-3166-country-codes.html). The sources of the
-country data can be found [here](https://github.com/mwtb47/country-summary-data).
+The countries included are those defined by the International Organization for Standardization. The list can be found
+[here](https://www.iso.org/iso-3166-country-codes.html). The sources of the country data can be found [here](https://github.com/mwtb47/countre/country_data).
+
+<br>
 
 ## Installation
 
@@ -18,63 +15,90 @@ country data can be found [here](https://github.com/mwtb47/country-summary-data)
 pip install countre
 ```
 
-Functions can then be accessed in the following ways:
-```
-import countre
-countre.country_info()
-```
-or
-```
-from countre import country_info
-country_info()
-```
+<br>
 
 ## Functions
 
-### countre.country_info(country_list, variables='iso3', no_match='no_match')
+### countre.country_info(*countries*, *attributes*, *no_match='no_match'*)  
+&nbsp;&nbsp;&nbsp;&nbsp; **Parameters**:   
+          **countries** : *iterable*  
+              Country names, ISO 3166-1 alpha-2 codes, or ISO 3166-1 alpha-3 codes.  
+          **variables** : *countre.enums.Attribute* | *list{countre.enums.Attribute}*  
+              Specify either a single attribute or a list containing multiple attributes.  
+          **no_match** : *str, default 'no match'*  
+              String returned for a country if no match is found.  
+    **Returns**:  
+          A list of values if only one attribute is given. A dictionary if more than  
+          one variable is given. The dictionary keys are the attribute names and the  
+          values are lists of values.
+        
 
-#### Parameters:   
-&ensp; **country_list** : *list, Pandas series or Numpy array*  
-&ensp; Country names, ISO 3166-1 alpha-2 codes or ISO 3166-1 alpha-3 codes.  
+*Note: The country_info function finds data via regex pattern matching for each unique country in the countries iterable and then returns the respective value for each element of countries. This means there is relatively little difference in performace between a list of unique countries and that same list repeated multiple times.*
 
-&ensp; **variables** : *str, list, default 'iso3'*  
-&ensp; Select one or more from:  
-&ensp;&ensp;&ensp; {'country', 'country_short', 'population_2020',  
-&ensp;&ensp;&ensp;  'iso2', 'iso3', 'iso_num', 'calling_code', 'ccTLD',  
-&ensp;&ensp;&ensp;  'latitude', 'longitude', 'flag', 'capital',  
-&ensp;&ensp;&ensp;  'continent', 'sub_region', 'sovereign',  
-&ensp;&ensp;&ensp;  'OECD', 'EU', 'EU_EEA', 'flag', 'country_sv',  
-&ensp;&ensp;&ensp;  'capital_latitude_sexa', 'capital_longitude_sexa',  
-&ensp;&ensp;&ensp;  'capital_longitude', 'capital_latitude', 'gdp_2020',  
-&ensp;&ensp;&ensp;  'gdp_per_capita_2020', 'gdp_per_capita_ppp_2020',  
-&ensp;&ensp;&ensp;  'total_area', 'land_area', 'water_area'}.
+<br>
 
-&ensp; **no_match** : *str, default 'no match'*  
-&ensp; String returned for each country if no match is found.
+### countre.member_countries(*organisation*, *attribute=countre.enums.Attribute.COUNTRY*)
 
-#### Returns:
-&ensp; List of values if only one variable is given.  
-&ensp; Dictionary if more than one variable is given. The dictionary keys are  
-&ensp; the variable names and the values are lists of values. This means it can  
-&ensp; be used as follows to create a data frame with Pandas:  
-&ensp;&ensp; ```pd.DataFrame(country_info(['GBR', 'SWE'], ['country', 'capital']))```
+&nbsp;&nbsp;&nbsp;&nbsp; **Parameters**:   
+          **organisation** : *countre.enums.Organisation*  
+              Specify the organisation to get members of. Select from EU, EU_EEA, OECD, and OPEC.  
+          **attrribute** : *countre.enums.Attribute*  
+              To get member country names or ISO codes, specify COUNTRY, COUNTRY_SHORT, ISO2 or ISO3.  
+    **Returns**:  
+          List of either country names, ISO 3166-1 alpha-2 codes or ISO 3166-1 alpha-3  
+          codes for the members of the specified organisation.
 
-### countre.eu_27(code='country')
+<br>
 
-#### Parameters:   
-&ensp; **code** : *str, default 'country'*  
-&ensp; One from: {'country', 'iso2', 'iso3'}  
+## Examples
 
-#### Returns:
-&ensp; List of either country names, ISO 3166-1 alpha-2 codes or ISO 3166-1 alpha-3  
-&ensp; codes of the 27 EU member countries.
+```
+>>> import countre
+>>> from countre.enums import Attribute, Organisation
+>>>
+>>> countries = ['Australia', 'Germany', 'Sweden']
+>>> attributes = [Attribute.ISO3, Attribute.CAPITAL, Attribute.CURRENCY_NAME]
+```
 
-### countre.oecd(code='country')
+### Get a single attribute for a list of countries
+```
+>>> countre.country_info(countries=countries, attributes=Attribute.ISO3)
 
-#### Parameters:   
-&ensp; **code** : *str, default 'country'*  
-&ensp; One from: {'country', 'iso2', 'iso3'}  
+['AUS', 'DEU', 'SWE']
+```
 
-#### Returns:
-&ensp; List of either country names, ISO 3166-1 alpha-2 codes or ISO 3166-1 alpha-3  
-&ensp; codes of the 37 OECD member countries.
+### Get multiple attributes for a list of countries
+```
+>>> countre.country_info(countries=countries, attributes=attributes)
+
+{
+    'iso3': ['AUS', 'DEU', 'SWE'],
+    'capital_city': ['Canberra', 'Berlin', 'Stockholm'],
+    'currency_name': ['Australian dollar', 'Euro', 'Swedish krona']
+}
+```
+
+### When using multiple attributes, the output can easily be converted to a Pandas DataFrame.
+```
+>>> import pandas as pd
+>>> pd.DataFrame(countre.country_info(countries, attributes))
+
+   iso3   country     capital_city
+0  AUS    Australia   Canberra
+1  DEU    Germany     Berlin
+2  SWE    Sweden      Stockholm
+```
+
+### Get organisation member countries. Not specifying an attribute will return the country names.
+```
+>>> countre.member_countries(Organisation.EU)
+
+['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', ...
+```
+
+### Get organisation member countries with attribute specification.
+```
+>>> countre.member_countries(Organisation.EU, Attribute.ISO3)
+
+['AUT', 'BEL', 'BGR', 'HRV', 'CYP', ...
+```
